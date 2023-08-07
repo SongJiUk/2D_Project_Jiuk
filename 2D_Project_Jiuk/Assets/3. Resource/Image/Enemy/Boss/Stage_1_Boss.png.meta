@@ -1,0 +1,5116 @@
+fileFormatVersion: 2
+guid: 56163b8c6283243d39de97762d235d91
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idle_11
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 2146
+        width: 219
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baddf4f1b404548b18eadae9b1f5e3fa
+      internalID: -1960896246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2146
+        width: 219
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c03d962f7b94ed9b1c97619380be25
+      internalID: -1449429793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_2
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2146
+        width: 212
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f37cc3483a70450d96ca6809e83e8cd
+      internalID: 1220691970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_3
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 2146
+        width: 201
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a24c02ff24c40f6847d0eaf0d03c91
+      internalID: 843222027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_4
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 2146
+        width: 199
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2146744d8894917a9c81de4795d68a
+      internalID: 72274783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_5
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 2146
+        width: 207
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cda4cd0428bf434890e65d1d4eed902
+      internalID: 1400137765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_6
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 2146
+        width: 211
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3310bfac7eb7c4a628355a4e9e2f2609
+      internalID: -260189469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_7
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 2146
+        width: 211
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93940773970b44b1ab5018d29019d7d
+      internalID: 1196882158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_8
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 2146
+        width: 212
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170c34c1dd0014fddb619334dc15617d
+      internalID: 826330996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_9
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 2146
+        width: 212
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e95021c1246647f3a90190bf6d2c163
+      internalID: 679657478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_10
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 2146
+        width: 215
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770ec0a7530a44c7ebdab3fe54c2f46c
+      internalID: -697601923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_12
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 2146
+        width: 228
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cf0662051d6436e88777a85412c7c5
+      internalID: -2088401550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_18
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1886
+        width: 219
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091130c167c2c4ca2aab9c042408269a
+      internalID: -776084066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_19
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1886
+        width: 212
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e3783de215f42ca90c0e3bb140bded
+      internalID: -1640895427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_20
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1886
+        width: 201
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106014fccd66048eab0c13a9aa1b2d8a
+      internalID: -667265071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_21
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1886
+        width: 199
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4748c234c99f7463e9aecffcd0850677
+      internalID: 546089411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_22
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 1886
+        width: 207
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ddc771a6a6b4c61b2eb84e0f002ba2
+      internalID: -1621786355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_23
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1886
+        width: 211
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca6702e2f4e84c0eb6df64c3a25343f
+      internalID: 23170626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_24
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 1886
+        width: 211
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a0a07435fe143fea5c27127f100806
+      internalID: 469209870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_25
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 1886
+        width: 212
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6699d94be8a402a82de7f030926046
+      internalID: -1404988025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_26
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 1886
+        width: 212
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70e52e535ae4440996e39deb66a3e18
+      internalID: 1395677155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_27
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 1886
+        width: 215
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab68b31f33a44978ada13d4a96f778c
+      internalID: 162554283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_28
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 1886
+        width: 221
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b329aaccbff4b80bca79966e51a91f
+      internalID: -1797117372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_29
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 1886
+        width: 228
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e2527f7ab9543718caf0b382b87953
+      internalID: 518717641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_33
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1625
+        width: 219
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993dec67a09fb4bac87ced70067fef0b
+      internalID: -270103517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_34
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1625
+        width: 212
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b85d54ef4804a4c88b22e8f5ebc530
+      internalID: 254512102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_35
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1625
+        width: 201
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452df94eddad844e6995d608d8a2344a
+      internalID: 827325370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_36
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1625
+        width: 199
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32075c42c1ae842f68554d2c7112d9c5
+      internalID: -78702510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_37
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 1625
+        width: 207
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1d7b0c6000846b78602ad64d8e94ef
+      internalID: 314816780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_38
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1625
+        width: 211
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1990435a3e1a4faba68ad34d6a141a5
+      internalID: -567360490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_39
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 1625
+        width: 211
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5081f2d7c37146aca76fc312438fd4e
+      internalID: -1264799835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_40
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 1625
+        width: 213
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36806e6006a5d42c593f8453a649d6f6
+      internalID: 641834940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_41
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 1625
+        width: 211
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a19ba59e91fc4013b38f8a0fb599a20
+      internalID: -1691868493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_42
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 1625
+        width: 214
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8444e1acd87b467ba62513e5f621eef
+      internalID: 1682084800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_43
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 1625
+        width: 219
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1cce6e4f1e84fae91e712fad6c2d65
+      internalID: -260097877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_44
+      rect:
+        serializedVersion: 2
+        x: 2668
+        y: 1625
+        width: 228
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8418278f3d24d44b3ad278fe6ab40432
+      internalID: -417616950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_46
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1375
+        width: 221
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54650066491a949b2bcc44a95a81c495
+      internalID: 597629794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_47
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1375
+        width: 212
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f8216d4a03d451595aa314e888a14e
+      internalID: -1025101222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_48
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1375
+        width: 201
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6dab36decc741d8ba5b39bba369de6
+      internalID: -740601144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_49
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1375
+        width: 201
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3ff861589064a3199fa5c4505ea84b
+      internalID: 1585816266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_50
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1375
+        width: 206
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b885e20cf983e4ec493f1013b65afa5e
+      internalID: 78634015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_51
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 1375
+        width: 211
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf4ddfb02df54a5587c34aa22c12653
+      internalID: -1360483479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_52
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 1375
+        width: 211
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71af121abefd4efaa94af224784fffb
+      internalID: -577248838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_53
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 1375
+        width: 212
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c267d93eacad43d1b05b4479eebcd5b
+      internalID: -431954473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_54
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 1375
+        width: 212
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a945df737ab3345488a56d101a23e696
+      internalID: -1569816444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_55
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 1375
+        width: 215
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238b70a58050844c08d661ed56778e23
+      internalID: -2141541577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_56
+      rect:
+        serializedVersion: 2
+        x: 2427
+        y: 1375
+        width: 221
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e93fc8d020b54c3a823b4de92bd4e6f
+      internalID: 419414294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_57
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 1375
+        width: 226
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41b9ff4e84454cbdbc6a7b483703dff
+      internalID: -1047003117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_58
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1161
+        width: 221
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9918ddb1e80914c48b990fd9c1b0a5ff
+      internalID: -884772201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_59
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1161
+        width: 212
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56780a32fadb640c6a2c1fccf061bcf5
+      internalID: 2092416991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_60
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1161
+        width: 201
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3417263a552a406dbc978499c4d4dfc
+      internalID: -189302821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_61
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1161
+        width: 201
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcc939dfb38541cdbe304b2382b5e64
+      internalID: 1400955954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_62
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 1161
+        width: 206
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6325106b58c37415581df2e6d0a8049f
+      internalID: -576576833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_63
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 1161
+        width: 211
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b4fb7365118481480c1628d356e86f
+      internalID: 755440231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_64
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 1161
+        width: 211
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107a1e4d74d8a4dbf8df708d8763e817
+      internalID: -50791791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_65
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 1161
+        width: 212
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0010fe5e18a4201b0a2a9d221f1e06
+      internalID: 697612137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_66
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 1161
+        width: 212
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd538e52f3e24476980731c42430cf1a
+      internalID: -1067716263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_67
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 1161
+        width: 213
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9601a5d4ccb3849c8a7aab1586f626f4
+      internalID: -117237151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_68
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 1161
+        width: 221
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d367e745eb9e4c03b55303f233527de
+      internalID: 1608975219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_69
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 1161
+        width: 228
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a33bd2876cfe44f78f6a01f16a8592f
+      internalID: -274116153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_72
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 912
+        width: 221
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00178795f6d8a49fd8bc703c80fb1277
+      internalID: -1333704738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_73
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 912
+        width: 212
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a08fda67cc94dd8b4267d7aad21f06
+      internalID: 1208824846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_74
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 912
+        width: 201
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b653ca2439a01498ba4eb578d59a977e
+      internalID: 474834790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_75
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 912
+        width: 201
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6f169d6d0404655a1c3718c645d44c
+      internalID: 1390798115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_76
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 912
+        width: 206
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcea3369663ae47a4987e328cff80a68
+      internalID: -143345641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_77
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 912
+        width: 211
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70141eaeb600648088a941662f591f80
+      internalID: 1830236906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_78
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 912
+        width: 211
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2262442adc04133b50882d22bea2fa
+      internalID: 2133356045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_79
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 912
+        width: 212
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1341e1927695146fa8cc475dbe84e880
+      internalID: 1109328019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_80
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 912
+        width: 212
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d836e5cc8d04b411e8ae6640bc6046e7
+      internalID: 879547740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_81
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 912
+        width: 213
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87db57ec073641cfabac60ba571a214
+      internalID: 1792204131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_82
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 912
+        width: 221
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1fca01f4f12461e9412e19c1abf321
+      internalID: 1290176073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_83
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 912
+        width: 228
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ca71104b52b487d83152a8956ef207
+      internalID: -348827883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_85
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 655
+        width: 227
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40dc820cf27344a7a4f575199b1eb74
+      internalID: 87771028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_86
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 655
+        width: 213
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bdda1c9eab949fc88edd41092c2acc
+      internalID: -744032474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_87
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 655
+        width: 202
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485f6401fd24741ccba770a500ddd14e
+      internalID: 285190071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_88
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 655
+        width: 198
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf35bfbf3871403298d517d466cb645
+      internalID: -377663185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_89
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 655
+        width: 205
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73adc0a12b317444c8dc2ebe6d2f7f61
+      internalID: 568707011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_90
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 655
+        width: 208
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d019857c5df2483190a75cf6b5190d1
+      internalID: -1399720284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_91
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 655
+        width: 210
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213973ef771a24ecc9fee4db56d06588
+      internalID: 997001540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_92
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 655
+        width: 211
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cecfe2cb74945ba91c2555d3c22f81
+      internalID: 1775496293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_93
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 655
+        width: 212
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f66a6fc37934c04b3cca8539669616
+      internalID: 1789694843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_94
+      rect:
+        serializedVersion: 2
+        x: 2183
+        y: 655
+        width: 217
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb971fd027824aa28f0ee626a0f20f4
+      internalID: 1134469574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_95
+      rect:
+        serializedVersion: 2
+        x: 2422
+        y: 655
+        width: 226
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2551e827f444b3f922f2573f2bfc5b
+      internalID: 867531350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_96
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 655
+        width: 234
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf524866f6d604ac788cae1932cd7199
+      internalID: -1800106744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_101
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 538
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2586ddb54da1443ae96bd3e685e34177
+      internalID: 9838656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_102
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 539
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662d2ea20c20346ffa96779942e04644
+      internalID: 904707777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_103
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 535
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf0f8ebca0bb4a48b7aa453ab068fd3
+      internalID: -881089000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_104
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 529
+        width: 73
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f47ee17b222c4e39800eb5cced2e877
+      internalID: 1014290538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_105
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 525
+        width: 79
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e817255a20e484bb58bbdbe2939e70d8
+      internalID: 1420122644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_106
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 520
+        width: 84
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85521748cef9749d1bd1d046fb324790
+      internalID: 991632270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_107
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 541
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de63cac84bb8c44b19b2052b0c7e00ef
+      internalID: 1774756008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_108
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 587
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e486c621ab3f4f698574556b514ab1b
+      internalID: 2093013573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_109
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 581
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7a4bf7739b84b7b818ef74a8230978
+      internalID: -115978491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_110
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 549
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce189741f11c44bcbb8eb5389b25f1c
+      internalID: 993404848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_111
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 587
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18103c6e856264096bd0e14673b666ad
+      internalID: 2142986636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_112
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 584
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9035d1ab246294ed684cb5fd903d2d89
+      internalID: 433112928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_113
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 587
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a394abeadf35f47148412a87fb897972
+      internalID: 951496740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_114
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 523
+        width: 63
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3e073feadf5458ba728ec2051b90d2
+      internalID: 667665165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_115
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 520
+        width: 67
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f458d2c286f2446aaf0f1c5a5aced0c
+      internalID: 1925224963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_116
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 518
+        width: 70
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207b029db732f4d9f8fe168486b099d1
+      internalID: 1992262930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_117
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 518
+        width: 73
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51b4084686bc48b59d6a6b4be685f00
+      internalID: 313388598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_118
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 515
+        width: 74
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14dd16b965fac496bb19c09ba77dd98c
+      internalID: -1890940946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_119
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 572
+        width: 743
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfd7b026543d43a4a7856c01519246a
+      internalID: -118332952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_120
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 559
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60d055bfda8e4c8aa1a5f35d19b3918
+      internalID: 1214631562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_121
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 578
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b247499aec0c9470f9eafdf36185a1fc
+      internalID: 1700725084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_122
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 578
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0592c1b36d87440228f66f5d2858261a
+      internalID: -2096098914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_123
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 561
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18538e0d5b2140d59b365cfff9cc7aa
+      internalID: -860543880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_124
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 578
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ae501e1035e47839bc660e80b0c2ad
+      internalID: -1165036945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_125
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 575
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ce192be2a764982b1f6e7ca8fdaa67
+      internalID: -979765091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_126
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 574
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513258a4d56c94e18acdf50a31b2d65a
+      internalID: -1255440265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_127
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 578
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc4055a6988147d0901a499398c7cd6
+      internalID: -1652351950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_128
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 578
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f884c94a51c0142fe836f9327d988c53
+      internalID: 2102577863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_129
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 526
+        width: 57
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f93ad09181a84f23b59646d3b48470c
+      internalID: -1282285453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_130
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 571
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837026e8adb6642f39ede2a9bed27f2a
+      internalID: 131468958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_131
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 572
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c9b44ebf8b841fc8479645076cc36d
+      internalID: 2050443701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_132
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 569
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6143873a63b400dae31806098a1f90
+      internalID: -25272638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_133
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 571
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9471420ab06864a6488183ca2018b400
+      internalID: -2000643016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_134
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 572
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fdc2a42413c4b3f8764697ca7c0f98
+      internalID: -1871671061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_135
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 571
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721ba79a13fa4442698df36521062ccc
+      internalID: -1431614890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_136
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 571
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4c6bfebf0c54a0f84e70bee6978778
+      internalID: 536941123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_137
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 568
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0418dcc1d60d4353a574bace7640b8c
+      internalID: -1347531829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_138
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 564
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8815d69b1f0e456db1b27cf03eea064
+      internalID: -249869829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_139
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 565
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e140845b021947d494f86374106379b
+      internalID: -168008474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_140
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 568
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d957a8d1acaba4c2b9e3e47262cb2402
+      internalID: -932769862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_141
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 568
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ff6c1687411416c8a440922418334e
+      internalID: -1988636906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_142
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 565
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3750a0629df034421afe4006ad63ba4a
+      internalID: -833309711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_143
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 568
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9638cf75c5eba4f44baec49f01ce9609
+      internalID: -967430051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_144
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 554
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d33558eb2514b76a152ba6ee7777e2
+      internalID: -1462354568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_145
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 549
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7349ebefddba442048819c4f7da73bc1
+      internalID: 1850978437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_146
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 561
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7a404dabc54408cb214288201d668c
+      internalID: 1773498225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_147
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 558
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c5e3b3306374f688992f90ddcce0f4
+      internalID: -1353979514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_148
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 558
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3f1059a35b24b1785e23c0f887208e
+      internalID: -517388846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_149
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 528
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806ca5ac441ab4965bf3629e1cbd10c5
+      internalID: -1658389580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_150
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 526
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed850be53965491fa8064a99a5663ee
+      internalID: -1200612971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_151
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 528
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337dd6f6362814823b400ac0b224b94f
+      internalID: -981267520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_152
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 528
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2b0ab024d2846f5b2e2e94bd0bf4fc
+      internalID: -356729120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_153
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 529
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef9252b1352a4612bec4969a8946b0f
+      internalID: -75473180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_154
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 531
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe74b35036d9491eba0b9f383c54c56
+      internalID: -461235830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_155
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 531
+        width: 244
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d1e7b9c8c7849c196147781f8f6493
+      internalID: 1327974557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_156
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 553
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86817588472d948388cd69dff6d9b343
+      internalID: -1683349029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_157
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 555
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 122962d50850e4648b5b18907f747d7e
+      internalID: 1456534858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_158
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 555
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905ed6b1864cb49aeb92b3d9c520feba
+      internalID: 867041991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_159
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 518
+        width: 47
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff20ee03f66354b84bbd5cc58ffab6fb
+      internalID: -1515791360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_160
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 548
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac705f25c18404130aef948270423d3a
+      internalID: -925949655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_161
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 529
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee413d366878f45928ec6d395c1b1c8c
+      internalID: -1252773521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_162
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 548
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146e58bf40cbc46e69a979ad09adb68c
+      internalID: 1014217687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_163
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 548
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d34650f5fee34bd5924cfa4be1f8d12
+      internalID: -268971098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_164
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 551
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd415920123842dfbd43ec22bf83caf
+      internalID: -312973136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_165
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 548
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915a1b0a9ce7d49028f08ef5dbccc748
+      internalID: -1376236997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_166
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 541
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcf13cee41504169976694a2b8530be
+      internalID: 963112289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_167
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 541
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c204daf41d12f442fac1055cec690cc9
+      internalID: -986808288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_168
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 539
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb75e97977edd4f599818ac655889cd0
+      internalID: -169306143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_169
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 538
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9365cd1a9178b4b0d942898d2c8b41cd
+      internalID: 1661481439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_170
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 515
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dce7978d21c64d23ac509fb0821b7bc
+      internalID: 1457253679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_171
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 529
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080b97508b54c490384bd70705657398
+      internalID: -1032027057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_172
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 528
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab800e28811a4456ead4b42f52258a1a
+      internalID: 1863545465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_173
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 531
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7193c72a232ad4252a54b9802285f3f9
+      internalID: -1490063335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_174
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 516
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4628770033d7e439cb8212b62792c66b
+      internalID: -1643333143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_175
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 525
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ffdeb59bc3b40dbbd1cf12e27ddbcd
+      internalID: -78236354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_176
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 347
+        width: 65
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2661a08f107794925a102cafe6de02d6
+      internalID: 253974972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_177
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 348
+        width: 67
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d9da65b0b68432db448593eabe6b73
+      internalID: -1217579461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_178
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 345
+        width: 64
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60873b531e718477a828cb73ef90140d
+      internalID: -266476117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_179
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 495
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476c5e6609f0446ba975ed77f0c8f7cb
+      internalID: 960865641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_180
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 347
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e640be4402f14057a5dac5cb3910a2b
+      internalID: 1948017068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_181
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 347
+        width: 64
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5633e0615bb48f991281fd9d582527
+      internalID: 1207718209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_182
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 347
+        width: 66
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2f732e7250146b690cb9566b989ca1
+      internalID: -1576507900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_183
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 348
+        width: 66
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d7d9fc147d246eba652e05b5507351
+      internalID: 1461186926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_184
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 345
+        width: 65
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a8ba4ad42854680826837f4528f784
+      internalID: 1380866801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_185
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 489
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9871caf0f200445619fe92568945b211
+      internalID: 1417393471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_186
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 486
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baebe1608066d4ee0896fc89dd56ff67
+      internalID: 781867234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_187
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 485
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589286722df374b68b1d75cd13cf3738
+      internalID: -2124366670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_188
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 348
+        width: 63
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb368587e3dc4bee885290d226fb35c
+      internalID: -984148683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_189
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 348
+        width: 64
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f896842f9094bcbb149f631d5e82dd
+      internalID: 2059022463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_190
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 347
+        width: 67
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7bcdd037fe964652a99304bfcff3a6b
+      internalID: -1891959475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_191
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 344
+        width: 68
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b69496bf2c942beb1878ec6cc82f79
+      internalID: 98396499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_192
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 347
+        width: 67
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188cc3f3e099a4347a8192abb070ab8f
+      internalID: 415779339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_193
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 347
+        width: 67
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cec0936bb2de45f6b4cb7f3e5058a6c
+      internalID: -293320308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_194
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 347
+        width: 66
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c3b726b52da41ffbb2c6c9eb9c3193
+      internalID: 1511129324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_195
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 450
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac75fc443b3b419b85f49359eacf982
+      internalID: -1565963707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_196
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 456
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb41ff0ed4be346278ba42f0264691df
+      internalID: 1015112651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_197
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 450
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e6b052eddc646459819be24fd9c72e
+      internalID: -556964558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_198
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 450
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3e91546bfc44656a2527febf9096fe
+      internalID: 191556155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_199
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 447
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e122b45b5a4fa44a499704828d6bfa49
+      internalID: -505720593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_200
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 439
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5754258106d40a79d1a21cc7acea26
+      internalID: -1978093987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_201
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 439
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c630efa86a4c418aab58bad3af00284
+      internalID: 509744259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_202
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 434
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7804fa5d7d6b545438da07433a0ac72d
+      internalID: 1362705200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_203
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 437
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398ccf956328948409fb4c32218cbda9
+      internalID: 1899209131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_204
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 348
+        width: 63
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99010535a693439fa6ff96ea71a0057
+      internalID: -558630744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_205
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 429
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e2eadb3a5894c50a6799494aff1a4b
+      internalID: -323726107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_206
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 430
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46daa1d6eb108497d8855c1b82ec6b09
+      internalID: 1165899467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_207
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 430
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a88dbcd24124452da506307ba73b60a
+      internalID: -1090840489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_208
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 429
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128e06e239fc04e3fb8094d39bbf9791
+      internalID: -1665664132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_209
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 420
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a42a18a80b34114a2d5d0b11c0d092
+      internalID: -379864447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_210
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 416
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1141ec6bf9834588bcbac663b83b6b5
+      internalID: 144300510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_211
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 413
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e093da1a654f24642a0b9620c3a03680
+      internalID: -4303898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_212
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 347
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60aad8b0333c4485f87405f657c70e07
+      internalID: 389482283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_213
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 345
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86344e4d74564a1a9967f89afc5c876
+      internalID: 195740150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_214
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 410
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43706b56f0d344878f46063d0b541e3
+      internalID: -19989133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_215
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 410
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1423ea4e6944e9e9c3a8beae129ea3
+      internalID: 372533716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_216
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 407
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c96969ed5a3242e7b7b9513d2f98f2b
+      internalID: 1970581982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_217
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 350
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01438e8f50ea946dc8f24758eed3feca
+      internalID: 692979799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_218
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 350
+        width: 61
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ab97abb42864a22a17e8139ab357c2
+      internalID: -1516526410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_219
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 398
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10275155f170948a09280d46c503a34e
+      internalID: 296501230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_220
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 350
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68801389a15ce4d4bab68ffa920acf63
+      internalID: -1501925110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_221
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 350
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc77cc2a95db4ec9ad8bc173e34c01b
+      internalID: 313677172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_222
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 351
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f684a3f18a2436796e64cc16e63fe7
+      internalID: -57636992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_223
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 381
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a41e05773b244ea85f51e868175b90
+      internalID: 888077795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_224
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 380
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090377b9242844adba998163804878aa
+      internalID: 1768184261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_225
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 348
+        width: 55
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112d744d1c7d844a88bca39d959bc55d
+      internalID: -919217331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_226
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 347
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5f0702599cd49f09e394896a6f1a65
+      internalID: 139097601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_227
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 348
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed09bd8665c345089f643ad1e37376f
+      internalID: 373576902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_228
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 286
+        width: 262
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f4c1974e5a24efa93b805feb5d6784
+      internalID: -1338420589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_229
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 286
+        width: 259
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100a20e73302644299b86e2d58022a81
+      internalID: -2099963594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_230
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 285
+        width: 264
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b3ea6d2f7264c888e10b39c8ad7276
+      internalID: -1564646216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_231
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 285
+        width: 269
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b16189c6c0349e597716279a6e7959
+      internalID: -961412055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_232
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 285
+        width: 267
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f84472c6af00435783126c83bd47e5b
+      internalID: -1122346740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_233
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 225
+        width: 263
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a892e6bf2e94f91b18c6855b4ad2f7
+      internalID: 2131369128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_234
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 225
+        width: 261
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c8b908f66674b138a7dc0b6285d6f7
+      internalID: -2049787189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_235
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 225
+        width: 260
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a420b4d88ae41cd93b8965731d463a
+      internalID: -1333720833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_236
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 225
+        width: 258
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0911d1acca54a568d22c52cabd18a9
+      internalID: 1697919054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_237
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 225
+        width: 262
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6184167f978f24a9d838764820d88d52
+      internalID: -1513719620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_238
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 283
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045304e90683b49d49719bbf74d262f9
+      internalID: 1482960867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_239
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 166
+        width: 259
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0378a9d896d49cb83a17c5d14f9047
+      internalID: -1460768300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_242
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 0
+        width: 431
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f76c2e14cb5448d906e5f61771cc33
+      internalID: 103329245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_0: 1046885254
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_1: -72439642
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_100: 1147978636
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_101: 9838656
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_102: 904707777
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_103: -881089000
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_104: 1014290538
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_105: 1420122644
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_106: 991632270
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_107: 1774756008
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_108: 2093013573
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_109: -115978491
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_110: 993404848
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_111: 2142986636
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_112: 433112928
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_113: 951496740
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_114: 667665165
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_115: 1925224963
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_116: 1992262930
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_117: 313388598
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_118: -1890940946
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_119: -118332952
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_120: 1214631562
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_121: 1700725084
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_122: -2096098914
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_123: -860543880
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_124: -1165036945
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_125: -979765091
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_126: -1255440265
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_127: -1652351950
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_128: 2102577863
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_129: -1282285453
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_130: 131468958
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_131: 2050443701
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_132: -25272638
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_133: -2000643016
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_134: -1871671061
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_135: -1431614890
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_136: 536941123
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_137: -1347531829
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_138: -249869829
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_139: -168008474
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_140: -932769862
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_141: -1988636906
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_142: -833309711
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_143: -967430051
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_144: -1462354568
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_145: 1850978437
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_146: 1773498225
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_147: -1353979514
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_148: -517388846
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_149: -1658389580
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_150: -1200612971
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_151: -981267520
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_152: -356729120
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_153: -75473180
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_154: -461235830
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_155: 1327974557
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_156: -1683349029
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_157: 1456534858
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_158: 867041991
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_159: -1515791360
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_16: -101575473
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_160: -925949655
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_161: -1252773521
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_162: 1014217687
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_163: -268971098
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_164: -312973136
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_165: -1376236997
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_166: 963112289
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_167: -986808288
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_168: -169306143
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_169: 1661481439
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_17: 456401050
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_170: 1457253679
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_171: -1032027057
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_172: 1863545465
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_173: -1490063335
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_174: -1643333143
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_175: -78236354
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_176: 253974972
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_177: -1217579461
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_178: -266476117
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_179: 960865641
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_18: -776084066
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_180: 1948017068
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_181: 1207718209
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_182: -1576507900
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_183: 1461186926
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_184: 1380866801
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_185: 1417393471
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_186: 781867234
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_187: -2124366670
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_188: -984148683
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_189: 2059022463
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_19: -1640895427
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_190: -1891959475
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_191: 98396499
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_192: 415779339
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_193: -293320308
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_194: 1511129324
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_195: -1565963707
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_196: 1015112651
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_197: -556964558
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_198: 191556155
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_199: -505720593
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_2: -1864015116
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_20: -667265071
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_200: -1978093987
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_201: 509744259
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_202: 1362705200
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_203: 1899209131
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_204: -558630744
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_205: -323726107
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_206: 1165899467
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_207: -1090840489
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_208: -1665664132
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_209: -379864447
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_21: 546089411
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_210: 144300510
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_211: -4303898
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_212: 389482283
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_213: 195740150
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_214: -19989133
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_215: 372533716
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_216: 1970581982
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_217: 692979799
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_218: -1516526410
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_219: 296501230
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_22: -1621786355
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_220: -1501925110
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_221: 313677172
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_222: -57636992
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_223: 888077795
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_224: 1768184261
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_225: -919217331
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_226: 139097601
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_227: 373576902
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_228: -1338420589
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_229: -2099963594
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_23: 23170626
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_230: -1564646216
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_231: -961412055
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_232: -1122346740
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_233: 2131369128
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_234: -2049787189
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_235: -1333720833
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_236: 1697919054
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_237: -1513719620
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_238: 1482960867
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_239: -1460768300
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_24: 469209870
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_240: -652724575
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_241: -932483937
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_242: 103329245
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_243: -212167334
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_244: -1203288093
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_245: -470843945
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_246: 1723127555
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_247: 1910148742
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_248: -1419439367
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_249: 1824913255
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_25: -1404988025
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_250: 986195089
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_251: 2118770897
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_252: 649150277
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_253: -1364546400
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_254: 1428545961
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_255: -2010717302
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_256: 307535035
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_257: -1941133592
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_258: 391800000
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_26: 1395677155
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_27: 162554283
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_28: -1797117372
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_29: 518717641
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_30: -27496761
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_31: -1275454964
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_32: -808448712
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_33: -270103517
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_34: 254512102
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_35: 827325370
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_36: -78702510
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_37: 314816780
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_38: -567360490
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_39: -1264799835
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_4: 410725590
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_40: 641834940
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_41: -1691868493
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_42: 1682084800
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_43: -260097877
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_44: -417616950
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_45: -391780983
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_46: 597629794
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_47: -1025101222
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_48: -740601144
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_49: 1585816266
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_50: 78634015
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_51: -1360483479
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_52: -577248838
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_53: -431954473
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_54: -1569816444
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_55: -2141541577
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_56: 419414294
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_57: -1047003117
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_58: -884772201
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_59: 2092416991
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_60: -189302821
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_61: 1400955954
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_62: -576576833
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_63: 755440231
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_64: -50791791
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_65: 697612137
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_66: -1067716263
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_67: -117237151
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_68: 1608975219
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_69: -274116153
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_70: 437534512
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_71: 1346582136
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_72: -1333704738
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_73: 1208824846
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_74: 474834790
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_75: 1390798115
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_76: -143345641
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_77: 1830236906
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_78: 2133356045
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_79: 1109328019
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_80: 879547740
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_81: 1792204131
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_82: 1290176073
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_83: -348827883
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_84: -1066157628
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_85: 87771028
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_86: -744032474
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_87: 285190071
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_88: -377663185
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_89: 568707011
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_90: -1399720284
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_91: 997001540
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_92: 1775496293
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_93: 1789694843
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_94: 1134469574
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_95: 867531350
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_96: -1800106744
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_97: 87339023
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_98: -1465335533
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_99: -1850869748
+      idle_1: -1449429793
+      idle_10: -697601923
+      idle_11: -1960896246
+      idle_12: -2088401550
+      idle_2: 1220691970
+      idle_3: 843222027
+      idle_4: 72274783
+      idle_5: 1400137765
+      idle_6: -260189469
+      idle_7: 1196882158
+      idle_8: 826330996
+      idle_9: 679657478
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
