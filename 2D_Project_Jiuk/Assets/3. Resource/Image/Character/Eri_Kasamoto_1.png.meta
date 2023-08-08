@@ -1,0 +1,2776 @@
+fileFormatVersion: 2
+guid: 5974a0c069b5d44228a9d347acb0818f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Eri_Lower_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 8651
+        width: 22
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9550d64663d2c4b8e86afae82706a835
+      internalID: 686222391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 8651
+        width: 25
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa5ed11f91e84db1b1e37e1ddc3d6c1
+      internalID: 571739837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 8651
+        width: 25
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ffe8faebf1f44d1b3f7ccb33c8a7ed
+      internalID: 1230007505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 8651
+        width: 23
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0fc8938e7ea40eab6751acd6716f63
+      internalID: -1341532741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 8651
+        width: 24
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902daad2268734ea18aa0975fcd703bf
+      internalID: 302014317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 8651
+        width: 18
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f827623aa924293826a5777f91344e
+      internalID: 573330219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 8651
+        width: 20
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd61e648100443259b3844676b4dc8c
+      internalID: -1642875335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 8651
+        width: 22
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799c4e67476f74ca1963164e91720648
+      internalID: -1792420413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Walk_9
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 8652
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110a4b86e76a44d55ba5b7096b46df43
+      internalID: 300280828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 8653
+        width: 27
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a501c0e21a0cf47058a4bd201b5cd5a1
+      internalID: -2074430501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Walk_11
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 8651
+        width: 25
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0498a805a064cd8ad56717eebc041e
+      internalID: 817874764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Walk_12
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 8651
+        width: 17
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88256ee268764227a88644f04f71a9c
+      internalID: 832164877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Walk_13
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 8651
+        width: 18
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747ec99562bd144e6b64be7110d0d6c7
+      internalID: -730016798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Walk_14
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 8651
+        width: 21
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e410bf2a068454a8c96a5993c8d601bb
+      internalID: -1259052138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Walk_15
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 8652
+        width: 26
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5bf41dcacb2048118f18dda009d1781
+      internalID: -1272307869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Walk_16
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 8650
+        width: 30
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1acafb59711f4ab892a6b2bdc743786
+      internalID: -1844788168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 8684
+        width: 32
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee74cdcefc2f43bd9cef3d9ca9dc6b0
+      internalID: -1315361813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 8683
+        width: 32
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c6fb167349844778e906a90a0b1e75
+      internalID: 1403720393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 8682
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd077095ee3734b21b936b9f13d27129
+      internalID: -562352989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 8682
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e015e287d47f4ddaad34efb2919582b
+      internalID: -973309600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 8682
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97312dc755b9b43bebda8cbd629917b2
+      internalID: -1231607536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 8682
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa673234dd9d4fc5b7b4f1b03e9cf30
+      internalID: 851546141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 8681
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5afbb88dc334adca15bfee7aac77e1
+      internalID: -1406092928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 8681
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb435d34c9574d35b257a4b66974e59
+      internalID: 870344233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_Walk_9
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 8681
+        width: 32
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d5db37c5e82402c9f79d83c0dbd252
+      internalID: -678355453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 8681
+        width: 32
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af512e20bafc4588b6813fc29c7f761
+      internalID: 849618290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_Walk_11
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 8680
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68fa9bd2803da49e196703a27fb35fdc
+      internalID: 734424932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_Walk_12
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 8680
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad201a024f2374f5491fb40ad59dd3fc
+      internalID: 131604911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_UPPER_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 8958
+        width: 32
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256690f15a0134221b38f453b9e43f8d
+      internalID: -1885638831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_UPPER_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 8958
+        width: 32
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53db6bf83f2e74d02a94574d7a39e8ab
+      internalID: -283504193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_UPPER_3
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 8958
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82d2968a6e4b4a1289683200d8f847c
+      internalID: -2071207290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_UPPER_4
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 8958
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4184795d95c494b7dbe6910dc87b7489
+      internalID: 42581560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_LOWER
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 8959
+        width: 20
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c42e9774733c4b14a36c408e86c2c7b
+      internalID: -1973448741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Jump_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 8536
+        width: 22
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058bb5a3da1f649448d288f702b5206a
+      internalID: 765229401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Jump_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 8536
+        width: 22
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce956a13e3a094eea85e86e9f1302b60
+      internalID: 617818639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Jump_3
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 8537
+        width: 22
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2cf08e65e81c4d97a6b97b4be22d3bd
+      internalID: -1368669506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Jump_4
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 8538
+        width: 23
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ddacefa20ca4404aa244130d515360
+      internalID: 1677634432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Jump_5
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 8541
+        width: 24
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26368a9b6bd447dcbf540d2404d55ca
+      internalID: 1522004593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Jump_6
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 8544
+        width: 24
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3250b6181d43e4004b062484affbaa27
+      internalID: 1667275736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Jump_front_1
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 8536
+        width: 28
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db7309ff3a434700a38422ba4266957
+      internalID: 888571181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Jump_front_2
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 8538
+        width: 29
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12aa941730bc5427e9b41529350931db
+      internalID: -981953413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Jump_front_3
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 8540
+        width: 33
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a448296f39e44a0b6a3b924b05f106
+      internalID: -1616932009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Jump_front_4
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 8542
+        width: 30
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a8c13fe1a6149569d6e9a72a3ecd10
+      internalID: -985327934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Jump_front_5
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 8542
+        width: 30
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1a1484783404a5694bf5113fda13ed
+      internalID: -730841952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Lower_Jump_front_6
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 8540
+        width: 26
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d116d6d53cf43ad9f8dcb52e3176b7
+      internalID: 1130130839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_Jump_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 8571
+        width: 29
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60e390f6c8264e51bd63a9d18f11ce2
+      internalID: -218979189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_Jump_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 8571
+        width: 31
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c599c8061497c4accbdcc0935bfe3840
+      internalID: 1864405380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_Jump_3
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 8571
+        width: 31
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adab45b5cfc74624abcd591311a7706
+      internalID: -371211338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_Jump_4
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 8571
+        width: 30
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af466c74397c04e6786f5c7c21181f94
+      internalID: 76102064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_Jump_5
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 8571
+        width: 30
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eeebdb0608c64f6da9379ca15cfd1d3
+      internalID: 2003930314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_Jump_6
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 8570
+        width: 28
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3381ece4140b040388243c970a887844
+      internalID: 464076158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_Jump_Front_1
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 8564
+        width: 28
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ffa94fb3527496cbacb60475ebe44b
+      internalID: 1143234810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_Jump_Front_2
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 8563
+        width: 32
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd6127bec20c4bfd9013c31ac385515
+      internalID: -362590433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_Jump_Front_3
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 8564
+        width: 33
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c70a54047ac4c1ebf6e3728a6c56de
+      internalID: 593802478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_Jump_Front_4
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 8562
+        width: 32
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c775b5a4235d243e4b1538de34504acd
+      internalID: -134326039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_Jump_Front_5
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 8565
+        width: 28
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6794bac5796854bb4b2903c031a10c56
+      internalID: 1892344190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_Jump_Front_6
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 8568
+        width: 26
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2ca0315e2e44298b7c604cf1e0623d
+      internalID: -1363119624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Fire_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 8333
+        width: 35
+        height: 22
+      alignment: 9
+      pivot: {x: 0.43277544, y: -0.1854581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1df7c17414664a8a94fab94c5685f32
+      internalID: 699898257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Fire_2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 8333
+        width: 34
+        height: 21
+      alignment: 9
+      pivot: {x: 0.48400968, y: -0.21205357}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02aa92679c03b4fa2a04875ed3ea1031
+      internalID: -1644125258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Fire_3
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 8333
+        width: 32
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5381861, y: -0.21809895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7db7882c0b44c75952947319daf3ef
+      internalID: -1543799594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Fire_4
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 8333
+        width: 31
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5213387, y: -0.30939275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4b8d96ba21e467081d3f196b9ad8c5
+      internalID: 1250639773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Fire_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 8333
+        width: 36
+        height: 20
+      alignment: 9
+      pivot: {x: 0.43527985, y: -0.2873047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbae86241bda0454a80a721f6fa930c3
+      internalID: 1581337786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Fire
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 8333
+        width: 51
+        height: 21
+      alignment: 9
+      pivot: {x: 0.30045655, y: -0.1656436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51e359429615440ea66f7c51f73f0d4
+      internalID: -1066261991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_LookUP_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 8494
+        width: 36
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4830f9705c437433ba618d0caa23405a
+      internalID: 1470047796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_LookUP_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 8494
+        width: 34
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c7ab52640154a609da6420ca97ec12
+      internalID: -602911199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_LookUP_3
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 8494
+        width: 32
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb945b8f8405e4c3fb98c9b88dab537f
+      internalID: -1825920708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_LookUP_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 8494
+        width: 27
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf53f0fba4bbb465ea427424fd9d612e
+      internalID: -1248734708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_LookUP_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 8498
+        width: 29
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460438b803832491abd530bea4d34c1f
+      internalID: 955059420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_LookUP_6
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 8498
+        width: 29
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3531415759a524217ba9148db70045b4
+      internalID: 138694482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_LookUP_7
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 8498
+        width: 30
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00592a9b377448d799cb35c65f39574
+      internalID: 401618241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_LookUP_8
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 8498
+        width: 30
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3844a509cabc461e9451452b0cec1e6
+      internalID: -1109105603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_LookUP_Fire_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 8261
+        width: 24
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df81e0129bccc4e2eb33bc7d6f959381
+      internalID: 964695472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_LookUP_Fire_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 8261
+        width: 24
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471e433ebabc146188feb77e997f4474
+      internalID: -972281706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_LookUP_Fire_3
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 8261
+        width: 24
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edaefc91b2756499cb1f8c9488748be7
+      internalID: -1101088711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_LookUP_Fire_4
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 8261
+        width: 24
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1280ffd2010a4682b9e3f69805a9ff6
+      internalID: 1245894571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_LookUP_Fire_5
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 8261
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce3e15a099cc43a9aa6c4569949e502
+      internalID: 1889023409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_LookUP_Fire_6
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 8261
+        width: 23
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2449ee4b7d87349f890c9ac97cf54ab3
+      internalID: 177381434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_LookUP_Fire_7
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 8261
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0683a4f36302b407abf87704e2ee1647
+      internalID: -1316827846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_LookUP_Fire_8
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 8261
+        width: 28
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e464b1c397ceb47c9affa3b28a620c52
+      internalID: 527418058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Jump_Down_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 8451
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc2b4ca014d54fdaa2628aac6e590df
+      internalID: 1987608650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Jump_Down_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 8447
+        width: 19
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18d5a6ea1d33456781aa39082cc7495
+      internalID: -1651919192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Jump_Down_3
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 8446
+        width: 18
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de476cd44be4a4bb8aae92e5ad52efc4
+      internalID: 2034909479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Jump_Down_fire_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 8212
+        width: 20
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9a4bbf54a3f4c3cad08b56fda7af0c
+      internalID: -1512895016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Jump_Down_fire_2
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 8212
+        width: 18
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f5dc58ef0d7427691f835c72e70047
+      internalID: 1482126820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sheet_Move_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 8364
+        width: 34
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785ede82f6309480cb26d579f6b49488
+      internalID: 1986462551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sheet_Move_2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 8364
+        width: 32
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1587b12ecdf2f4c6f8e0a351448c0e76
+      internalID: -106719714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sheet_Move_3
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 8364
+        width: 32
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52eb066d556ac484cb4fcd8f9537cba9
+      internalID: 462144758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sheet_Move_4
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 8364
+        width: 31
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f723357cb615f4d40bc158cd075b2cde
+      internalID: 489370392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sheet_Move_5
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 8364
+        width: 35
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e097d68fa344a47d1addca8f8d196880
+      internalID: -946630975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sheet_Move_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 8364
+        width: 34
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3f46c026f3341ca8bfb95abac3cfaa
+      internalID: -1847436039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sheet_Move_7
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 8364
+        width: 33
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52218637faf34034a0ec51a0afe404d
+      internalID: -2103900831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sheet_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 8398
+        width: 35
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae444ff049aa4f8c92c8ff370675140
+      internalID: 1920925394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sheet_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 8398
+        width: 35
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69e3129aeb2e4181ade38da91a210ad
+      internalID: -1962645219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sheet_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 8398
+        width: 35
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d28a4635b7a4b88a6ed0a25113f640
+      internalID: 2013353070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sheet_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 8398
+        width: 35
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8e0351100c3436083846f66221247c
+      internalID: 1481001532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Melee_Attack_1_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 7991
+        width: 25
+        height: 31
+      alignment: 9
+      pivot: {x: 0.6084399, y: 0.22867313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2730b716ffe479b9eabaf859f218e1
+      internalID: -242454096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Melee_Attack_1_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 7987
+        width: 26
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5895669, y: 0.35422713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9212626bb90e4baf9499aaddf881e24
+      internalID: 1364348374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Melee_Attack_1_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 7990
+        width: 43
+        height: 33
+      alignment: 9
+      pivot: {x: 0.43998507, y: 0.23956853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3d01139ed1e4f8c932a484488149fb
+      internalID: -1341651465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Melee_Attack_1_4
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 7990
+        width: 46
+        height: 38
+      alignment: 9
+      pivot: {x: 0.47424582, y: 0.21291633}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bb9a2f79ca34018956b2824a4d19b3
+      internalID: -581738715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Melee_Attack_1_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 7992
+        width: 43
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5027342, y: 0.15372315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c866c43063d04fe3b1afa63650a27a3
+      internalID: -1815329648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Melee_Attack_1_6
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 7992
+        width: 42
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5031059, y: 0.16532488}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee945d325dca84d5a995a4e41797a3c9
+      internalID: -1199463384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Melee_Attack_2_1
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 8000
+        width: 25
+        height: 29
+      alignment: 9
+      pivot: {x: 0.66328, y: 0.14715786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2228fd131fe834a80a1bcc23eb952b85
+      internalID: -402036195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Melee_Attack_2_2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 8005
+        width: 26
+        height: 24
+      alignment: 9
+      pivot: {x: 0.59955657, y: 0.030863443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d22c1ffeaea4c5694d25cf38935389
+      internalID: -1420678520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Melee_Attack_2_3
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 8007
+        width: 32
+        height: 21
+      alignment: 9
+      pivot: {x: 0.59947586, y: -0.02297247}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4cbbeeb024b4bea980a7d5aa275f8a
+      internalID: -1698603534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Melee_Attack_2_4
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 8005
+        width: 48
+        height: 25
+      alignment: 9
+      pivot: {x: 0.50082207, y: 0.008652343}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f8ad13991cb41e0abdf58a9b874d5a
+      internalID: 787217168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Melee_Attack_2_5
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 8007
+        width: 45
+        height: 25
+      alignment: 9
+      pivot: {x: 0.37486506, y: 0.014785157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04687e00bd3540279a7562c9d3adf2e
+      internalID: -465249677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sheet_Melee_Attack_1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7944
+        width: 43
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5194084fdf940b7b1ceb109d07cd1b
+      internalID: -1677517794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sheet_Melee_Attack_1_2
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 7944
+        width: 46
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5572b5413a024ae9ba0df16ace068cd
+      internalID: 1817283629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sheet_Melee_Attack_1_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 7944
+        width: 43
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2be420a987d488b91ca7bceb6991a6
+      internalID: -92550009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sheet_Melee_Attack_1_4
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 7944
+        width: 42
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee875708ea907419cac9fc8c98376831
+      internalID: -2094107411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sheet_Melee_Attack_2_1
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 7945
+        width: 25
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ca0fffe1f424512aa8bde1692bbc45
+      internalID: 430347058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sheet_Melee_Attack_2_2
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 7945
+        width: 26
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9538244f31ae47c68fbeeb8bb9c9404
+      internalID: -1609694059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sheet_Melee_Attack_2_3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 7945
+        width: 32
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b8ab26111454614beed6124ec484d6
+      internalID: -1364565209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sheet_Melee_Attack_2_4
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 7945
+        width: 48
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e1a6d549d754cd98b86d1f62fe79a3
+      internalID: -2012202426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sheet_Melee_Attack_2_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 7945
+        width: 45
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09635279bb75341ecb20a48254b3ed3f
+      internalID: 1351104626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sheet_Melee_Attack_2_6
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 7945
+        width: 46
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6d3cd5e98be4367b24ea42ae06e0c3
+      internalID: 984465287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sheet_Melee_Attack_2_7
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 7945
+        width: 40
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90e7b92d5ce441159e2dc3e4ab52e31
+      internalID: 1402788262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sheet_Melee_Attack_2_8
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 7945
+        width: 26
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d9ed4613e4d476c9d6cefecc1b15c7
+      internalID: 1911301999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sheet_Melee_Attack_2_9
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 7945
+        width: 28
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d039ad784e206450dbf26530af374b4a
+      internalID: -1040840514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Eri_Fire: -1066261991
+      Eri_Fire_1: 699898257
+      Eri_Fire_2: -1644125258
+      Eri_Fire_3: -1543799594
+      Eri_Fire_4: 1250639773
+      Eri_Fire_5: 1581337786
+      Eri_Jump_Down_1: 1987608650
+      Eri_Jump_Down_2: -1651919192
+      Eri_Jump_Down_3: 2034909479
+      Eri_Jump_Down_fire_1: -1512895016
+      Eri_Jump_Down_fire_2: 1482126820
+      Eri_Kasamoto_1_0: -534613132
+      Eri_Lower_Jump_1: 765229401
+      Eri_Lower_Jump_2: 617818639
+      Eri_Lower_Jump_3: -1368669506
+      Eri_Lower_Jump_4: 1677634432
+      Eri_Lower_Jump_5: 1522004593
+      Eri_Lower_Jump_6: 1667275736
+      Eri_Lower_Jump_front_1: 888571181
+      Eri_Lower_Jump_front_2: -981953413
+      Eri_Lower_Jump_front_3: -1616932009
+      Eri_Lower_Jump_front_4: -985327934
+      Eri_Lower_Jump_front_5: -730841952
+      Eri_Lower_Jump_front_6: 1130130839
+      Eri_Lower_Walk_1: 686222391
+      Eri_Lower_Walk_10: -2074430501
+      Eri_Lower_Walk_11: 817874764
+      Eri_Lower_Walk_12: 832164877
+      Eri_Lower_Walk_13: -730016798
+      Eri_Lower_Walk_14: -1259052138
+      Eri_Lower_Walk_15: -1272307869
+      Eri_Lower_Walk_16: -1844788168
+      Eri_Lower_Walk_2: 571739837
+      Eri_Lower_Walk_3: 1230007505
+      Eri_Lower_Walk_4: -1341532741
+      Eri_Lower_Walk_5: 302014317
+      Eri_Lower_Walk_6: 573330219
+      Eri_Lower_Walk_7: -1642875335
+      Eri_Lower_Walk_8: -1792420413
+      Eri_Lower_Walk_9: 300280828
+      Eri_Melee_Attack_1_1: -242454096
+      Eri_Melee_Attack_1_2: 1364348374
+      Eri_Melee_Attack_1_3: -1341651465
+      Eri_Melee_Attack_1_4: -581738715
+      Eri_Melee_Attack_1_5: -1815329648
+      Eri_Melee_Attack_1_6: -1199463384
+      Eri_Melee_Attack_2_1: -402036195
+      Eri_Melee_Attack_2_2: -1420678520
+      Eri_Melee_Attack_2_3: -1698603534
+      Eri_Melee_Attack_2_4: 787217168
+      Eri_Melee_Attack_2_5: -465249677
+      Eri_Melee_Attack_2_6: 1120789359
+      Eri_Melee_Attack_2_7: -699745039
+      Eri_Melee_Attack_2_8: -72590936
+      Eri_Melee_Attack_2_9: -2085952790
+      Eri_Sheet_Idle_1: 1920925394
+      Eri_Sheet_Idle_2: -1962645219
+      Eri_Sheet_Idle_3: 2013353070
+      Eri_Sheet_Idle_4: 1481001532
+      Eri_Sheet_Melee_Attack_1_1: -1677517794
+      Eri_Sheet_Melee_Attack_1_2: 1817283629
+      Eri_Sheet_Melee_Attack_1_3: -92550009
+      Eri_Sheet_Melee_Attack_1_4: -2094107411
+      Eri_Sheet_Melee_Attack_2_1: 430347058
+      Eri_Sheet_Melee_Attack_2_2: -1609694059
+      Eri_Sheet_Melee_Attack_2_3: -1364565209
+      Eri_Sheet_Melee_Attack_2_4: -2012202426
+      Eri_Sheet_Melee_Attack_2_5: 1351104626
+      Eri_Sheet_Melee_Attack_2_6: 984465287
+      Eri_Sheet_Melee_Attack_2_7: 1402788262
+      Eri_Sheet_Melee_Attack_2_8: 1911301999
+      Eri_Sheet_Melee_Attack_2_9: -1040840514
+      Eri_Sheet_Move_1: 1986462551
+      Eri_Sheet_Move_2: -106719714
+      Eri_Sheet_Move_3: 462144758
+      Eri_Sheet_Move_4: 489370392
+      Eri_Sheet_Move_5: -946630975
+      Eri_Sheet_Move_6: -1847436039
+      Eri_Sheet_Move_7: -2103900831
+      Eri_Upper_Jump_1: -218979189
+      Eri_Upper_Jump_2: 1864405380
+      Eri_Upper_Jump_3: -371211338
+      Eri_Upper_Jump_4: 76102064
+      Eri_Upper_Jump_5: 2003930314
+      Eri_Upper_Jump_6: 464076158
+      Eri_Upper_Jump_Front_1: 1143234810
+      Eri_Upper_Jump_Front_2: -362590433
+      Eri_Upper_Jump_Front_3: 593802478
+      Eri_Upper_Jump_Front_4: -134326039
+      Eri_Upper_Jump_Front_5: 1892344190
+      Eri_Upper_Jump_Front_6: -1363119624
+      Eri_Upper_LookUP_1: 1470047796
+      Eri_Upper_LookUP_2: -602911199
+      Eri_Upper_LookUP_3: -1825920708
+      Eri_Upper_LookUP_4: -1248734708
+      Eri_Upper_LookUP_5: 955059420
+      Eri_Upper_LookUP_6: 138694482
+      Eri_Upper_LookUP_7: 401618241
+      Eri_Upper_LookUP_8: -1109105603
+      Eri_Upper_LookUP_Fire_1: 964695472
+      Eri_Upper_LookUP_Fire_2: -972281706
+      Eri_Upper_LookUP_Fire_3: -1101088711
+      Eri_Upper_LookUP_Fire_4: 1245894571
+      Eri_Upper_LookUP_Fire_5: 1889023409
+      Eri_Upper_LookUP_Fire_6: 177381434
+      Eri_Upper_LookUP_Fire_7: -1316827846
+      Eri_Upper_LookUP_Fire_8: 527418058
+      Eri_Upper_Walk_1: -1315361813
+      Eri_Upper_Walk_10: 849618290
+      Eri_Upper_Walk_11: 734424932
+      Eri_Upper_Walk_12: 131604911
+      Eri_Upper_Walk_2: 1403720393
+      Eri_Upper_Walk_3: -562352989
+      Eri_Upper_Walk_4: -973309600
+      Eri_Upper_Walk_5: -1231607536
+      Eri_Upper_Walk_6: 851546141
+      Eri_Upper_Walk_7: -1406092928
+      Eri_Upper_Walk_8: 870344233
+      Eri_Upper_Walk_9: -678355453
+      UI_LOWER: -1973448741
+      UI_UPPER_1: -1885638831
+      UI_UPPER_2: -283504193
+      UI_UPPER_3: -2071207290
+      UI_UPPER_4: 42581560
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

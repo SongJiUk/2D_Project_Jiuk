@@ -5,6 +5,13 @@ using UnityEngine;
 public class Player : Creature
 {
     public static Player instace = null;
+    Vector2 movement = Vector2.zero;
+
+    Vector3 left = new Vector3(-1f, 1f, 1f);
+    Vector3 right = new Vector3(1f, 1f, 1f);
+
+    [SerializeField] Animator UpperAnim;
+    [SerializeField] Animator LowerAnim;
 
     private void Awake()
     {
@@ -15,21 +22,21 @@ public class Player : Creature
 
     private void Update()
     {
-        if(Input.GetKey(KeyCode.RightArrow))
-        {
+        movement.x = Input.GetAxis("Horizontal");
+        movement.y = Input.GetAxis("Vertical");
 
-        }
-        else if(Input.GetKey(KeyCode.LeftArrow))
-        {
+        if (movement.x < 0) transform.localScale = left;
+        else if (movement.x > 0) transform.localScale = right;
 
-        }
-        else if(Input.GetKey(KeyCode.UpArrow))
-        {
+        UpperAnim.SetFloat("PositionX", movement.x);
+        UpperAnim.SetFloat("PositionY", movement.y);
+        LowerAnim.SetFloat("PositionX", movement.x);
+        LowerAnim.SetFloat("PositionY", movement.y);
 
-        }
-        else if(Input.GetKey(KeyCode.DownArrow))
-        {
 
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            UpperAnim.SetTrigger("Fire");
         }
     }
 }
