@@ -10,6 +10,8 @@ public class ObjectPool : MonoBehaviour
     {
         if (null == instance) instance = this;
         else Destroy(this.gameObject);
+
+        DontDestroyOnLoad(this);
     }
 
 }

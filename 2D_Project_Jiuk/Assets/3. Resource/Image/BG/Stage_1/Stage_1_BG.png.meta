@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 10
+  spritePixelsToUnits: 29
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -136,7 +136,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_0
+      name: Stage_1_BackGround_1
       rect:
         serializedVersion: 2
         x: 375
@@ -150,18 +150,207 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a6719a925a0a4a58a6ffb02d1fd1027
-      internalID: -1848843646
+      spriteID: 2c0f02a4541cf4fca9ffaea1d0779d66
+      internalID: -629003528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_1
+      name: Stage_1_1
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 266
+        width: 1418
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47303f57024f04af381d061680edd026
+      internalID: 1000710787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_1_BG_0_1
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 950
+        width: 471
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9739ed212c06540d789e7def0e930fa0
+      internalID: -1284619028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_1_BG_0_2
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 884
+        width: 471
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a58ce694f154e7e88294fc1247b257
+      internalID: -297306597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_1_BG_0_3
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 818
+        width: 471
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36a6002e1d0e4ada8e92e76e1f96b47
+      internalID: -228540162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_1_BG_0_4
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 752
+        width: 471
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19455c8e7b29644cfb0a853816793869
+      internalID: 1814046680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_1_BG_0_5
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 686
+        width: 471
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0db48558c434a1abc4677aefad46a4
+      internalID: -1059774307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_1_BG_0_6
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 620
+        width: 471
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b565bec85ddc344678e02a391fcfd5af
+      internalID: 1971075696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_1_BG_0_7
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 554
+        width: 471
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cf43c3f04894723bdd6e03084768c7
+      internalID: -1735701958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_1_BG_0_8
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 490
+        width: 471
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef3f485971f348e88d515f1f973b8ea
+      internalID: 1389026578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_1_1_1_2
       rect:
         serializedVersion: 2
         x: 3332
-        y: 1608
+        y: 1606
         width: 84
         height: 41
       alignment: 0
@@ -171,20 +360,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b34933214f77847659512605fee6edbd
-      internalID: 1897891005
+      spriteID: be6506628e14f4d56a81224e23790970
+      internalID: 1924020075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_2
+      name: Stage_1_1_1_1
       rect:
         serializedVersion: 2
-        x: 3418
-        y: 1608
-        width: 55
-        height: 38
+        x: 3475
+        y: 1605
+        width: 28
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,81 +381,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92fa4ab7dc26f43c88f305ff55f885ee
-      internalID: -1355845531
+      spriteID: 8ee136499fa394c9ba8e2e409a43a946
+      internalID: -891912201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_3
-      rect:
-        serializedVersion: 2
-        x: 3504
-        y: 1608
-        width: 94
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b1ce99012b95b49769ae59eb54885aef
-      internalID: -2034269738
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_4
-      rect:
-        serializedVersion: 2
-        x: 3600
-        y: 1608
-        width: 33
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b9d8b37bb83e4f21b85f7a00f9ffe09
-      internalID: -660655783
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_5
-      rect:
-        serializedVersion: 2
-        x: 3638
-        y: 1630
-        width: 41
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62f9da7e134a7492cb08b60457271b54
-      internalID: 1288237142
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_6
+      name: Stage_1_1_2_0
       rect:
         serializedVersion: 2
         x: 3969
-        y: 1475
+        y: 1473
         width: 264
         height: 210
       alignment: 0
@@ -276,81 +402,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c9008429ffd64fa5af2b9c2b8368dbc
-      internalID: 1199314673
+      spriteID: aa8335be88a964a228300e0ef52fb545
+      internalID: 661075839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_7
-      rect:
-        serializedVersion: 2
-        x: 4235
-        y: 1548
-        width: 118
-        height: 137
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52358b5977a5c476896f330724045936
-      internalID: 1865619852
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_8
-      rect:
-        serializedVersion: 2
-        x: 4362
-        y: 1548
-        width: 103
-        height: 137
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40819f194dbe8469ba1d89f84469d795
-      internalID: 509707659
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_9
-      rect:
-        serializedVersion: 2
-        x: 4468
-        y: 1519
-        width: 304
-        height: 166
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b589bfbd69d9c46d0af2dcd964af95fb
-      internalID: -375018729
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_10
+      name: Stage_1_1_2_3
       rect:
         serializedVersion: 2
         x: 4774
-        y: 1519
+        y: 1517
         width: 304
         height: 166
       alignment: 0
@@ -360,20 +423,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1d332c7e51f8445182da1e3d157f1ed
-      internalID: 1600902191
+      spriteID: edaa48fa708234c7d9fce1d3895202bf
+      internalID: 772205704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_11
+      name: Stage_1_1_3_1
       rect:
         serializedVersion: 2
-        x: 3475
-        y: 1608
-        width: 27
-        height: 20
+        x: 2391
+        y: 895
+        width: 270
+        height: 102
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,270 +444,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e66110cd1a24483fbe6be213ee7fd1c
-      internalID: -420927638
+      spriteID: 3e4e96d47b9a9408292f9bf2f6f585c5
+      internalID: 1027656085
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_12
-      rect:
-        serializedVersion: 2
-        x: 2750
-        y: 1412
-        width: 512
-        height: 192
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3743b160403a24b09904635b7be41a2f
-      internalID: -883094815
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_13
-      rect:
-        serializedVersion: 2
-        x: 3264
-        y: 1475
-        width: 202
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 666716757165f4141929b6a71cfb9fb2
-      internalID: 1611488677
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_14
-      rect:
-        serializedVersion: 2
-        x: 3467
-        y: 1475
-        width: 218
-        height: 73
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db98b07bc567d4eb3ab8d01c5e907133
-      internalID: -1363935521
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_15
-      rect:
-        serializedVersion: 2
-        x: 3687
-        y: 1475
-        width: 280
-        height: 83
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e253156d7a1314d918790c03e3032ac0
-      internalID: 65324594
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_16
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 1361
-        width: 705
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98dd3d07213f047a1aca0b51d3605ded
-      internalID: 2078096239
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_17
-      rect:
-        serializedVersion: 2
-        x: 1081
-        y: 897
-        width: 4091
-        height: 513
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 373839ea868a14f59b5cc622ab8c799e
-      internalID: 2137581112
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_18
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 1312
-        width: 705
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f68aa8ce99a4c424cb1dc45b0ca05d85
-      internalID: -1777459018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_19
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 1263
-        width: 705
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3e7c03b910ce4f56885ca35f558a5e9
-      internalID: 927870091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_20
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 1214
-        width: 705
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f2c0668775fb14288a5884bf5d942fc2
-      internalID: -1774241335
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_21
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 1165
-        width: 705
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18cecc23ddd0347d193c21395b08631f
-      internalID: 397747512
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_22
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 1116
-        width: 705
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cde2918ff4d4242d793a1135f0d67307
-      internalID: -1632517665
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_23
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 1067
-        width: 705
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4c3dcf5276f84f13a5a873d953dd45a
-      internalID: 274640299
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_24
+      name: Stage_1_1_4_1
       rect:
         serializedVersion: 2
         x: 2663
-        y: 897
+        y: 895
         width: 279
         height: 182
       alignment: 0
@@ -654,397 +465,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5693f5111ed04102971ca6624ccaa95
-      internalID: -634883990
+      spriteID: 3b76255b1f84a4cfa89aa8d9f098dc39
+      internalID: -1611138981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_25
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 1018
-        width: 705
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 95c18aa410601452485ca99dcc6488e5
-      internalID: -104488644
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_26
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 993
-        width: 563
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e366591c922f549d69087642678e86b1
-      internalID: -645220057
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_27
-      rect:
-        serializedVersion: 2
-        x: 1601
-        y: 897
-        width: 270
-        height: 102
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02e4639ca013f4492b73e4a229962e7b
-      internalID: -848336062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_28
-      rect:
-        serializedVersion: 2
-        x: 1873
-        y: 897
-        width: 270
-        height: 102
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 432c5370453f6494cbbfd5cc1fb83b80
-      internalID: 427063533
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_29
-      rect:
-        serializedVersion: 2
-        x: 2391
-        y: 897
-        width: 270
-        height: 102
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 289cfd080ea924ea0bc31f93b4bed538
-      internalID: 864696785
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_30
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 952
-        width: 563
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 603acb4f784d5476db6beb69794d6fc2
-      internalID: 1421480447
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_31
-      rect:
-        serializedVersion: 2
-        x: 2145
-        y: 897
-        width: 244
-        height: 57
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69cc9f4052279475ca230c5aa941e509
-      internalID: -309781203
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_32
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 927
-        width: 563
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 519e77cc55d99442982304b03e30c9bd
-      internalID: -270319302
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_33
-      rect:
-        serializedVersion: 2
-        x: 1355
-        y: 897
-        width: 244
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e7055d471c8c4013839ecb3c3c1a49e
-      internalID: 455486603
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_34
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 886
-        width: 563
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42250d219a2cb4251afc2e20f27f67f3
-      internalID: 135471671
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_35
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 861
-        width: 563
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c1f831cf38cb4a818ba1b358586435e
-      internalID: -2024662519
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_36
-      rect:
-        serializedVersion: 2
-        x: 942
-        y: 813
-        width: 86
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a54eca9735bb4cbe9d706f81fb7525a
-      internalID: 1569571898
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_37
-      rect:
-        serializedVersion: 2
-        x: 1031
-        y: 813
-        width: 89
-        height: 68
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 424170a0d193d49a29ef207a8c8d51a7
-      internalID: -1477621837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_38
-      rect:
-        serializedVersion: 2
-        x: 1123
-        y: 813
-        width: 99
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56c271fb2ca464b529b1df793588469e
-      internalID: -1232940862
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_39
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 820
-        width: 563
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f0f7cef4fea43408c9fd4ecaf4056559
-      internalID: 1584337647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_40
-      rect:
-        serializedVersion: 2
-        x: 1224
-        y: 813
-        width: 114
-        height: 47
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a825f3e42b2454e56b63547153f02198
-      internalID: -1791158341
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_41
-      rect:
-        serializedVersion: 2
-        x: 1341
-        y: 813
-        width: 131
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a7f31dd336c0d4e24ad4b926263aee72
-      internalID: 2013572871
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_42
-      rect:
-        serializedVersion: 2
-        x: 1476
-        y: 813
-        width: 133
-        height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68bce959f3c8348828808074a641cf6f
-      internalID: -1715054375
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_43
+      name: Stage_1_1_4_2
       rect:
         serializedVersion: 2
         x: 1615
-        y: 813
-        width: 127
+        y: 811
+        width: 123
         height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1053,20 +486,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f99ec5dede6149c59091b52b1046a3a
-      internalID: -333517024
+      spriteID: 3b99da862d544408d90fd0d3faa96ffe
+      internalID: 321502531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_44
+      name: Stage_1_2
       rect:
         serializedVersion: 2
         x: 1987
-        y: 589
-        width: 3185
-        height: 238
+        y: 598
+        width: 3183
+        height: 227
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1074,123 +507,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b441b4bf0e76845199805e31c685d270
-      internalID: -220594722
+      spriteID: 3302ed93eff5b44c8a86769cd8f181e6
+      internalID: -1813341484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_45
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 795
-        width: 563
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75e7a3271579747b6962cb1b3f5fe5bf
-      internalID: -1687522457
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_46
-      rect:
-        serializedVersion: 2
-        x: 942
-        y: 578
-        width: 194
-        height: 224
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c8f33572ab6f34dcbb01a07ccdb0e111
-      internalID: -1864918387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_47
-      rect:
-        serializedVersion: 2
-        x: 1139
-        y: 578
-        width: 203
-        height: 224
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 10cdede4ee66d4b0d97cb1dc7ca3913b
-      internalID: 694628757
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_48
-      rect:
-        serializedVersion: 2
-        x: 1345
-        y: 578
-        width: 203
-        height: 224
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08afb22d180cb43f08cb29dd19ff8d0b
-      internalID: 1770441400
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_49
-      rect:
-        serializedVersion: 2
-        x: 1554
-        y: 578
-        width: 203
-        height: 224
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 986da154b0b894823afb25dbaf53474c
-      internalID: 1073572219
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_50
+      name: Stage_1_1_4_0
       rect:
         serializedVersion: 2
         x: 1761
-        y: 578
+        y: 576
         width: 203
         height: 224
       alignment: 0
@@ -1200,984 +528,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36a9dc64aa3974eed92c644147d5ad84
-      internalID: -1160001488
+      spriteID: acebd8ff9e9074c6381fee337bf22809
+      internalID: 468322059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_51
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 754
-        width: 563
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0af12fe03ca714adb848e4a82b941b90
-      internalID: 412276654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_52
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 729
-        width: 563
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: acefe3194a2ba4a2da36acf9482873d7
-      internalID: 523958307
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_53
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 688
-        width: 563
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a04592f6065254003914721023224e95
-      internalID: 1430995047
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_54
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 663
-        width: 563
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea130c3368bde469b91ac289a0f68721
-      internalID: -179650427
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_55
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 622
-        width: 563
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b14d1eb9396f04ef5aaf7e40051d28b3
-      internalID: 1121468661
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_56
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 597
-        width: 563
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e19f0d0146d14135a75862ea82d2d99
-      internalID: -1485599707
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_57
-      rect:
-        serializedVersion: 2
-        x: 3252
-        y: 519
-        width: 204
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aebb33de473a94568aabcf7c5b708aa3
-      internalID: 2067833867
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_58
-      rect:
-        serializedVersion: 2
-        x: 3459
-        y: 554
-        width: 132
-        height: 45
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3eab231f922c14254a2e96916868caee
-      internalID: 256634572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_59
-      rect:
-        serializedVersion: 2
-        x: 3662
-        y: 553
-        width: 49
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b175229b175845c9a56a9cd1f6f67a9
-      internalID: -506093817
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_60
-      rect:
-        serializedVersion: 2
-        x: 3766
-        y: 585
-        width: 7
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b7cf22c11a99f4885a2d9aa539324dbd
-      internalID: 490660564
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_61
-      rect:
-        serializedVersion: 2
-        x: 3775
-        y: 585
-        width: 7
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dd2f45b0f3dc643e7b45d176877a91c1
-      internalID: -948014883
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_62
-      rect:
-        serializedVersion: 2
-        x: 3783
-        y: 585
-        width: 7
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48d0a0ac669e444b5b77e91311bbb99a
-      internalID: -230652670
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_63
-      rect:
-        serializedVersion: 2
-        x: 3791
-        y: 585
-        width: 7
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 81d6d22ae4fdc4b96810830dd250bf21
-      internalID: 1576960309
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_64
-      rect:
-        serializedVersion: 2
-        x: 3803
-        y: 585
-        width: 7
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6b1f52f98aa64f5a98254ca4bd3b224
-      internalID: -1065156756
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_65
-      rect:
-        serializedVersion: 2
-        x: 3811
-        y: 585
-        width: 7
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e58db84f4fcd4dc0a7b2bf02c653aeb
-      internalID: 901320208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_66
-      rect:
-        serializedVersion: 2
-        x: 3818
-        y: 585
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00288d93965f943fe97f0d86bfcdd9c1
-      internalID: 727458484
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_67
-      rect:
-        serializedVersion: 2
-        x: 3833
-        y: 585
-        width: 5
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f02c333d2549421c8ed805e60cd7427
-      internalID: -1786840430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_68
-      rect:
-        serializedVersion: 2
-        x: 3839
-        y: 585
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 06abc75d4ed5245ff95e49318165a18c
-      internalID: 1168416567
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_77
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 556
-        width: 563
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5dedf32f8254949dba0be1fe8e7e0673
-      internalID: -2077407650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_78
-      rect:
-        serializedVersion: 2
-        x: 3594
-        y: 555
-        width: 44
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 36a52c5c4f8a146ee83516e8f69ca569
-      internalID: -1173840918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_79
-      rect:
-        serializedVersion: 2
-        x: 3633
-        y: 555
-        width: 22
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a1ee1f74b92524d68926bce40c0ff3b5
-      internalID: 534286857
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_81
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 531
-        width: 563
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2797bd6e4673547219179ae96008b955
-      internalID: -2056328163
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_82
-      rect:
-        serializedVersion: 2
-        x: 3689
-        y: 520
-        width: 74
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48905537807f84443a3d7806704f5cab
-      internalID: 1780492004
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_83
-      rect:
-        serializedVersion: 2
-        x: 3928
-        y: 487
-        width: 43
-        height: 68
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c605cbbeb5314428781a1e67de7c0aa2
-      internalID: 376194081
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_84
-      rect:
-        serializedVersion: 2
-        x: 4209
-        y: 487
-        width: 37
-        height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8fb42de2e810642508dad0deec919b0b
-      internalID: -583974968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_85
-      rect:
-        serializedVersion: 2
-        x: 4419
-        y: 487
-        width: 38
-        height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26cea6b9678b640acb654996b9ad60bd
-      internalID: 1556931771
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_86
-      rect:
-        serializedVersion: 2
-        x: 4458
-        y: 487
-        width: 39
-        height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee864595bed0944f188f0ff2af5cd234
-      internalID: -1019259134
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_87
-      rect:
-        serializedVersion: 2
-        x: 4760
-        y: 487
-        width: 32
-        height: 68
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3c6deb941a09478c9ebdc2acc437244
-      internalID: 111889560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_88
-      rect:
-        serializedVersion: 2
-        x: 4793
-        y: 487
-        width: 32
-        height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25497dfb8b5ab4653ab265e2346d6a98
-      internalID: -58777354
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_89
-      rect:
-        serializedVersion: 2
-        x: 5032
-        y: 487
-        width: 40
-        height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f25acc25a4e14a13b32b61e08866002
-      internalID: -291054555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_90
-      rect:
-        serializedVersion: 2
-        x: 5073
-        y: 487
-        width: 32
-        height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 819908ac87abc40d8b35bbabfd818247
-      internalID: -2070562745
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_95
-      rect:
-        serializedVersion: 2
-        x: 3650
-        y: 524
-        width: 10
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aaa7235b2737c4796842dbf8d62ff31a
-      internalID: -855822221
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_96
-      rect:
-        serializedVersion: 2
-        x: 3884
-        y: 487
-        width: 43
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7aab7bf40dc14e9599c136fdca1fab1
-      internalID: -420446223
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_97
-      rect:
-        serializedVersion: 2
-        x: 3972
-        y: 487
-        width: 37
-        height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2787bffc6a3984befb37526a34be7ae8
-      internalID: -614779868
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_98
-      rect:
-        serializedVersion: 2
-        x: 4010
-        y: 487
-        width: 37
-        height: 58
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2bbb01e29cf66436286641f0a7c01156
-      internalID: 1967899483
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_99
-      rect:
-        serializedVersion: 2
-        x: 4378
-        y: 487
-        width: 40
-        height: 61
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b51db1e0c59114013918bd1340b774cc
-      internalID: -925966880
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_100
-      rect:
-        serializedVersion: 2
-        x: 4498
-        y: 487
-        width: 40
-        height: 61
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0490a2e13b03f42c5b4ec6b1f143ffd7
-      internalID: -2036178971
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_101
-      rect:
-        serializedVersion: 2
-        x: 4727
-        y: 487
-        width: 32
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48ab9ad2528c74888aa1f07114175236
-      internalID: -1448388560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_102
-      rect:
-        serializedVersion: 2
-        x: 4826
-        y: 487
-        width: 32
-        height: 61
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 09bce55f755004815b4fee7f57962fb1
-      internalID: -572196125
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_105
-      rect:
-        serializedVersion: 2
-        x: 4172
-        y: 487
-        width: 36
-        height: 53
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 695522a2167e74e29bca9e08839dc673
-      internalID: 97143674
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_106
-      rect:
-        serializedVersion: 2
-        x: 4339
-        y: 487
-        width: 38
-        height: 53
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f91d4fccf832c400b89458cc12aaa477
-      internalID: -82331110
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_107
-      rect:
-        serializedVersion: 2
-        x: 4539
-        y: 487
-        width: 39
-        height: 53
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8cfc94c3b0efd46619a43e509cc26539
-      internalID: 1126467095
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_108
-      rect:
-        serializedVersion: 2
-        x: 4859
-        y: 487
-        width: 32
-        height: 53
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b1b6741158864bbda6d1da2c9da562d
-      internalID: 89220502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_109
-      rect:
-        serializedVersion: 2
-        x: 4958
-        y: 487
-        width: 32
-        height: 53
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e34ae1715db9b48ba8771db1ec26bf69
-      internalID: 80457463
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_110
-      rect:
-        serializedVersion: 2
-        x: 4991
-        y: 487
-        width: 39
-        height: 53
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77d32af2cfe0d4252a8a9bd8163bb50b
-      internalID: -1783515660
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_112
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 490
-        width: 563
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9ad3279d4b23496aba2b198cd0f5336
-      internalID: 1528832631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_113
+      name: Stage_1_2.1
       rect:
         serializedVersion: 2
         x: 1987
-        y: 403
+        y: 401
         width: 1289
         height: 131
       alignment: 0
@@ -2187,20 +549,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9a3b7f6fd20045148cd841a411d3d71
-      internalID: -1251752340
+      spriteID: 032f966389ba04e5dbced91bfbcd2f77
+      internalID: -1953828914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_114
+      name: Stage_1_BackGround_2
       rect:
         serializedVersion: 2
-        x: 3797
-        y: 487
-        width: 42
-        height: 44
+        x: 2750
+        y: 1410
+        width: 512
+        height: 192
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2208,20 +570,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5816efca88e34dd89dec31795899186
-      internalID: -1041754201
+      spriteID: 8dad3f9bb11a2421eb51362d4471fe6c
+      internalID: 1864786337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_115
+      name: Stage_1_Boss
       rect:
         serializedVersion: 2
-        x: 3840
-        y: 487
-        width: 43
-        height: 52
+        x: 3798
+        y: 402
+        width: 767
+        height: 70
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2229,1814 +591,176 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8418ebdbf4e84623a4cf49c0fe70721
-      internalID: -1273758843
+      spriteID: ef6766339b7cf4086ab8400ada2d0f56
+      internalID: -1910169252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_116
-      rect:
-        serializedVersion: 2
-        x: 4048
-        y: 487
-        width: 37
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c3c93399ae434d8ea7b7a8e31024bfa
-      internalID: 1734869995
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_117
-      rect:
-        serializedVersion: 2
-        x: 4298
-        y: 487
-        width: 40
-        height: 45
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 740607dd7317c4b7ba212c34b7cb84d5
-      internalID: 379631440
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_118
-      rect:
-        serializedVersion: 2
-        x: 4579
-        y: 487
-        width: 40
-        height: 45
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e93d8a98223434610944e617e52aaf6b
-      internalID: 770526506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_119
-      rect:
-        serializedVersion: 2
-        x: 4661
-        y: 487
-        width: 32
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83858e4ee25a1489789b8ce4b4da1f64
-      internalID: -329875858
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_120
-      rect:
-        serializedVersion: 2
-        x: 4694
-        y: 487
-        width: 32
-        height: 52
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f13df568660e1422c84a03e348fd9077
-      internalID: 1894544349
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_121
-      rect:
-        serializedVersion: 2
-        x: 4892
-        y: 487
-        width: 32
-        height: 45
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 473508a258d684bd3a1beb6318dfc89b
-      internalID: -845413641
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_123
-      rect:
-        serializedVersion: 2
-        x: 4086
-        y: 487
-        width: 37
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1054a24e68520430799561fd8075addf
-      internalID: 1253600176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_124
-      rect:
-        serializedVersion: 2
-        x: 4128
-        y: 487
-        width: 43
-        height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 837d64523c23c4a09a3037bd38904f00
-      internalID: -2122034051
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_125
-      rect:
-        serializedVersion: 2
-        x: 4247
-        y: 487
-        width: 50
-        height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: da2e82428222d4dcb932dd8a583fe963
-      internalID: 520929787
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_126
-      rect:
-        serializedVersion: 2
-        x: 4620
-        y: 487
-        width: 40
-        height: 37
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39307eaa9791745d9afb6a4af3e73d0f
-      internalID: -138539860
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_127
-      rect:
-        serializedVersion: 2
-        x: 4925
-        y: 487
-        width: 32
-        height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 41663a2fe48a44bfb97ba457b33d18e0
-      internalID: 231443774
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_138
-      rect:
-        serializedVersion: 2
-        x: 4124
-        y: 487
-        width: 19
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99117905abd7b40c08c6cb919e8d8356
-      internalID: 665858622
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_139
-      rect:
-        serializedVersion: 2
-        x: 5015
-        y: 487
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2319babb4102e40688e7a8fec8c5fd2d
-      internalID: -781873734
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_141
-      rect:
-        serializedVersion: 2
-        x: 374
-        y: 269
-        width: 1608
-        height: 224
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a12561e2f15e4c6c8c912fc2d78768d
-      internalID: 421276466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_142
-      rect:
-        serializedVersion: 2
-        x: 3797
-        y: 405
-        width: 64
-        height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56a6d30a3477f4e349272b336e1e9148
-      internalID: 735969264
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_143
-      rect:
-        serializedVersion: 2
-        x: 3862
-        y: 405
-        width: 160
-        height: 53
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 660d3cb15e04f4eb39b7da3689b8be06
-      internalID: 1738356276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_144
-      rect:
-        serializedVersion: 2
-        x: 4023
-        y: 405
-        width: 288
-        height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3eed23813f90d411d8a565a5363623ff
-      internalID: 1743824694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_145
-      rect:
-        serializedVersion: 2
-        x: 4312
-        y: 405
-        width: 64
-        height: 52
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 368d1ee33a37040ec98f67b95cc4cf4e
-      internalID: -1352538003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_146
-      rect:
-        serializedVersion: 2
-        x: 4377
-        y: 405
-        width: 64
-        height: 68
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ed11099164d64ade807d3e01d722548
-      internalID: 1638218316
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_147
-      rect:
-        serializedVersion: 2
-        x: 4442
-        y: 405
-        width: 64
-        height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0482a825893c943c3a1a67ffdebae494
-      internalID: -1835289614
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_148
-      rect:
-        serializedVersion: 2
-        x: 4507
-        y: 405
-        width: 64
-        height: 53
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e9107e8b490d246529b1e63e351c3180
-      internalID: -888280373
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_149
-      rect:
-        serializedVersion: 2
-        x: 374
-        y: 238
-        width: 183
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e12986b1581d143a3956ae2253349dc2
-      internalID: 474595217
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_150
-      rect:
-        serializedVersion: 2
-        x: 558
-        y: 238
-        width: 133
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ff25f9565c52448f90cd74874539160
-      internalID: -469700013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_151
-      rect:
-        serializedVersion: 2
-        x: 693
-        y: 235
-        width: 2319
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 612611fa5f22c4307bad06bed997bc64
-      internalID: -1751806107
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_152
+      name: Stage_1_Boss_1
       rect:
         serializedVersion: 2
         x: 3013
-        y: 235
+        y: 233
         width: 144
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b9284916d6f2440d9c7c04d465f2fe2
-      internalID: 717467187
+      spriteID: 0ab52e118eca045fbb31f72ad6500622
+      internalID: -801123174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_153
-      rect:
-        serializedVersion: 2
-        x: 3159
-        y: 236
-        width: 304
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e54e42fb81be4f9db7392f3b107df61
-      internalID: 1422482668
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_154
-      rect:
-        serializedVersion: 2
-        x: 3464
-        y: 235
-        width: 304
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b25dff8362e7421a95d9885dc149a6b
-      internalID: 366012938
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_155
-      rect:
-        serializedVersion: 2
-        x: 3769
-        y: 251
-        width: 493
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d3edf718e794409998596f6587786db
-      internalID: 156708862
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_156
-      rect:
-        serializedVersion: 2
-        x: 4263
-        y: 251
-        width: 128
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5fc8f963abdb4f80bf3100f04ed6852
-      internalID: -1455201251
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_157
-      rect:
-        serializedVersion: 2
-        x: 374
-        y: 208
-        width: 183
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec86487d0d3c041afabb3337b936b3cd
-      internalID: -83574058
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_158
-      rect:
-        serializedVersion: 2
-        x: 558
-        y: 208
-        width: 133
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5162bc0882f9416a9f1f30b2feb5bec
-      internalID: -2104665638
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_159
-      rect:
-        serializedVersion: 2
-        x: 3159
-        y: 204
-        width: 304
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a6d73679cca84bfc9a5d661a82d2433
-      internalID: -1472818127
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_160
-      rect:
-        serializedVersion: 2
-        x: 3769
-        y: 234
-        width: 493
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f20e631e0850842c1a69944aea722593
-      internalID: -683263680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_161
-      rect:
-        serializedVersion: 2
-        x: 4263
-        y: 234
-        width: 128
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c81777576371548c38ac201a7b36c128
-      internalID: 179588634
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_162
-      rect:
-        serializedVersion: 2
-        x: 693
-        y: 202
-        width: 2319
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e536ffd00012648388a4ca4d396722dc
-      internalID: 1901596509
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_163
+      name: Stage_1_Boss_2
       rect:
         serializedVersion: 2
         x: 3013
-        y: 202
-        width: 144
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17a31f3666a9c41408c136ea484ffc1c
-      internalID: 832451095
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_164
-      rect:
-        serializedVersion: 2
-        x: 3464
-        y: 202
-        width: 304
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94265c4ee478b4bf8a592902752f042a
-      internalID: -695470852
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_165
-      rect:
-        serializedVersion: 2
-        x: 3769
-        y: 217
-        width: 493
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a71219321dadf4fdd9684e012d99f6a5
-      internalID: -1445473024
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_166
-      rect:
-        serializedVersion: 2
-        x: 4263
-        y: 217
-        width: 128
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3edf6e014a2d94333b7171c3a597b015
-      internalID: 1097664190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_167
-      rect:
-        serializedVersion: 2
-        x: 374
-        y: 178
-        width: 183
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af884aed6129b473f809634d8a7fd1fb
-      internalID: 1681857847
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_168
-      rect:
-        serializedVersion: 2
-        x: 558
-        y: 178
-        width: 133
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 57a9baf235a6f4083b28cdad5393ecdb
-      internalID: -784336448
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_169
-      rect:
-        serializedVersion: 2
-        x: 693
-        y: 169
-        width: 2319
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39c1d5dd2d4d24365b6c47bcc4eeb3df
-      internalID: 1235083400
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_170
-      rect:
-        serializedVersion: 2
-        x: 3013
-        y: 169
-        width: 144
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba73c1a2acfdb403f96e6dcb4d11fe7d
-      internalID: 227556210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_171
-      rect:
-        serializedVersion: 2
-        x: 3159
-        y: 172
-        width: 304
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2618ba434bed64655b4195699b9cb8f4
-      internalID: -1054489506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_172
-      rect:
-        serializedVersion: 2
-        x: 3464
-        y: 169
-        width: 304
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ef6a3bfed9164649bdd83ec69210936
-      internalID: 1824927365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_173
-      rect:
-        serializedVersion: 2
-        x: 3769
         y: 200
-        width: 493
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cefcbb32d045f42358e649e1f298fb1b
-      internalID: 71588087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_174
-      rect:
-        serializedVersion: 2
-        x: 4263
-        y: 200
-        width: 128
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 067e7a00157c64aeebf110fd9086a586
-      internalID: 373860206
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_175
-      rect:
-        serializedVersion: 2
-        x: 3671
-        y: 460
-        width: 69
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79cbf6f354539415e819bee8008ca869
-      internalID: 1652288824
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_176
-      rect:
-        serializedVersion: 2
-        x: 3769
-        y: 183
-        width: 493
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb5b4e95e3cb0420a86d4037fa6c297d
-      internalID: -95074968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_177
-      rect:
-        serializedVersion: 2
-        x: 4263
-        y: 183
-        width: 128
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1dc8fdcc4e6c2456d9c1446e78434021
-      internalID: 676867551
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_178
-      rect:
-        serializedVersion: 2
-        x: 374
-        y: 148
-        width: 183
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8194a201377214ed5b790a511472344b
-      internalID: 1575793395
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_179
-      rect:
-        serializedVersion: 2
-        x: 558
-        y: 148
-        width: 133
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b7866c17836be46ecbb60ff6d351db86
-      internalID: 1314462982
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_180
-      rect:
-        serializedVersion: 2
-        x: 693
-        y: 136
-        width: 2319
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 702bc5faa17004c499e2aebdd49389c3
-      internalID: 1126587785
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_181
-      rect:
-        serializedVersion: 2
-        x: 3013
-        y: 136
         width: 144
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a70886e8b19ef45f189c8dec1486b13c
-      internalID: 1187842373
+      spriteID: d362f594fa1f344eeb75dab545c251ce
+      internalID: 1899451220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_182
-      rect:
-        serializedVersion: 2
-        x: 3159
-        y: 140
-        width: 304
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e44199a004f464c559f590217b887f04
-      internalID: -1952114792
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_183
-      rect:
-        serializedVersion: 2
-        x: 3464
-        y: 136
-        width: 304
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e45340c838ed447ab253493ee03e7c2
-      internalID: 601315642
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_184
-      rect:
-        serializedVersion: 2
-        x: 3769
-        y: 166
-        width: 493
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b634429b5c4d44d696989c8b6eb6153
-      internalID: -742555607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_185
-      rect:
-        serializedVersion: 2
-        x: 4263
-        y: 166
-        width: 128
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 44dec6061408c4e259116a526ec066fe
-      internalID: -1125045326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_186
-      rect:
-        serializedVersion: 2
-        x: 3769
-        y: 149
-        width: 493
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b3092c33d9c54f77b9f9a751f0c4c3a
-      internalID: -1184692686
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_187
-      rect:
-        serializedVersion: 2
-        x: 4263
-        y: 149
-        width: 128
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6136f61b0beba49578479b41d57a0a09
-      internalID: 12287680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_188
-      rect:
-        serializedVersion: 2
-        x: 374
-        y: 118
-        width: 183
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8443fbb84e0de4c4c961050c11d5617f
-      internalID: -523241391
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_189
-      rect:
-        serializedVersion: 2
-        x: 558
-        y: 118
-        width: 133
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 49117ba04e82a4b21a93169aa3f10dbe
-      internalID: -1994491657
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_190
-      rect:
-        serializedVersion: 2
-        x: 693
-        y: 103
-        width: 2319
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cdcd864d89f3e480f8f98320f91e25ee
-      internalID: -1834343760
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_191
+      name: Stage_1_Boss_3
       rect:
         serializedVersion: 2
         x: 3013
-        y: 103
+        y: 167
         width: 144
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9486cbdb6641e4cc08b5a3ce15d57b87
-      internalID: 2101404186
+      spriteID: 6f820f7cd242f445da9823cf3e372b80
+      internalID: 1177817009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_192
-      rect:
-        serializedVersion: 2
-        x: 3159
-        y: 108
-        width: 304
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 299964d41e28e4308ba3d67d2e154be8
-      internalID: -2119123287
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_193
-      rect:
-        serializedVersion: 2
-        x: 3464
-        y: 103
-        width: 304
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7d1035088cef437791ac0a02eb826d6
-      internalID: -343677969
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_194
-      rect:
-        serializedVersion: 2
-        x: 3769
-        y: 132
-        width: 493
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ee88bea3f378467b9bc5371c0bd1818
-      internalID: -62905189
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_195
-      rect:
-        serializedVersion: 2
-        x: 4263
-        y: 132
-        width: 128
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4f86596b27dd4133b3881fa6b9f63ab
-      internalID: 1551678744
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_196
-      rect:
-        serializedVersion: 2
-        x: 374
-        y: 88
-        width: 183
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9cc0670bb93a84ff8a47a956df900646
-      internalID: -1649100517
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_197
-      rect:
-        serializedVersion: 2
-        x: 558
-        y: 88
-        width: 133
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c7a9c4149ce7741df8bc512b8ba33436
-      internalID: 399963854
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_211
-      rect:
-        serializedVersion: 2
-        x: 3159
-        y: 76
-        width: 304
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e62ec816ec8954800ae14a8d04f3300d
-      internalID: -1390022728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_213
-      rect:
-        serializedVersion: 2
-        x: 374
-        y: 58
-        width: 183
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c1582137170d74aa5bbd1f6b70c3af0f
-      internalID: 1806614747
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_214
-      rect:
-        serializedVersion: 2
-        x: 558
-        y: 58
-        width: 133
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72b7171e5ac064a1a8ed7d07321cc994
-      internalID: 1736479871
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_215
-      rect:
-        serializedVersion: 2
-        x: 693
-        y: 70
-        width: 2319
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8de40c43e693445a0b4f693112cddc8c
-      internalID: -1909087113
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_216
+      name: Stage_1_Boss_4
       rect:
         serializedVersion: 2
         x: 3013
-        y: 70
+        y: 134
         width: 144
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 896fea14076de44ebb4414d6c5850a9e
-      internalID: 1066988715
+      spriteID: aa3076c0e27e944148a5fd39ea48e7c4
+      internalID: 1730521878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_217
-      rect:
-        serializedVersion: 2
-        x: 3159
-        y: 44
-        width: 304
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d4e09d03e666e4f728c5aa686c518966
-      internalID: -1917624637
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_218
-      rect:
-        serializedVersion: 2
-        x: 3464
-        y: 70
-        width: 304
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b19cc45cad9e1404eba3a4dc9905e338
-      internalID: 669867114
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_230
-      rect:
-        serializedVersion: 2
-        x: 374
-        y: 28
-        width: 183
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 685d2130d09294e1093f825aed992216
-      internalID: 1605998293
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_231
-      rect:
-        serializedVersion: 2
-        x: 558
-        y: 28
-        width: 133
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6cf764045919c4124ae0af6ae02bd9c7
-      internalID: -563248079
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_232
-      rect:
-        serializedVersion: 2
-        x: 693
-        y: 37
-        width: 2319
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33732297c5da945f9b244dabfc178bd7
-      internalID: 980199345
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_233
+      name: Stage_1_Boss_5
       rect:
         serializedVersion: 2
         x: 3013
-        y: 37
+        y: 101
         width: 144
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6451e5be3ab714f46870b9d79b31d780
-      internalID: -1286443718
+      spriteID: fd6dd787cfb534cfaae2dbfa4b3e53ff
+      internalID: -1217810303
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_234
-      rect:
-        serializedVersion: 2
-        x: 3159
-        y: 12
-        width: 304
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7e0cb8765c949438d920d96aba8d1524
-      internalID: -2004726764
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_235
-      rect:
-        serializedVersion: 2
-        x: 3464
-        y: 37
-        width: 304
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ebdfcbbf374443f7b6555ffaf9223b9
-      internalID: -2002935587
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_246
-      rect:
-        serializedVersion: 2
-        x: 693
-        y: 4
-        width: 2319
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 36d2fbda6b17d430ab0bd335c947bc43
-      internalID: -2001318777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_247
+      name: Stage_1_Boss_6
       rect:
         serializedVersion: 2
         x: 3013
-        y: 4
+        y: 68
         width: 144
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf62d5813a704493cbf85f445cb2ae24
-      internalID: -1775158954
+      spriteID: 13845a87b2d4b457f95ac947ee3c55aa
+      internalID: -2063504605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Mission 1_248
+      name: Stage_1_Boss_7
       rect:
         serializedVersion: 2
-        x: 3464
-        y: 4
-        width: 304
+        x: 3013
+        y: 35
+        width: 144
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66732eae74dbe475cb47611fd75ae372
-      internalID: -1357469272
+      spriteID: 1d671ed1b35b0410cb20b0a24de8bb87
+      internalID: -769256194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_1_Boss_8
+      rect:
+        serializedVersion: 2
+        x: 3013
+        y: 2
+        width: 144
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee81bb3ced8b8491d8eba2cfd41c8a80
+      internalID: -564917844
       vertices: []
       indices: 
       edges: []
@@ -4052,267 +776,38 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_0: -1848843646
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_1: 1897891005
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_10: 1600902191
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_100: -2036178971
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_101: -1448388560
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_102: -572196125
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_103: -414995329
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_104: 1632789654
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_105: 97143674
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_106: -82331110
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_107: 1126467095
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_108: 89220502
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_109: 80457463
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_11: -420927638
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_110: -1783515660
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_111: -210842524
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_112: 1528832631
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_113: -1251752340
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_114: -1041754201
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_115: -1273758843
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_116: 1734869995
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_117: 379631440
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_118: 770526506
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_119: -329875858
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_12: -883094815
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_120: 1894544349
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_121: -845413641
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_122: -1141756607
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_123: 1253600176
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_124: -2122034051
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_125: 520929787
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_126: -138539860
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_127: 231443774
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_128: -12092506
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_129: 1918388025
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_13: 1611488677
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_130: -1240099179
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_131: -1201895230
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_132: -986924138
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_133: 1431261992
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_134: 1876559882
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_135: -89063866
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_136: -145442250
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_137: 1000631812
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_138: 665858622
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_139: -781873734
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_14: -1363935521
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_140: 505069398
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_141: 421276466
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_142: 735969264
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_143: 1738356276
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_144: 1743824694
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_145: -1352538003
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_146: 1638218316
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_147: -1835289614
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_148: -888280373
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_149: 474595217
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_15: 65324594
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_150: -469700013
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_151: -1751806107
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_152: 717467187
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_153: 1422482668
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_154: 366012938
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_155: 156708862
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_156: -1455201251
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_157: -83574058
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_158: -2104665638
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_159: -1472818127
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_16: 2078096239
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_160: -683263680
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_161: 179588634
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_162: 1901596509
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_163: 832451095
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_164: -695470852
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_165: -1445473024
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_166: 1097664190
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_167: 1681857847
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_168: -784336448
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_169: 1235083400
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_17: 2137581112
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_170: 227556210
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_171: -1054489506
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_172: 1824927365
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_173: 71588087
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_174: 373860206
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_175: 1652288824
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_176: -95074968
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_177: 676867551
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_178: 1575793395
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_179: 1314462982
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_18: -1777459018
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_180: 1126587785
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_181: 1187842373
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_182: -1952114792
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_183: 601315642
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_184: -742555607
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_185: -1125045326
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_186: -1184692686
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_187: 12287680
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_188: -523241391
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_189: -1994491657
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_19: 927870091
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_190: -1834343760
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_191: 2101404186
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_192: -2119123287
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_193: -343677969
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_194: -62905189
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_195: 1551678744
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_196: -1649100517
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_197: 399963854
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_198: -2049444014
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_199: -518888343
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_2: -1355845531
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_20: -1774241335
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_200: -1583475335
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_201: -939734981
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_202: -1515699842
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_203: -657834192
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_204: 321045769
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_205: 1019831058
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_206: 85010643
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_207: 1103931610
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_208: -2030486880
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_209: 329374301
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_21: 397747512
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_210: 967636199
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_211: -1390022728
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_212: 1933857184
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_213: 1806614747
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_214: 1736479871
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_215: -1909087113
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_216: 1066988715
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_217: -1917624637
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_218: 669867114
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_219: 838637199
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_22: -1632517665
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_220: 910988619
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_221: 1930487367
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_222: 704643440
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_223: -428892083
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_224: 1106360494
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_225: 1162767816
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_226: 1810129868
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_227: 1149665438
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_228: 250886393
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_229: -1089403699
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_23: 274640299
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_230: 1605998293
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_231: -563248079
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_232: 980199345
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_233: -1286443718
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_234: -2004726764
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_235: -2002935587
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_236: -1874691086
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_237: 548992560
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_238: -1581033304
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_239: 1788305707
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_24: -634883990
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_240: 2106087026
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_241: 1121773772
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_242: 961616546
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_243: -1524988857
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_244: 345920769
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_245: 1611375588
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_246: -2001318777
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_247: -1775158954
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_248: -1357469272
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_249: -1460684924
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_25: -104488644
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_250: 400344832
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_251: -1086980633
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_252: 324718474
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_253: -1871269671
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_254: 1057583342
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_255: 1501305671
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_256: -1700863910
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_257: -456513068
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_258: -1889664818
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_259: -298388610
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_26: -645220057
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_260: 647449761
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_27: -848336062
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_28: 427063533
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_29: 864696785
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_3: -2034269738
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_30: 1421480447
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_31: -309781203
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_32: -270319302
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_33: 455486603
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_34: 135471671
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_35: -2024662519
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_36: 1569571898
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_37: -1477621837
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_38: -1232940862
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_39: 1584337647
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_4: -660655783
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_40: -1791158341
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_41: 2013572871
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_42: -1715054375
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_43: -333517024
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_44: -220594722
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_45: -1687522457
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_46: -1864918387
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_47: 694628757
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_48: 1770441400
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_49: 1073572219
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_5: 1288237142
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_50: -1160001488
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_51: 412276654
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_52: 523958307
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_53: 1430995047
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_54: -179650427
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_55: 1121468661
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_56: -1485599707
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_57: 2067833867
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_58: 256634572
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_59: -506093817
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_6: 1199314673
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_60: 490660564
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_61: -948014883
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_62: -230652670
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_63: 1576960309
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_64: -1065156756
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_65: 901320208
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_66: 727458484
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_67: -1786840430
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_68: 1168416567
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_69: 2056641651
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_7: 1865619852
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_70: -1925114253
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_71: 641060291
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_72: -67446617
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_73: 863859656
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_74: 1115714543
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_75: -1692199182
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_76: -16066294
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_77: -2077407650
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_78: -1173840918
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_79: 534286857
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_8: 509707659
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_80: 1339932360
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_81: -2056328163
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_82: 1780492004
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_83: 376194081
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_84: -583974968
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_85: 1556931771
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_86: -1019259134
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_87: 111889560
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_88: -58777354
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_89: -291054555
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_9: -375018729
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_90: -2070562745
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_91: -637662185
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_92: 962020684
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_93: -1877835640
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_94: -1465627083
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_95: -855822221
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_96: -420446223
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_97: -614779868
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_98: 1967899483
-      Neo Geo NGCD - Metal Slug 3 - Mission 1_99: -925966880
+      Stage_1_1: 1000710787
+      Stage_1_1_1_1: -891912201
+      Stage_1_1_1_2: 1924020075
+      Stage_1_1_2_0: 661075839
+      Stage_1_1_2_1: -1918890800
+      Stage_1_1_2_3: 772205704
+      Stage_1_1_3_1: 1027656085
+      Stage_1_1_4_0: 468322059
+      Stage_1_1_4_1: -1611138981
+      Stage_1_1_4_2: 321502531
+      Stage_1_2: -1813341484
+      Stage_1_2.1: -1953828914
+      Stage_1_BG_0_1: -1284619028
+      Stage_1_BG_0_2: -297306597
+      Stage_1_BG_0_3: -228540162
+      Stage_1_BG_0_4: 1814046680
+      Stage_1_BG_0_5: -1059774307
+      Stage_1_BG_0_6: 1971075696
+      Stage_1_BG_0_7: -1735701958
+      Stage_1_BG_0_8: 1389026578
+      Stage_1_BG_1_1: 1958264275
+      Stage_1_BackGround_1: -629003528
+      Stage_1_BackGround_2: 1864786337
+      Stage_1_Boss: -1910169252
+      Stage_1_Boss_1: -801123174
+      Stage_1_Boss_2: 1899451220
+      Stage_1_Boss_3: 1177817009
+      Stage_1_Boss_4: 1730521878
+      Stage_1_Boss_5: -1217810303
+      Stage_1_Boss_6: -2063504605
+      Stage_1_Boss_7: -769256194
+      Stage_1_Boss_8: -564917844
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

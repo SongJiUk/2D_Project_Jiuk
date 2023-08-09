@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerSelect : MonoBehaviour
 {
@@ -64,7 +65,11 @@ public class PlayerSelect : MonoBehaviour
     void PlayAnim()
     {
         anim[picknum].SetTrigger("StartAnim");
-
+        Invoke("NextScene", 3f);
     }
 
+    void NextScene()
+    {
+        SceneManager.LoadScene("Stage_1");
+    }
 }

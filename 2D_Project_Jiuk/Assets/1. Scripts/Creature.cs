@@ -7,21 +7,34 @@ public class Creature : MonoBehaviour
 
 
 
-    public void Hit()
+    protected void Hit()
     {
 
     }
 
-    public void Die()
+    protected void Die()
     {
 
     }
 
-
-    public void Attack()
+    protected void Attack()
     {
 
     }
 
+    protected void Jump()
+    {
+
+    }
+
+    protected void Sit()
+    {
+
+    }
+
+    protected void Move()
+    {
+
+    }
 
 }

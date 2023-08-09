@@ -1088,8 +1088,8 @@ TextureImporter:
         y: 8571
         width: 29
         height: 26
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5766216, y: 0.028508114}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1130,8 +1130,8 @@ TextureImporter:
         y: 8571
         width: 31
         height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5507756, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1214,8 +1214,8 @@ TextureImporter:
         y: 8564
         width: 28
         height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.61209434, y: 0.29214016}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1235,8 +1235,8 @@ TextureImporter:
         y: 8563
         width: 32
         height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5700598, y: 0.30333754}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1256,8 +1256,8 @@ TextureImporter:
         y: 8564
         width: 33
         height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.56114334, y: 0.2989169}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1277,8 +1277,8 @@ TextureImporter:
         y: 8562
         width: 32
         height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.57706547, y: 0.3113878}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1298,8 +1298,8 @@ TextureImporter:
         y: 8565
         width: 28
         height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.65212905, y: 0.21741833}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1319,8 +1319,8 @@ TextureImporter:
         y: 8568
         width: 26
         height: 30
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.68969846, y: 0.14947917}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1466,8 +1466,8 @@ TextureImporter:
         y: 8494
         width: 36
         height: 22
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.35798368, y: 0.02903054}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1487,8 +1487,8 @@ TextureImporter:
         y: 8494
         width: 34
         height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.33083332, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1508,8 +1508,8 @@ TextureImporter:
         y: 8494
         width: 32
         height: 22
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.39015865, y: 0.01451527}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1529,8 +1529,8 @@ TextureImporter:
         y: 8494
         width: 27
         height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.44082698, y: -0.011439732}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1550,8 +1550,8 @@ TextureImporter:
         y: 8498
         width: 29
         height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.42497516, y: 0.015136719}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1571,8 +1571,8 @@ TextureImporter:
         y: 8498
         width: 29
         height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.3999655, y: 0.000040690105}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1592,8 +1592,8 @@ TextureImporter:
         y: 8498
         width: 30
         height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.415388, y: 0.000040690105}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1613,8 +1613,8 @@ TextureImporter:
         y: 8498
         width: 30
         height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.415388, y: 0.00008138021}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1634,8 +1634,8 @@ TextureImporter:
         y: 8261
         width: 24
         height: 59
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.63897043, y: 0.007067664}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1655,8 +1655,8 @@ TextureImporter:
         y: 8261
         width: 24
         height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.6910839, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1676,8 +1676,8 @@ TextureImporter:
         y: 8261
         width: 24
         height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.6655226, y: -0.006146599}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1802,8 +1802,8 @@ TextureImporter:
         y: 8451
         width: 24
         height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.4201167, y: 0.2695923}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1823,8 +1823,8 @@ TextureImporter:
         y: 8447
         width: 19
         height: 40
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.41591182, y: 0.34350586}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1844,8 +1844,8 @@ TextureImporter:
         y: 8446
         width: 18
         height: 43
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.4644962, y: 0.3046648}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1862,11 +1862,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4
-        y: 8212
+        y: 8194
         width: 20
-        height: 41
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 59
+      alignment: 9
+      pivot: {x: 0.48569244, y: 0.5286183}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1883,11 +1883,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 28
-        y: 8212
+        y: 8193
         width: 18
-        height: 42
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        height: 61
+      alignment: 9
+      pivot: {x: 0.49999788, y: 0.52300525}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1900,15 +1900,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Sheet_Move_1
+      name: Eri_Sit_Move_1
       rect:
         serializedVersion: 2
         x: 6
         y: 8364
         width: 34
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.39217517, y: 0.027126737}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1921,15 +1921,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Sheet_Move_2
+      name: Eri_Sit_Move_2
       rect:
         serializedVersion: 2
         x: 45
         y: 8364
         width: 32
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.3701613, y: 0.009042245}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1942,15 +1942,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Sheet_Move_3
+      name: Eri_Sit_Move_3
       rect:
         serializedVersion: 2
-        x: 83
+        x: 82
         y: 8364
         width: 32
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.37016153, y: -0.009078414}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1963,15 +1963,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Sheet_Move_4
+      name: Eri_Sit_Move_4
       rect:
         serializedVersion: 2
         x: 121
         y: 8364
         width: 31
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.37385657, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1984,15 +1984,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Sheet_Move_5
+      name: Eri_Sit_Move_5
       rect:
         serializedVersion: 2
         x: 157
         y: 8364
         width: 35
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.38827297, y: 0.03620515}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2005,15 +2005,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Sheet_Move_6
+      name: Eri_Sit_Move_6
       rect:
         serializedVersion: 2
         x: 198
         y: 8364
         width: 34
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.37779865, y: 0.009042245}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2026,15 +2026,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Sheet_Move_7
+      name: Eri_Sit_Move_7
       rect:
         serializedVersion: 2
         x: 237
         y: 8364
         width: 33
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.36668906, y: 0.01808449}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2047,15 +2047,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Sheet_Idle_1
+      name: Eri_Sit_Idle_2
       rect:
         serializedVersion: 2
         x: 289
         y: 8398
         width: 35
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.38724104, y: 0.010452836}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2068,15 +2068,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Sheet_Idle_2
+      name: Eri_Sit_Idle_3
       rect:
         serializedVersion: 2
         x: 329
         y: 8398
         width: 35
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.38724104, y: 0.020869503}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2089,15 +2089,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Sheet_Idle_3
+      name: Eri_Sit_Idle_4
       rect:
         serializedVersion: 2
         x: 369
         y: 8398
         width: 35
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.35502407, y: 0.020869503}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2110,15 +2110,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Sheet_Idle_4
+      name: Eri_Sit_Idle_5
       rect:
         serializedVersion: 2
         x: 409
         y: 8398
         width: 35
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.371133, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2362,7 +2362,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Sheet_Melee_Attack_1_1
+      name: Eri_Sit_Melee_Attack_1_1
       rect:
         serializedVersion: 2
         x: 0
@@ -2383,7 +2383,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Sheet_Melee_Attack_1_2
+      name: Eri_Sit_Melee_Attack_1_2
       rect:
         serializedVersion: 2
         x: 47
@@ -2404,7 +2404,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Sheet_Melee_Attack_1_3
+      name: Eri_Sit_Melee_Attack_1_3
       rect:
         serializedVersion: 2
         x: 97
@@ -2425,7 +2425,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Sheet_Melee_Attack_1_4
+      name: Eri_Sit_Melee_Attack_1_4
       rect:
         serializedVersion: 2
         x: 145
@@ -2446,7 +2446,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Sheet_Melee_Attack_2_1
+      name: Eri_Sit_Melee_Attack_2_1
       rect:
         serializedVersion: 2
         x: 196
@@ -2467,7 +2467,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Sheet_Melee_Attack_2_2
+      name: Eri_Sit_Melee_Attack_2_2
       rect:
         serializedVersion: 2
         x: 225
@@ -2488,7 +2488,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Sheet_Melee_Attack_2_3
+      name: Eri_Sit_Melee_Attack_2_3
       rect:
         serializedVersion: 2
         x: 256
@@ -2509,7 +2509,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Sheet_Melee_Attack_2_4
+      name: Eri_Sit_Melee_Attack_2_4
       rect:
         serializedVersion: 2
         x: 293
@@ -2530,7 +2530,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Sheet_Melee_Attack_2_5
+      name: Eri_Sit_Melee_Attack_2_5
       rect:
         serializedVersion: 2
         x: 345
@@ -2551,7 +2551,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Sheet_Melee_Attack_2_6
+      name: Eri_Sit_Melee_Attack_2_6
       rect:
         serializedVersion: 2
         x: 395
@@ -2572,7 +2572,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Sheet_Melee_Attack_2_7
+      name: Eri_Sit_Melee_Attack_2_7
       rect:
         serializedVersion: 2
         x: 446
@@ -2593,7 +2593,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Sheet_Melee_Attack_2_8
+      name: Eri_Sit_Melee_Attack_2_8
       rect:
         serializedVersion: 2
         x: 491
@@ -2614,7 +2614,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Sheet_Melee_Attack_2_9
+      name: Eri_Sit_Melee_Attack_2_9
       rect:
         serializedVersion: 2
         x: 521
@@ -2887,7 +2887,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Boom_Sheet_1
+      name: Eri_Sit_Boom_1
       rect:
         serializedVersion: 2
         x: 125
@@ -2908,7 +2908,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Boom_Sheet_2
+      name: Eri_Sit_Boom_2
       rect:
         serializedVersion: 2
         x: 166
@@ -2929,7 +2929,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Boom_Sheet_3
+      name: Eri_Sit_Boom_3
       rect:
         serializedVersion: 2
         x: 206
@@ -2950,7 +2950,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Boom_Sheet_4
+      name: Eri_Sit_Boom_4
       rect:
         serializedVersion: 2
         x: 243
@@ -2971,7 +2971,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_Boom_Sheet_5
+      name: Eri_Sit_Boom_5
       rect:
         serializedVersion: 2
         x: 280
@@ -4315,7 +4315,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_Fire_1
+      name: Eri_HW_Sit_Fire_1
       rect:
         serializedVersion: 2
         x: 5
@@ -4336,7 +4336,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_Fire_2
+      name: Eri_HW_Sit_Fire_2
       rect:
         serializedVersion: 2
         x: 91
@@ -4357,7 +4357,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_Fire_3
+      name: Eri_HW_Sit_Fire_3
       rect:
         serializedVersion: 2
         x: 168
@@ -4378,7 +4378,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_Fire_4
+      name: Eri_HW_Sit_Fire_4
       rect:
         serializedVersion: 2
         x: 242
@@ -4399,15 +4399,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_3
+      name: Eri_HW_Sit_3
       rect:
         serializedVersion: 2
         x: 156
         y: 6821
         width: 46
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.29559228, y: 0.026783131}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4420,15 +4420,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_2
+      name: Eri_HW_Sit_2
       rect:
         serializedVersion: 2
         x: 102
         y: 6821
         width: 42
         height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.27181897, y: 0.02708083}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4441,15 +4441,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_1
+      name: Eri_HW_Sit_1
       rect:
         serializedVersion: 2
         x: 55
         y: 6821
         width: 39
         height: 40
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.30063218, y: 0.018078614}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4462,15 +4462,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_4
+      name: Eri_HW_Sit_4
       rect:
         serializedVersion: 2
         x: 207
         y: 6821
         width: 46
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.2955926, y: 0.033492476}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4483,15 +4483,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_5
+      name: Eri_HW_Sit_5
       rect:
         serializedVersion: 2
         x: 258
         y: 6821
         width: 46
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.2680757, y: 0.026783131}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4504,15 +4504,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_6
+      name: Eri_HW_Sit_6
       rect:
         serializedVersion: 2
         x: 308
         y: 6821
         width: 46
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.29166114, y: -0.0066912617}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4525,15 +4525,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_Move_1
+      name: Eri_HW_Sit_Move_1
       rect:
         serializedVersion: 2
         x: 4
         y: 6787
         width: 44
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.29763868, y: 0.029984085}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4546,15 +4546,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_Move_2
+      name: Eri_HW_Sit_Move_2
       rect:
         serializedVersion: 2
         x: 54
         y: 6787
         width: 43
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.28822574, y: 0.029984085}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4567,15 +4567,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_Move_3
+      name: Eri_HW_Sit_Move_3
       rect:
         serializedVersion: 2
         x: 102
-        y: 6787
+        y: 6786
         width: 43
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.27478418, y: 0.037362557}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4588,15 +4588,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_Move_4
+      name: Eri_HW_Sit_Move_4
       rect:
         serializedVersion: 2
         x: 151
         y: 6787
         width: 43
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.25601622, y: 0.022406684}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4609,15 +4609,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_Move_5
+      name: Eri_HW_Sit_Move_5
       rect:
         serializedVersion: 2
         x: 199
         y: 6787
         width: 45
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.26294658, y: 0.0065827547}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4630,15 +4630,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_Move_6
+      name: Eri_HW_Sit_Move_6
       rect:
         serializedVersion: 2
         x: 249
         y: 6787
         width: 45
         height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.25899523, y: 0.0065827547}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4777,7 +4777,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_Boom_1
+      name: Eri_HW_Sit_Boom_1
       rect:
         serializedVersion: 2
         x: 8
@@ -4798,7 +4798,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_Boom_2
+      name: Eri_HW_Sit_Boom_2
       rect:
         serializedVersion: 2
         x: 53
@@ -4819,7 +4819,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_Boom_3
+      name: Eri_HW_Sit_Boom_3
       rect:
         serializedVersion: 2
         x: 94
@@ -4840,7 +4840,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_Boom_4
+      name: Eri_HW_Sit_Boom_4
       rect:
         serializedVersion: 2
         x: 136
@@ -4861,7 +4861,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_Boom_5
+      name: Eri_HW_Sit_Boom_5
       rect:
         serializedVersion: 2
         x: 192
@@ -4882,7 +4882,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_Boom_6
+      name: Eri_HW_Sit_Boom_6
       rect:
         serializedVersion: 2
         x: 236
@@ -5134,7 +5134,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_MeleeAttack_1
+      name: Eri_HW_Sit_MeleeAttack_1
       rect:
         serializedVersion: 2
         x: 8
@@ -5155,7 +5155,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_MeleeAttack_2
+      name: Eri_HW_Sit_MeleeAttack_2
       rect:
         serializedVersion: 2
         x: 48
@@ -5176,7 +5176,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_MeleeAttack_3
+      name: Eri_HW_Sit_MeleeAttack_3
       rect:
         serializedVersion: 2
         x: 88
@@ -5197,7 +5197,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_MeleeAttack_4
+      name: Eri_HW_Sit_MeleeAttack_4
       rect:
         serializedVersion: 2
         x: 132
@@ -5218,7 +5218,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_MeleeAttack_5
+      name: Eri_HW_Sit_MeleeAttack_5
       rect:
         serializedVersion: 2
         x: 192
@@ -5239,7 +5239,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eri_HW_Sheet_MeleeAttack_6
+      name: Eri_HW_Sit_MeleeAttack_6
       rect:
         serializedVersion: 2
         x: 246
@@ -5259,6 +5259,489 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Eri_Sit_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 8398
+        width: 29
+        height: 40
+      alignment: 9
+      pivot: {x: 0.3825931, y: 0.0077636717}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03778c2eaaccc4a51b06f55027abb33a
+      internalID: -729596491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sit_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 8398
+        width: 35
+        height: 38
+      alignment: 9
+      pivot: {x: 0.3054413, y: 0.009123149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a6d16207a314a35a51b69909e20d56
+      internalID: -1783673102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sit_Fire_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 8152
+        width: 51
+        height: 28
+      alignment: 9
+      pivot: {x: 0.2071658, y: 0.023001535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06084adcfaafc440baaa2054642a2e03
+      internalID: -272461234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sit_Fire_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 8152
+        width: 53
+        height: 29
+      alignment: 9
+      pivot: {x: 0.2267777, y: 0.01308257}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403bcb22dd7234ff8b1d5049b886e5ee
+      internalID: -1018652414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Sit_Fire_3
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 8152
+        width: 34
+        height: 28
+      alignment: 9
+      pivot: {x: 0.37499103, y: 0.022286551}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832c364aa9a09465c90a7089dee6f44e
+      internalID: -722819613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Turn_1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 7762
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7bbcfc7b36744d7b958406022a0ccb
+      internalID: -894601152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Turn_2
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 7758
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b965c440b88b42fd961da7e5522b932
+      internalID: -288741637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Turn_3
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 7755
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec30b5fce943e490887a1129078dc93e
+      internalID: -705791696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Turn_4
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 7759
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8206dd61cb624eb996e9591f7ad01b4
+      internalID: 666481173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Turn_5
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 7760
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3a0b746c7974d18a2d792c5451bbda
+      internalID: 1644658521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Turn_6
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 7759
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7593bb9dd0d60443d9cb782d830f8085
+      internalID: 1662219567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Boarding_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 7799
+        width: 32
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5330012, y: 0.115198866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87556c787121e4eeb95ef99c8b5dc909
+      internalID: -747444672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Boarding_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 7799
+        width: 29
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5121385, y: 0.09662224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e52f13977cea417e9b0fedc46141a04
+      internalID: -728145614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Boarding_3
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 7799
+        width: 31
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5454217, y: 0.10399281}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3400d319a045749708d28a6f31a4f4ec
+      internalID: 459306726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Boarding_4
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 7799
+        width: 30
+        height: 41
+      alignment: 9
+      pivot: {x: 0.48826572, y: 0.11160204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e47e4d2d6614bd48c94c0bcbcd5376
+      internalID: -2092998731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Boarding_5
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 7799
+        width: 29
+        height: 28
+      alignment: 9
+      pivot: {x: 0.49999946, y: 0.110246934}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07455ee1c1d3a49bea5c67dba59c4257
+      internalID: -2001458256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Boarding_6
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 7799
+        width: 27
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844b0aff0f2064c7fb5d6d11b367a0b0
+      internalID: 523260576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_HW_Boarding_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 5736
+        width: 33
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5188655, y: 0.14705113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0fb93852ff148d6b8966d19a880478
+      internalID: 279965161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_HW_Boarding_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 5736
+        width: 31
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5000005, y: 0.1078125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0901a6c014644e17a67bfa9e4b7ac48
+      internalID: -1212850181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_HW_Boarding_3
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 5736
+        width: 31
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5110422, y: 0.1305106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadab498e5233457fbaa2fed05c7ed1e
+      internalID: -2055479106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_HW_Boarding_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 5736
+        width: 29
+        height: 31
+      alignment: 9
+      pivot: {x: 0.50614035, y: 0.086536035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12479b1167dd849cdb4b542872111d1c
+      internalID: -1008227555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_HW_Boarding_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 5736
+        width: 28
+        height: 28
+      alignment: 9
+      pivot: {x: 0.51271874, y: 0.086739674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880e34b7b0b8f44a49655f66997cd3d7
+      internalID: -613507730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_HW_Boarding_6
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 5736
+        width: 28
+        height: 24
+      alignment: 9
+      pivot: {x: 0.47814777, y: 0.122680664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2595c3a0e08b34db6889eab599c03035
+      internalID: 1196888755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -5270,17 +5753,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Eri_Boarding_1: -747444672
+      Eri_Boarding_2: -728145614
+      Eri_Boarding_3: 459306726
+      Eri_Boarding_4: -2092998731
+      Eri_Boarding_5: -2001458256
+      Eri_Boarding_6: 523260576
       Eri_Boom_1: 1863588257
       Eri_Boom_2: 399034652
       Eri_Boom_3: 732045773
       Eri_Boom_4: 1226164785
       Eri_Boom_5: 1249130119
       Eri_Boom_6: -787863103
-      Eri_Boom_Sheet_1: 1829483543
-      Eri_Boom_Sheet_2: -1687045667
-      Eri_Boom_Sheet_3: 2044620210
-      Eri_Boom_Sheet_4: -1969410631
-      Eri_Boom_Sheet_5: 1329832763
       Eri_Die_1: 1502711286
       Eri_Die_10: 24823911
       Eri_Die_11: 1062054615
@@ -5308,6 +5792,12 @@ TextureImporter:
       Eri_Fire_3: -1543799594
       Eri_Fire_4: 1250639773
       Eri_Fire_5: 1581337786
+      Eri_HW_Boarding_1: 279965161
+      Eri_HW_Boarding_2: -1212850181
+      Eri_HW_Boarding_3: -2055479106
+      Eri_HW_Boarding_4: -1008227555
+      Eri_HW_Boarding_5: -613507730
+      Eri_HW_Boarding_6: 1196888755
       Eri_HW_Boom_1: -1695736692
       Eri_HW_Boom_2: -792212169
       Eri_HW_Boom_3: 103337483
@@ -5363,34 +5853,34 @@ TextureImporter:
       Eri_HW_MeleeAttack_7: -1476317886
       Eri_HW_MeleeAttack_8: 428098103
       Eri_HW_MeleeAttack_9: 916566859
-      Eri_HW_Sheet_1: 1979193772
-      Eri_HW_Sheet_2: -216984921
-      Eri_HW_Sheet_3: -531074866
-      Eri_HW_Sheet_4: 441261374
-      Eri_HW_Sheet_5: -127597846
-      Eri_HW_Sheet_6: -1467095775
-      Eri_HW_Sheet_Boom_1: 1712990188
-      Eri_HW_Sheet_Boom_2: -2113604700
-      Eri_HW_Sheet_Boom_3: 1635836611
-      Eri_HW_Sheet_Boom_4: 717544017
-      Eri_HW_Sheet_Boom_5: -1416661513
-      Eri_HW_Sheet_Boom_6: -69865324
-      Eri_HW_Sheet_Fire_1: 1615053675
-      Eri_HW_Sheet_Fire_2: 1779454014
-      Eri_HW_Sheet_Fire_3: 300902502
-      Eri_HW_Sheet_Fire_4: 144087497
-      Eri_HW_Sheet_MeleeAttack_1: 1995965860
-      Eri_HW_Sheet_MeleeAttack_2: 1490343422
-      Eri_HW_Sheet_MeleeAttack_3: 1575094646
-      Eri_HW_Sheet_MeleeAttack_4: -556083701
-      Eri_HW_Sheet_MeleeAttack_5: -439270692
-      Eri_HW_Sheet_MeleeAttack_6: -2074338002
-      Eri_HW_Sheet_Move_1: 619586693
-      Eri_HW_Sheet_Move_2: -973471629
-      Eri_HW_Sheet_Move_3: -1806706001
-      Eri_HW_Sheet_Move_4: 912936122
-      Eri_HW_Sheet_Move_5: 907294138
-      Eri_HW_Sheet_Move_6: 14293301
+      Eri_HW_Sit_1: 1979193772
+      Eri_HW_Sit_2: -216984921
+      Eri_HW_Sit_3: -531074866
+      Eri_HW_Sit_4: 441261374
+      Eri_HW_Sit_5: -127597846
+      Eri_HW_Sit_6: -1467095775
+      Eri_HW_Sit_Boom_1: 1712990188
+      Eri_HW_Sit_Boom_2: -2113604700
+      Eri_HW_Sit_Boom_3: 1635836611
+      Eri_HW_Sit_Boom_4: 717544017
+      Eri_HW_Sit_Boom_5: -1416661513
+      Eri_HW_Sit_Boom_6: -69865324
+      Eri_HW_Sit_Fire_1: 1615053675
+      Eri_HW_Sit_Fire_2: 1779454014
+      Eri_HW_Sit_Fire_3: 300902502
+      Eri_HW_Sit_Fire_4: 144087497
+      Eri_HW_Sit_MeleeAttack_1: 1995965860
+      Eri_HW_Sit_MeleeAttack_2: 1490343422
+      Eri_HW_Sit_MeleeAttack_3: 1575094646
+      Eri_HW_Sit_MeleeAttack_4: -556083701
+      Eri_HW_Sit_MeleeAttack_5: -439270692
+      Eri_HW_Sit_MeleeAttack_6: -2074338002
+      Eri_HW_Sit_Move_1: 619586693
+      Eri_HW_Sit_Move_2: -973471629
+      Eri_HW_Sit_Move_3: -1806706001
+      Eri_HW_Sit_Move_4: 912936122
+      Eri_HW_Sit_Move_5: 907294138
+      Eri_HW_Sit_Move_6: 14293301
       Eri_HW_Up_1: 584178636
       Eri_HW_Up_2: 1970504881
       Eri_HW_Up_Fire_1: 2090987399
@@ -5450,75 +5940,91 @@ TextureImporter:
       Eri_MissionClear_4: 780985308
       Eri_MissionClear_5: 669566592
       Eri_MissionClear_6: 1679487829
-      Eri_Sheet_Idle_1: 1920925394
-      Eri_Sheet_Idle_2: -1962645219
-      Eri_Sheet_Idle_3: 2013353070
-      Eri_Sheet_Idle_4: 1481001532
-      Eri_Sheet_Melee_Attack_1_1: -1677517794
-      Eri_Sheet_Melee_Attack_1_2: 1817283629
-      Eri_Sheet_Melee_Attack_1_3: -92550009
-      Eri_Sheet_Melee_Attack_1_4: -2094107411
-      Eri_Sheet_Melee_Attack_2_1: 430347058
-      Eri_Sheet_Melee_Attack_2_2: -1609694059
-      Eri_Sheet_Melee_Attack_2_3: -1364565209
-      Eri_Sheet_Melee_Attack_2_4: -2012202426
-      Eri_Sheet_Melee_Attack_2_5: 1351104626
-      Eri_Sheet_Melee_Attack_2_6: 984465287
-      Eri_Sheet_Melee_Attack_2_7: 1402788262
-      Eri_Sheet_Melee_Attack_2_8: 1911301999
-      Eri_Sheet_Melee_Attack_2_9: -1040840514
-      Eri_Sheet_Move_1: 1986462551
-      Eri_Sheet_Move_2: -106719714
-      Eri_Sheet_Move_3: 462144758
-      Eri_Sheet_Move_4: 489370392
-      Eri_Sheet_Move_5: -946630975
-      Eri_Sheet_Move_6: -1847436039
-      Eri_Sheet_Move_7: -2103900831
-      Eri_Upper_Jump_1: -218979189
-      Eri_Upper_Jump_2: 1864405380
-      Eri_Upper_Jump_3: -371211338
-      Eri_Upper_Jump_4: 76102064
-      Eri_Upper_Jump_5: 2003930314
-      Eri_Upper_Jump_6: 464076158
-      Eri_Upper_Jump_Front_1: 1143234810
-      Eri_Upper_Jump_Front_2: -362590433
-      Eri_Upper_Jump_Front_3: 593802478
-      Eri_Upper_Jump_Front_4: -134326039
-      Eri_Upper_Jump_Front_5: 1892344190
-      Eri_Upper_Jump_Front_6: -1363119624
-      Eri_Upper_LookUP_1: 1470047796
-      Eri_Upper_LookUP_2: -602911199
-      Eri_Upper_LookUP_3: -1825920708
-      Eri_Upper_LookUP_4: -1248734708
-      Eri_Upper_LookUP_5: 955059420
-      Eri_Upper_LookUP_6: 138694482
-      Eri_Upper_LookUP_7: 401618241
-      Eri_Upper_LookUP_8: -1109105603
-      Eri_Upper_LookUP_Fire_1: 964695472
-      Eri_Upper_LookUP_Fire_2: -972281706
-      Eri_Upper_LookUP_Fire_3: -1101088711
-      Eri_Upper_LookUP_Fire_4: 1245894571
-      Eri_Upper_LookUP_Fire_5: 1889023409
-      Eri_Upper_LookUP_Fire_6: 177381434
-      Eri_Upper_LookUP_Fire_7: -1316827846
-      Eri_Upper_LookUP_Fire_8: 527418058
-      Eri_Upper_Walk_1: -1315361813
-      Eri_Upper_Walk_10: 849618290
-      Eri_Upper_Walk_11: 734424932
-      Eri_Upper_Walk_12: 131604911
-      Eri_Upper_Walk_2: 1403720393
-      Eri_Upper_Walk_3: -562352989
-      Eri_Upper_Walk_4: -973309600
-      Eri_Upper_Walk_5: -1231607536
-      Eri_Upper_Walk_6: 851546141
-      Eri_Upper_Walk_7: -1406092928
-      Eri_Upper_Walk_8: 870344233
-      Eri_Upper_Walk_9: -678355453
-      UI_LOWER: -1973448741
-      UI_UPPER_1: -1885638831
-      UI_UPPER_2: -283504193
-      UI_UPPER_3: -2071207290
-      UI_UPPER_4: 42581560
+      Eri_Sit_Boom_1: 1829483543
+      Eri_Sit_Boom_2: -1687045667
+      Eri_Sit_Boom_3: 2044620210
+      Eri_Sit_Boom_4: -1969410631
+      Eri_Sit_Boom_5: 1329832763
+      Eri_Sit_Fire_1: -272461234
+      Eri_Sit_Fire_2: -1018652414
+      Eri_Sit_Fire_3: -722819613
+      Eri_Sit_Idle_0: 1920925394
+      Eri_Sit_Idle_1: -1962645219
+      Eri_Sit_Idle_2: 2013353070
+      Eri_Sit_Idle_3: 1481001532
+      Eri_Sit_Idle_4: -106719714
+      Eri_Sit_Idle_5: 462144758
+      Eri_Sit_Melee_Attack_1_1: 1817283629
+      Eri_Sit_Melee_Attack_1_2: -92550009
+      Eri_Sit_Melee_Attack_1_3: -2094107411
+      Eri_Sit_Melee_Attack_1_4: 430347058
+      Eri_Sit_Melee_Attack_2_1: -1609694059
+      Eri_Sit_Melee_Attack_2_2: -1364565209
+      Eri_Sit_Melee_Attack_2_3: -2012202426
+      Eri_Sit_Melee_Attack_2_4: 1351104626
+      Eri_Sit_Melee_Attack_2_5: 984465287
+      Eri_Sit_Melee_Attack_2_6: 1402788262
+      Eri_Sit_Melee_Attack_2_7: 1402788262
+      Eri_Sit_Melee_Attack_2_8: 1911301999
+      Eri_Sit_Melee_Attack_2_9: -1040840514
+      Eri_Sit_Move_1: 1986462551
+      Eri_Sit_Move_2: 489370392
+      Eri_Sit_Move_3: -946630975
+      Eri_Sit_Move_4: -1847436039
+      Eri_Sit_Move_5: -1847436039
+      Eri_Sit_Move_6: -2103900831
+      Eri_Sit_Move_7: -1677517794
+      Eri_Turn_1: -894601152
+      Eri_Turn_2: -288741637
+      Eri_Turn_3: -705791696
+      Eri_Turn_4: 666481173
+      Eri_Turn_5: 1644658521
+      Eri_Turn_6: 1662219567
+      Eri_Upper_Jump_1: -371211338
+      Eri_Upper_Jump_2: 76102064
+      Eri_Upper_Jump_3: 2003930314
+      Eri_Upper_Jump_4: 464076158
+      Eri_Upper_Jump_5: 1143234810
+      Eri_Upper_Jump_6: -362590433
+      Eri_Upper_Jump_Front_1: 593802478
+      Eri_Upper_Jump_Front_2: -134326039
+      Eri_Upper_Jump_Front_3: 1892344190
+      Eri_Upper_Jump_Front_4: -1363119624
+      Eri_Upper_Jump_Front_5: 1470047796
+      Eri_Upper_Jump_Front_6: -602911199
+      Eri_Upper_LookUP_1: -1825920708
+      Eri_Upper_LookUP_2: -1248734708
+      Eri_Upper_LookUP_3: 955059420
+      Eri_Upper_LookUP_4: 138694482
+      Eri_Upper_LookUP_5: 401618241
+      Eri_Upper_LookUP_6: -1109105603
+      Eri_Upper_LookUP_7: 964695472
+      Eri_Upper_LookUP_8: -972281706
+      Eri_Upper_LookUP_Fire_1: -1101088711
+      Eri_Upper_LookUP_Fire_2: 1245894571
+      Eri_Upper_LookUP_Fire_3: 1889023409
+      Eri_Upper_LookUP_Fire_4: 177381434
+      Eri_Upper_LookUP_Fire_5: -1316827846
+      Eri_Upper_LookUP_Fire_6: 527418058
+      Eri_Upper_LookUP_Fire_7: -1315361813
+      Eri_Upper_LookUP_Fire_8: 849618290
+      Eri_Upper_Walk_1: 734424932
+      Eri_Upper_Walk_10: 131604911
+      Eri_Upper_Walk_11: 1403720393
+      Eri_Upper_Walk_12: -562352989
+      Eri_Upper_Walk_2: -973309600
+      Eri_Upper_Walk_3: -1231607536
+      Eri_Upper_Walk_4: 851546141
+      Eri_Upper_Walk_5: -1406092928
+      Eri_Upper_Walk_6: 870344233
+      Eri_Upper_Walk_7: -678355453
+      Eri_Upper_Walk_8: -1973448741
+      Eri_Upper_Walk_9: -1885638831
+      UI_LOWER: -283504193
+      UI_UPPER_1: -2071207290
+      UI_UPPER_2: 42581560
+      UI_UPPER_3: -729596491
+      UI_UPPER_4: -1783673102
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
