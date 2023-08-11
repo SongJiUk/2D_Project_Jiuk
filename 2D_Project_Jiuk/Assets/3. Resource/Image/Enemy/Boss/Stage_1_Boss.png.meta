@@ -136,15 +136,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle_11
+      name: Boss_Idle_11
       rect:
         serializedVersion: 2
         x: 2428
         y: 2146
         width: 219
         height: 203
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -157,15 +157,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_1
+      name: Boss_Idle_1
       rect:
         serializedVersion: 2
         x: 27
         y: 2146
         width: 219
         height: 204
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -178,15 +178,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_2
+      name: Boss_Idle_2
       rect:
         serializedVersion: 2
         x: 262
         y: 2146
         width: 212
         height: 204
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -199,15 +199,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_3
+      name: Boss_Idle_3
       rect:
         serializedVersion: 2
         x: 505
         y: 2146
         width: 201
         height: 204
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -220,15 +220,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_4
+      name: Boss_Idle_4
       rect:
         serializedVersion: 2
         x: 743
         y: 2146
         width: 199
         height: 204
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -241,15 +241,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_5
+      name: Boss_Idle_5
       rect:
         serializedVersion: 2
         x: 981
         y: 2146
         width: 207
         height: 202
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -262,15 +262,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_6
+      name: Boss_Idle_6
       rect:
         serializedVersion: 2
         x: 1222
         y: 2146
         width: 211
         height: 202
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -283,15 +283,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_7
+      name: Boss_Idle_7
       rect:
         serializedVersion: 2
         x: 1464
         y: 2146
         width: 211
         height: 202
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -304,15 +304,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_8
+      name: Boss_Idle_8
       rect:
         serializedVersion: 2
         x: 1705
         y: 2146
         width: 212
         height: 204
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -325,15 +325,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_9
+      name: Boss_Idle_9
       rect:
         serializedVersion: 2
         x: 1946
         y: 2146
         width: 212
         height: 204
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -346,15 +346,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_10
+      name: Boss_Idle_10
       rect:
         serializedVersion: 2
         x: 2187
         y: 2146
         width: 215
         height: 204
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -367,15 +367,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_12
+      name: Boss_Idle_12
       rect:
         serializedVersion: 2
         x: 2667
-        y: 2146
+        y: 2148
         width: 228
         height: 204
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4567,15 +4567,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_228
+      name: Boss_Swim_1
       rect:
         serializedVersion: 2
         x: 24
         y: 286
         width: 262
         height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4588,15 +4588,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_229
+      name: Boss_Swim_2
       rect:
         serializedVersion: 2
         x: 294
         y: 286
         width: 259
         height: 43
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4609,15 +4609,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_230
+      name: Boss_Swim_3
       rect:
         serializedVersion: 2
         x: 562
         y: 285
         width: 264
         height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4630,15 +4630,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_231
+      name: Boss_Swim_4
       rect:
         serializedVersion: 2
-        x: 830
+        x: 831
         y: 285
         width: 269
         height: 47
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4651,15 +4651,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_232
+      name: Boss_Swim_5
       rect:
         serializedVersion: 2
         x: 1102
-        y: 285
+        y: 286
         width: 267
         height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4672,15 +4672,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_233
+      name: Boss_Swim_6
       rect:
         serializedVersion: 2
         x: 22
         y: 225
         width: 263
         height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4693,15 +4693,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_234
+      name: Boss_Swim_7
       rect:
         serializedVersion: 2
         x: 292
         y: 225
         width: 261
         height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4714,15 +4714,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_235
+      name: Boss_Swim_8
       rect:
         serializedVersion: 2
         x: 563
         y: 225
         width: 260
         height: 47
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4735,15 +4735,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_236
+      name: Boss_Swim_9
       rect:
         serializedVersion: 2
         x: 835
         y: 225
         width: 258
         height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4756,15 +4756,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_237
+      name: Boss_Swim_10
       rect:
         serializedVersion: 2
         x: 1102
         y: 225
         width: 262
         height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4777,15 +4777,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_238
+      name: Boss_Swim_11
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 283
-        height: 220
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 24
+        y: 168
+        width: 259
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4798,15 +4798,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_239
+      name: Boss_Swim_12
       rect:
         serializedVersion: 2
         x: 294
-        y: 166
+        y: 168
         width: 259
-        height: 52
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4850,6 +4850,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Boss_Idle_1: -1449429793
+      Boss_Idle_10: -697601923
+      Boss_Idle_11: -1960896246
+      Boss_Idle_12: -2088401550
+      Boss_Idle_2: 1220691970
+      Boss_Idle_3: 843222027
+      Boss_Idle_4: 72274783
+      Boss_Idle_5: 1400137765
+      Boss_Idle_6: -260189469
+      Boss_Idle_7: 1196882158
+      Boss_Idle_8: 826330996
+      Boss_Idle_9: 679657478
+      Boss_Swim_1: -1338420589
+      Boss_Swim_10: 1697919054
+      Boss_Swim_11: 1697919054
+      Boss_Swim_12: 1697919054
+      Boss_Swim_2: -1338420589
+      Boss_Swim_3: -2099963594
+      Boss_Swim_4: -1564646216
+      Boss_Swim_5: -1564646216
+      Boss_Swim_6: -961412055
+      Boss_Swim_7: -1122346740
+      Boss_Swim_8: 2131369128
+      Boss_Swim_9: -1333720833
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_0: 1046885254
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_1: -72439642
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_100: 1147978636
@@ -4988,19 +5012,7 @@ TextureImporter:
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_225: -919217331
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_226: 139097601
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_227: 373576902
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_228: -1338420589
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_229: -2099963594
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_23: 23170626
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_230: -1564646216
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_231: -961412055
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_232: -1122346740
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_233: 2131369128
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_234: -2049787189
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_235: -1333720833
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_236: 1697919054
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_237: -1513719620
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_238: 1482960867
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_239: -1460768300
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_24: 469209870
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_240: -652724575
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_241: -932483937
@@ -5097,18 +5109,6 @@ TextureImporter:
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_97: 87339023
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_98: -1465335533
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_99: -1850869748
-      idle_1: -1449429793
-      idle_10: -697601923
-      idle_11: -1960896246
-      idle_12: -2088401550
-      idle_2: 1220691970
-      idle_3: 843222027
-      idle_4: 72274783
-      idle_5: 1400137765
-      idle_6: -260189469
-      idle_7: 1196882158
-      idle_8: 826330996
-      idle_9: 679657478
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

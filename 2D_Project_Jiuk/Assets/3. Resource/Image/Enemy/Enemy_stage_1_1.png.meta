@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -136,99 +136,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Enemy_stage_1_1_0
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 1000
-        width: 29
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 54dd70b493ed04594a4a1356f62c754e
-      internalID: -894845405
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_1
-      rect:
-        serializedVersion: 2
-        x: 1035
-        y: 994
-        width: 24
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d27258c2fa1e54539bcbb24c4c7778bf
-      internalID: 1407058671
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_2
-      rect:
-        serializedVersion: 2
-        x: 1064
-        y: 994
-        width: 24
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab97e8176f29446cfb85b90d89634b2f
-      internalID: -561216873
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_3
-      rect:
-        serializedVersion: 2
-        x: 1093
-        y: 994
-        width: 84
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc0d59f777bc64dc4b61e3ef211cf7dd
-      internalID: 1018247406
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_4
+      name: Stage1_Enemy_Idle_1
       rect:
         serializedVersion: 2
         x: 26
         y: 848
         width: 128
         height: 132
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -241,15 +157,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_5
+      name: Stage1_Enemy_Idle_2
       rect:
         serializedVersion: 2
         x: 172
         y: 848
         width: 128
         height: 132
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -262,15 +178,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_6
+      name: Stage1_Enemy_Idle_3
       rect:
         serializedVersion: 2
         x: 326
         y: 848
         width: 128
         height: 131
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -283,15 +199,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_7
+      name: Stage1_Enemy_Idle_4
       rect:
         serializedVersion: 2
         x: 477
         y: 848
         width: 128
         height: 132
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -312,7 +228,7 @@ TextureImporter:
         width: 40
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -333,7 +249,7 @@ TextureImporter:
         width: 40
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -354,7 +270,7 @@ TextureImporter:
         width: 40
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -375,7 +291,7 @@ TextureImporter:
         width: 41
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -396,7 +312,7 @@ TextureImporter:
         width: 40
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -417,7 +333,7 @@ TextureImporter:
         width: 18
         height: 47
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -438,7 +354,7 @@ TextureImporter:
         width: 16
         height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -459,7 +375,7 @@ TextureImporter:
         width: 12
         height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -480,7 +396,7 @@ TextureImporter:
         width: 10
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -493,57 +409,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_17
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 822
-        width: 42
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa0d8125d7b814a6893a5e77f19049f2
-      internalID: 726248272
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_18
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 822
-        width: 5
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c0e0e2478ac942ab8ed21676d8909d0
-      internalID: 1821937694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_19
+      name: Stage1_Enemy_Attack1_1
       rect:
         serializedVersion: 2
         x: 24
         y: 624
         width: 128
         height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -556,15 +430,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_20
+      name: Stage1_Enemy_Attack1_2
       rect:
         serializedVersion: 2
         x: 171
         y: 624
         width: 128
         height: 135
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -577,15 +451,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_21
+      name: Stage1_Enemy_Attack1_3
       rect:
         serializedVersion: 2
         x: 328
         y: 624
         width: 128
         height: 169
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -598,15 +472,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_22
+      name: Stage1_Enemy_Attack1_4
       rect:
         serializedVersion: 2
         x: 482
         y: 624
         width: 128
         height: 183
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -619,15 +493,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_23
+      name: Stage1_Enemy_Attack1_5
       rect:
         serializedVersion: 2
         x: 638
         y: 624
         width: 128
         height: 185
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -640,15 +514,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_24
+      name: Stage1_Enemy_Attack1_6
       rect:
         serializedVersion: 2
         x: 782
         y: 624
         width: 128
         height: 187
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -661,15 +535,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_25
+      name: Stage1_Enemy_Attack1_7
       rect:
         serializedVersion: 2
         x: 29
         y: 420
         width: 128
         height: 187
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -682,15 +556,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_26
+      name: Stage1_Enemy_Attack1_8
       rect:
         serializedVersion: 2
         x: 181
         y: 420
         width: 128
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -703,99 +577,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_27
-      rect:
-        serializedVersion: 2
-        x: 219
-        y: 595
-        width: 9
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72426509b24cd414d85831ce55b4dd01
-      internalID: 984366892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_28
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 587
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60c128183239c48ffb9af2ae6991c2c9
-      internalID: 1448090024
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_29
-      rect:
-        serializedVersion: 2
-        x: 375
-        y: 578
-        width: 17
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4757329f32c0641058409c336b236580
-      internalID: -768330704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_30
-      rect:
-        serializedVersion: 2
-        x: 515
-        y: 585
-        width: 17
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e837dbd90033425399891d60e1a8b6d
-      internalID: -2134101338
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_31
+      name: Stage1_Enemy_Attack1_10
       rect:
         serializedVersion: 2
         x: 337
         y: 420
         width: 128
-        height: 161
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 186
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -808,78 +598,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_32
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 573
-        width: 6
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb555ea441fb14ea3b75bbdf972e67e4
-      internalID: -259699375
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_33
-      rect:
-        serializedVersion: 2
-        x: 516
-        y: 578
-        width: 4
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 255925d8517d4497dbe24fbe07c84c97
-      internalID: 1468707782
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_34
-      rect:
-        serializedVersion: 2
-        x: 529
-        y: 578
-        width: 9
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f23b216c63cbb4c08ba7fec00df23585
-      internalID: 737458053
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_35
+      name: Stage1_Enemy_Attack1_11
       rect:
         serializedVersion: 2
         x: 484
         y: 420
         width: 128
-        height: 158
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 187
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -892,36 +619,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_36
-      rect:
-        serializedVersion: 2
-        x: 542
-        y: 571
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b780a867218848738dda52865269bea
-      internalID: 1671312358
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_37
+      name: Stage1_Enemy_Attack1_12
       rect:
         serializedVersion: 2
         x: 637
         y: 420
         width: 128
         height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -934,120 +640,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_38
-      rect:
-        serializedVersion: 2
-        x: 827
-        y: 566
-        width: 4
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89a31394a572c4ffa96d02de10d69ea4
-      internalID: -62847903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_39
-      rect:
-        serializedVersion: 2
-        x: 830
-        y: 552
-        width: 17
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 131efa40039fa45d58e94354513d276a
-      internalID: 1124300905
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_40
-      rect:
-        serializedVersion: 2
-        x: 815
-        y: 555
-        width: 13
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0a938fe140284199a54e88a2554e20f
-      internalID: -1062270104
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_41
-      rect:
-        serializedVersion: 2
-        x: 827
-        y: 560
-        width: 4
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17768174c95c34365b7ed7b5f6e4b681
-      internalID: -1134073257
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_42
-      rect:
-        serializedVersion: 2
-        x: 843
-        y: 557
-        width: 8
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 862e2661e0e6b4a2eaad333660d2b5de
-      internalID: 1704731046
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_43
+      name: Stage1_Enemy_Attack1_13
       rect:
         serializedVersion: 2
         x: 785
         y: 420
         width: 128
-        height: 131
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 156
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1060,99 +661,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_44
+      name: Stage1_Enemy_Attack2_1
       rect:
         serializedVersion: 2
-        x: 1126
-        y: 281
-        width: 128
-        height: 187
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 44d98c560ae7f46559e5b984862d1628
-      internalID: 1241583093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_45
-      rect:
-        serializedVersion: 2
-        x: 1143
-        y: 467
-        width: 55
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a98e927b4e254e008945da867b9f5cd
-      internalID: -813758054
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_46
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 399
-        width: 42
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 37d73ba8cd6a9492aa89189f13f93e8e
-      internalID: 1700892240
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_47
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 399
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c62e0f2cc78f7411c94eb233558567ca
-      internalID: 1530398393
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_48
-      rect:
-        serializedVersion: 2
-        x: 22
+        x: 21
         y: 211
         width: 128
         height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1165,15 +682,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_49
+      name: Stage1_Enemy_Attack2_2
       rect:
         serializedVersion: 2
         x: 166
         y: 211
         width: 137
         height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1186,15 +703,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_50
+      name: Stage1_Enemy_Attack2_3
       rect:
         serializedVersion: 2
         x: 325
         y: 211
         width: 134
         height: 168
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1207,15 +724,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_51
+      name: Stage1_Enemy_Attack2_4
       rect:
         serializedVersion: 2
         x: 493
         y: 211
         width: 128
         height: 169
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1228,15 +745,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_52
+      name: Stage1_Enemy_Attack2_5
       rect:
         serializedVersion: 2
         x: 649
-        y: 159
+        y: 212
         width: 128
-        height: 216
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 163
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1249,15 +766,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_53
+      name: Stage1_Enemy_Attack2_6
       rect:
         serializedVersion: 2
         x: 792
-        y: 164
+        y: 211
         width: 126
-        height: 215
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1270,141 +787,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_54
-      rect:
-        serializedVersion: 2
-        x: 1130
-        y: 265
-        width: 45
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77df68042e5a24d72bf7d4d854473776
-      internalID: 1395912958
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_55
-      rect:
-        serializedVersion: 2
-        x: 1180
-        y: 265
-        width: 16
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe11cb5ffef244f3e825099c6198f19b
-      internalID: 1141134140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_56
-      rect:
-        serializedVersion: 2
-        x: 1201
-        y: 265
-        width: 58
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b63998ffa91ab40e2a24db0852587e2a
-      internalID: -326081006
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_57
-      rect:
-        serializedVersion: 2
-        x: 1130
-        y: 253
-        width: 16
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 226d1354b9263458caf7744d71ffb4e0
-      internalID: -1083094246
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_58
-      rect:
-        serializedVersion: 2
-        x: 1151
-        y: 253
-        width: 44
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a1fe26d271fc45b094f4207bc9156b6
-      internalID: 1046340196
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_59
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 253
-        width: 48
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2283041a4926b4f31970a3a0c3ac26c3
-      internalID: -986870617
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_60
+      name: Stage1_Enemy_Attack2_7
       rect:
         serializedVersion: 2
         x: 22
         y: 24
         width: 131
         height: 170
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1417,15 +808,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_61
+      name: Stage1_Enemy_Attack2_8
       rect:
         serializedVersion: 2
         x: 168
         y: 24
         width: 132
         height: 171
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1438,15 +829,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_62
+      name: Stage1_Enemy_Attack2_9
       rect:
         serializedVersion: 2
         x: 367
         y: 24
         width: 128
         height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1459,15 +850,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_63
+      name: Stage1_Enemy_Attack2_10
       rect:
         serializedVersion: 2
         x: 508
         y: 24
         width: 126
         height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1480,15 +871,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_64
+      name: Stage1_Enemy_Attack2_11
       rect:
         serializedVersion: 2
         x: 653
         y: 24
         width: 128
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 167
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1501,15 +892,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_stage_1_1_65
+      name: Stage1_Enemy_Attack2_12
       rect:
         serializedVersion: 2
         x: 799
         y: 24
         width: 128
-        height: 135
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 169
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1517,27 +908,6 @@ TextureImporter:
       bones: []
       spriteID: c2b393aefbd0641219dea9664b83b277
       internalID: -1281036662
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemy_stage_1_1_66
-      rect:
-        serializedVersion: 2
-        x: 1028
-        y: 0
-        width: 410
-        height: 224
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b73661e952edc4efdb84cc6446b55562
-      internalID: 639120967
       vertices: []
       indices: 
       edges: []
@@ -1564,62 +934,62 @@ TextureImporter:
       Enemy_stage_1_1_16: -1904163602
       Enemy_stage_1_1_17: 726248272
       Enemy_stage_1_1_18: 1821937694
-      Enemy_stage_1_1_19: 1272201391
       Enemy_stage_1_1_2: -561216873
-      Enemy_stage_1_1_20: -130492196
-      Enemy_stage_1_1_21: 794735517
-      Enemy_stage_1_1_22: 1151731003
-      Enemy_stage_1_1_23: 330264594
-      Enemy_stage_1_1_24: 1407493798
-      Enemy_stage_1_1_25: 879333309
-      Enemy_stage_1_1_26: 674879584
       Enemy_stage_1_1_27: 984366892
       Enemy_stage_1_1_28: 1448090024
       Enemy_stage_1_1_29: -768330704
       Enemy_stage_1_1_3: 1018247406
       Enemy_stage_1_1_30: -2134101338
-      Enemy_stage_1_1_31: -1769963368
       Enemy_stage_1_1_32: -259699375
       Enemy_stage_1_1_33: 1468707782
       Enemy_stage_1_1_34: 737458053
-      Enemy_stage_1_1_35: -636046431
       Enemy_stage_1_1_36: 1671312358
-      Enemy_stage_1_1_37: 881517993
       Enemy_stage_1_1_38: -62847903
       Enemy_stage_1_1_39: 1124300905
-      Enemy_stage_1_1_4: -299003696
       Enemy_stage_1_1_40: -1062270104
       Enemy_stage_1_1_41: -1134073257
       Enemy_stage_1_1_42: 1704731046
-      Enemy_stage_1_1_43: 1489865010
       Enemy_stage_1_1_44: 1241583093
       Enemy_stage_1_1_45: -813758054
       Enemy_stage_1_1_46: 1700892240
       Enemy_stage_1_1_47: 1530398393
-      Enemy_stage_1_1_48: -642479470
-      Enemy_stage_1_1_49: 2131308675
-      Enemy_stage_1_1_5: -1029981471
-      Enemy_stage_1_1_50: 1864340558
-      Enemy_stage_1_1_51: 1073449910
-      Enemy_stage_1_1_52: 928342724
-      Enemy_stage_1_1_53: 910622658
       Enemy_stage_1_1_54: 1395912958
       Enemy_stage_1_1_55: 1141134140
       Enemy_stage_1_1_56: -326081006
       Enemy_stage_1_1_57: -1083094246
       Enemy_stage_1_1_58: 1046340196
       Enemy_stage_1_1_59: -986870617
-      Enemy_stage_1_1_6: 184252176
-      Enemy_stage_1_1_60: -411614000
-      Enemy_stage_1_1_61: 1125717599
-      Enemy_stage_1_1_62: 1136101757
-      Enemy_stage_1_1_63: 221697522
-      Enemy_stage_1_1_64: 883281825
-      Enemy_stage_1_1_65: -1281036662
       Enemy_stage_1_1_66: 639120967
-      Enemy_stage_1_1_7: 524043652
       Enemy_stage_1_1_8: 1449324405
       Enemy_stage_1_1_9: -1859047906
+      Stage1_Enemy_Attack1_1: 1272201391
+      Stage1_Enemy_Attack1_10: -1769963368
+      Stage1_Enemy_Attack1_11: -636046431
+      Stage1_Enemy_Attack1_12: 881517993
+      Stage1_Enemy_Attack1_13: 1489865010
+      Stage1_Enemy_Attack1_2: -130492196
+      Stage1_Enemy_Attack1_3: 794735517
+      Stage1_Enemy_Attack1_4: 1151731003
+      Stage1_Enemy_Attack1_5: 330264594
+      Stage1_Enemy_Attack1_6: 1407493798
+      Stage1_Enemy_Attack1_7: 879333309
+      Stage1_Enemy_Attack1_8: 674879584
+      Stage1_Enemy_Attack2_1: -642479470
+      Stage1_Enemy_Attack2_10: 221697522
+      Stage1_Enemy_Attack2_11: 883281825
+      Stage1_Enemy_Attack2_12: -1281036662
+      Stage1_Enemy_Attack2_2: 2131308675
+      Stage1_Enemy_Attack2_3: 1864340558
+      Stage1_Enemy_Attack2_4: 1073449910
+      Stage1_Enemy_Attack2_5: 928342724
+      Stage1_Enemy_Attack2_6: 910622658
+      Stage1_Enemy_Attack2_7: -411614000
+      Stage1_Enemy_Attack2_8: 1125717599
+      Stage1_Enemy_Attack2_9: 1136101757
+      Stage1_Enemy_Idle_1: -299003696
+      Stage1_Enemy_Idle_2: -1029981471
+      Stage1_Enemy_Idle_3: 184252176
+      Stage1_Enemy_Idle_4: 524043652
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

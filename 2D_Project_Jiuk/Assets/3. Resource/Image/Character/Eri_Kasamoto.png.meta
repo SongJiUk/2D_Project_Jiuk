@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1089,7 +1089,7 @@ TextureImporter:
         width: 29
         height: 26
       alignment: 9
-      pivot: {x: 0.5766216, y: 0.028508114}
+      pivot: {x: 0.68079096, y: -0.30679086}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1109,8 +1109,8 @@ TextureImporter:
         y: 8571
         width: 31
         height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.6629996, y: -0.3523763}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1127,11 +1127,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 70
-        y: 8571
+        y: 8572
         width: 31
         height: 24
       alignment: 9
-      pivot: {x: 0.5507756, y: 0}
+      pivot: {x: 0.6335619, y: -0.37552896}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1148,11 +1148,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 106
-        y: 8571
+        y: 8572
         width: 30
         height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.6174296, y: -0.39546713}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1172,8 +1172,8 @@ TextureImporter:
         y: 8571
         width: 30
         height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.65207165, y: -0.3630371}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1193,8 +1193,8 @@ TextureImporter:
         y: 8570
         width: 28
         height: 24
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.66198456, y: -0.31913248}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1215,7 +1215,7 @@ TextureImporter:
         width: 28
         height: 33
       alignment: 9
-      pivot: {x: 0.61209434, y: 0.29214016}
+      pivot: {x: 0.61992425, y: 0.039654355}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1236,7 +1236,7 @@ TextureImporter:
         width: 32
         height: 34
       alignment: 9
-      pivot: {x: 0.5700598, y: 0.30333754}
+      pivot: {x: 0.5700598, y: 0.038947612}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1257,7 +1257,7 @@ TextureImporter:
         width: 33
         height: 33
       alignment: 9
-      pivot: {x: 0.56114334, y: 0.2989169}
+      pivot: {x: 0.581075, y: 0.05308949}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1278,7 +1278,7 @@ TextureImporter:
         width: 32
         height: 36
       alignment: 9
-      pivot: {x: 0.57706547, y: 0.3113878}
+      pivot: {x: 0.5770645, y: 0.049479168}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1299,7 +1299,7 @@ TextureImporter:
         width: 28
         height: 33
       alignment: 9
-      pivot: {x: 0.65212905, y: 0.21741833}
+      pivot: {x: 0.62863594, y: 0.071229875}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1320,7 +1320,7 @@ TextureImporter:
         width: 26
         height: 30
       alignment: 9
-      pivot: {x: 0.68969846, y: 0.14947917}
+      pivot: {x: 0.681265, y: 0.047167968}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1467,7 +1467,7 @@ TextureImporter:
         width: 36
         height: 22
       alignment: 9
-      pivot: {x: 0.35798368, y: 0.02903054}
+      pivot: {x: 0.453597, y: -0.14479758}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1488,7 +1488,7 @@ TextureImporter:
         width: 34
         height: 24
       alignment: 9
-      pivot: {x: 0.33083332, y: 0}
+      pivot: {x: 0.4320699, y: -0.1274821}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1504,54 +1504,12 @@ TextureImporter:
       name: Eri_Upper_LookUP_3
       rect:
         serializedVersion: 2
-        x: 93
-        y: 8494
-        width: 32
-        height: 22
-      alignment: 9
-      pivot: {x: 0.39015865, y: 0.01451527}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bb945b8f8405e4c3fb98c9b88dab537f
-      internalID: -1825920708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eri_Upper_LookUP_4
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 8494
-        width: 27
-        height: 28
-      alignment: 9
-      pivot: {x: 0.44082698, y: -0.011439732}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf53f0fba4bbb465ea427424fd9d612e
-      internalID: -1248734708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eri_Upper_LookUP_5
-      rect:
-        serializedVersion: 2
         x: 167
         y: 8498
         width: 29
         height: 24
       alignment: 9
-      pivot: {x: 0.42497516, y: 0.015136719}
+      pivot: {x: 0.53233916, y: -0.14416504}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1559,69 +1517,6 @@ TextureImporter:
       bones: []
       spriteID: 460438b803832491abd530bea4d34c1f
       internalID: 955059420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eri_Upper_LookUP_6
-      rect:
-        serializedVersion: 2
-        x: 205
-        y: 8498
-        width: 29
-        height: 24
-      alignment: 9
-      pivot: {x: 0.3999655, y: 0.000040690105}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3531415759a524217ba9148db70045b4
-      internalID: 138694482
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eri_Upper_LookUP_7
-      rect:
-        serializedVersion: 2
-        x: 242
-        y: 8498
-        width: 30
-        height: 24
-      alignment: 9
-      pivot: {x: 0.415388, y: 0.000040690105}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b00592a9b377448d799cb35c65f39574
-      internalID: 401618241
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eri_Upper_LookUP_8
-      rect:
-        serializedVersion: 2
-        x: 279
-        y: 8498
-        width: 30
-        height: 24
-      alignment: 9
-      pivot: {x: 0.415388, y: 0.00008138021}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3844a509cabc461e9451452b0cec1e6
-      internalID: -1109105603
       vertices: []
       indices: 
       edges: []
@@ -1635,7 +1530,7 @@ TextureImporter:
         width: 24
         height: 59
       alignment: 9
-      pivot: {x: 0.63897043, y: 0.007067664}
+      pivot: {x: 0.70901936, y: -0.06542969}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1656,7 +1551,7 @@ TextureImporter:
         width: 24
         height: 36
       alignment: 9
-      pivot: {x: 0.6910839, y: 0}
+      pivot: {x: 0.75725776, y: -0.11791992}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1677,7 +1572,7 @@ TextureImporter:
         width: 24
         height: 34
       alignment: 9
-      pivot: {x: 0.6655226, y: -0.006146599}
+      pivot: {x: 0.7250989, y: -0.113511026}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1697,8 +1592,8 @@ TextureImporter:
         y: 8261
         width: 24
         height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.69294196, y: -0.16373698}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1706,90 +1601,6 @@ TextureImporter:
       bones: []
       spriteID: f1280ffd2010a4682b9e3f69805a9ff6
       internalID: 1245894571
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eri_Upper_LookUP_Fire_5
-      rect:
-        serializedVersion: 2
-        x: 116
-        y: 8261
-        width: 24
-        height: 32
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ce3e15a099cc43a9aa6c4569949e502
-      internalID: 1889023409
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eri_Upper_LookUP_Fire_6
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 8261
-        width: 23
-        height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2449ee4b7d87349f890c9ac97cf54ab3
-      internalID: 177381434
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eri_Upper_LookUP_Fire_7
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 8261
-        width: 25
-        height: 31
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0683a4f36302b407abf87704e2ee1647
-      internalID: -1316827846
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Eri_Upper_LookUP_Fire_8
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 8261
-        width: 28
-        height: 30
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e464b1c397ceb47c9affa3b28a620c52
-      internalID: 527418058
       vertices: []
       indices: 
       edges: []
@@ -5742,6 +5553,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Eri_Upper_LookUP_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 8494
+        width: 27
+        height: 28
+      alignment: 9
+      pivot: {x: 0.54033065, y: -0.105503626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c54f7207db0846fcaccd03be1723e71
+      internalID: 138694482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eri_Jump_Down_fire_3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 8213
+        width: 19
+        height: 40
+      alignment: 9
+      pivot: {x: 0.43880442, y: 0.27617186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90577f95a7243416ab3f2bd85bcd1117
+      internalID: -1309224688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -5890,6 +5743,7 @@ TextureImporter:
       Eri_Jump_Down_3: 2034909479
       Eri_Jump_Down_fire_1: -1512895016
       Eri_Jump_Down_fire_2: 1482126820
+      Eri_Jump_Down_fire_3: -1309224688
       Eri_Kasamoto_1_0: -534613132
       Eri_Lower_Jump_1: 765229401
       Eri_Lower_Jump_2: 617818639
@@ -5996,7 +5850,6 @@ TextureImporter:
       Eri_Upper_LookUP_2: -1248734708
       Eri_Upper_LookUP_3: 955059420
       Eri_Upper_LookUP_4: 138694482
-      Eri_Upper_LookUP_5: 401618241
       Eri_Upper_LookUP_6: -1109105603
       Eri_Upper_LookUP_7: 964695472
       Eri_Upper_LookUP_8: -972281706
