@@ -134,7 +134,196 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Heavy_Machinegun
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1551
+        width: 22
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c647b53bfc5043e684d18bf311d4588
+      internalID: 1818900023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocket_Launcher
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1551
+        width: 22
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80b222a61cac46c7b9c4bb79f8da39c
+      internalID: 612722030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shot_Gun
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1551
+        width: 22
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399eaccb106e84aadbdfc6e3efa7b6cd
+      internalID: -200986983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flame_Shot
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1551
+        width: 22
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a360847f0e7c4b23940be31dacbd86f
+      internalID: 1420708844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Laser_Gun,
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1551
+        width: 22
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4385c7c7e5a14a9985ae2ae6427b443
+      internalID: -1535461685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Chaser
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1551
+        width: 22
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3caf97e9c19f64583b5ed31ca0338683
+      internalID: -1069452394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Item_1
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1551
+        width: 22
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a31dd0d195bc4cf7a8722ca44b1b5a5
+      internalID: -197622545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super_Grenade
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1551
+        width: 21
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df101609db5bb47d195ab3135cc23d33
+      internalID: -2083653884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Drop_Shot
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1551
+        width: 22
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3743f48b67c34692afdc7639fc3c116
+      internalID: -1077357417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -146,7 +335,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Item_0: -886922754
+      Drop_Shot: -1077357417
+      Enemy_Chaser: -1069452394
+      Flame_Shot: 1420708844
+      Heavy_Machinegun: -886922754
+      Item_1: -197622545
+      Laser_Gun,: -1535461685
+      Rocket_Launcher: 612722030
+      Shot_Gun: -200986983
+      Super_Grenade: -2083653884
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
