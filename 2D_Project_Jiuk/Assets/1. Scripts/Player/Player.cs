@@ -26,15 +26,21 @@ public class Player : Creature
     [SerializeField] Animator UpperAnim;
     [SerializeField] Animator LowerAnim;
     [SerializeField] Animator AllBodyAnim;
-    
 
-
+    [Header("총 발사 관련")]
+    [SerializeField] GameObject firePosObj;
+    [SerializeField]
+    GameObject[] BulletObj;
+    Vector3 Firepos = Vector3.zero;
 
     private void Awake()
     {
         if (null == instace) instace = this;
         else Destroy(this.gameObject);
 
+        Debug.Log(firePosObj.transform.position);
+        Firepos = firePosObj.transform.position;
+        firePosObj.transform.position = Firepos;
     }
 
     
@@ -89,6 +95,11 @@ public class Player : Creature
         
     }
 
+    void ChangeWeapon()
+    {
+
+    }
+
     private void Update()
     {
 
@@ -132,9 +143,22 @@ public class Player : Creature
         movement.x = Input.GetAxis("Horizontal");
         movement.y = Input.GetAxis("Vertical");
 
+        Debug.Log(movement.x);
+        if(movement.x != 0)
+        {
+            //firePosObj.transform.position += new Vector3(movement.x, movement.y, 0) * Time.deltaTime;
+        }
+
+
         //좌 우 변경
-        if (movement.x < 0) transform.localScale = left;
-        else if (movement.x > 0) transform.localScale = right;
+        if (movement.x < 0)
+        {
+            transform.localScale = left;
+        }
+        else if (movement.x > 0)
+        {
+            transform.localScale = right;
+        }
 
         if (movement.y < 0)
         {
@@ -175,6 +199,7 @@ public class Player : Creature
              막아야 할것
             1. 앉기
              */
+
             isSit = false;
 
             
@@ -216,6 +241,12 @@ public class Player : Creature
                 UpperAnim.SetTrigger("Fire");
                 AllBodyAnim.SetTrigger("Fire");
             }
+
+            var bullet = ObjectPool.instance.bullet_que.Dequeue();
+            bullet.SetActive(true);
+            bullet.transform.position = firePosObj.transform.position;
+            bullet.GetComponent<Rigidbody2D>().AddForce(Vector2.right * 100f);
+            
         }
 
 

@@ -349,7 +349,7 @@ TextureImporter:
       name: Boss_Idle_10
       rect:
         serializedVersion: 2
-        x: 2187
+        x: 2188
         y: 2146
         width: 215
         height: 204
@@ -388,15 +388,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_18
+      name: Boss_Attack2_Ready_1
       rect:
         serializedVersion: 2
-        x: 27
-        y: 1886
-        width: 219
-        height: 205
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 28
+        y: 1888
+        width: 217
+        height: 202
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -409,15 +409,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_19
+      name: Boss_Attack2_Ready_2
       rect:
         serializedVersion: 2
-        x: 265
-        y: 1886
-        width: 212
-        height: 207
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 267
+        y: 1888
+        width: 208
+        height: 203
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -430,15 +430,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_20
+      name: Boss_Attack2_Ready_3
       rect:
         serializedVersion: 2
-        x: 505
-        y: 1886
-        width: 201
-        height: 205
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 506
+        y: 1888
+        width: 197
+        height: 202
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -451,15 +451,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_21
+      name: Boss_Attack2_Ready_4
       rect:
         serializedVersion: 2
-        x: 743
-        y: 1886
-        width: 199
-        height: 207
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 744
+        y: 1888
+        width: 197
+        height: 203
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -472,15 +472,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_22
+      name: Boss_Attack2_Ready_5
       rect:
         serializedVersion: 2
-        x: 981
-        y: 1886
-        width: 207
-        height: 208
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 983
+        y: 1888
+        width: 203
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -493,15 +493,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_23
+      name: Boss_Attack2_Ready_6
       rect:
         serializedVersion: 2
-        x: 1222
-        y: 1886
-        width: 211
-        height: 208
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1224
+        y: 1888
+        width: 207
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -514,15 +514,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_24
+      name: Boss_Attack2_Ready_7
       rect:
         serializedVersion: 2
-        x: 1464
-        y: 1886
-        width: 211
-        height: 208
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1466
+        y: 1888
+        width: 207
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -535,15 +535,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_25
+      name: Boss_Attack2_Ready_8
       rect:
         serializedVersion: 2
-        x: 1705
-        y: 1886
-        width: 212
-        height: 208
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1707
+        y: 1888
+        width: 209
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -556,15 +556,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_26
+      name: Boss_Attack2_Ready_9
       rect:
         serializedVersion: 2
-        x: 1946
-        y: 1886
-        width: 212
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1948
+        y: 1888
+        width: 208
+        height: 205
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -577,15 +577,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_27
+      name: Boss_Attack2_Ready_10
       rect:
         serializedVersion: 2
-        x: 2187
-        y: 1886
-        width: 215
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2189
+        y: 1888
+        width: 211
+        height: 205
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -598,15 +598,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_28
+      name: Boss_Attack2_Ready_11
       rect:
         serializedVersion: 2
-        x: 2428
-        y: 1886
-        width: 221
-        height: 211
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2430
+        y: 1888
+        width: 217
+        height: 207
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -619,15 +619,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_29
+      name: Boss_Attack2_Ready_12
       rect:
         serializedVersion: 2
-        x: 2667
-        y: 1886
-        width: 228
-        height: 211
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2669
+        y: 1888
+        width: 224
+        height: 207
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -892,15 +892,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_46
+      name: Boss_Attack2_Fire_1
       rect:
         serializedVersion: 2
-        x: 25
-        y: 1375
-        width: 221
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 27
+        y: 1377
+        width: 217
+        height: 206
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -913,15 +913,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_47
+      name: Boss_Attack2_Fire_2
       rect:
         serializedVersion: 2
-        x: 265
-        y: 1375
-        width: 212
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 267
+        y: 1377
+        width: 208
+        height: 205
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -934,15 +934,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_48
+      name: Boss_Attack2_Fire_3
       rect:
         serializedVersion: 2
-        x: 503
-        y: 1375
-        width: 201
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 505
+        y: 1377
+        width: 198
+        height: 205
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -955,15 +955,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_49
+      name: Boss_Attack2_Fire_4
       rect:
         serializedVersion: 2
-        x: 743
-        y: 1375
-        width: 201
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 745
+        y: 1377
+        width: 197
+        height: 205
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -976,15 +976,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_50
+      name: Boss_Attack2_Fire_5
       rect:
         serializedVersion: 2
-        x: 983
-        y: 1375
-        width: 206
-        height: 208
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 984
+        y: 1377
+        width: 203
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -997,15 +997,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_51
+      name: Boss_Attack2_Fire_6
       rect:
         serializedVersion: 2
-        x: 1221
-        y: 1375
-        width: 211
-        height: 208
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1223
+        y: 1377
+        width: 207
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1018,15 +1018,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_52
+      name: Boss_Attack2_Fire_7
       rect:
         serializedVersion: 2
-        x: 1464
-        y: 1375
-        width: 211
-        height: 208
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1466
+        y: 1377
+        width: 207
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1039,15 +1039,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_53
+      name: Boss_Attack2_Fire_8
       rect:
         serializedVersion: 2
-        x: 1705
-        y: 1375
-        width: 212
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1707
+        y: 1377
+        width: 209
+        height: 205
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1060,15 +1060,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_54
+      name: Boss_Attack2_Fire_9
       rect:
         serializedVersion: 2
-        x: 1946
-        y: 1375
-        width: 212
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1948
+        y: 1377
+        width: 208
+        height: 205
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1081,15 +1081,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_55
+      name: Boss_Attack2_Fire_10
       rect:
         serializedVersion: 2
-        x: 2187
-        y: 1375
-        width: 215
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2189
+        y: 1377
+        width: 211
+        height: 205
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1102,15 +1102,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_56
+      name: Boss_Attack2_Fire_11
       rect:
         serializedVersion: 2
-        x: 2427
-        y: 1375
-        width: 221
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2429
+        y: 1376
+        width: 217
+        height: 207
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1123,15 +1123,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_57
+      name: Boss_Attack2_Fire_12
       rect:
         serializedVersion: 2
-        x: 2667
-        y: 1375
-        width: 226
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2668
+        y: 1377
+        width: 224
+        height: 206
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1144,15 +1144,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_58
+      name: Boss_Attack1_Fire_1
       rect:
         serializedVersion: 2
-        x: 25
+        x: 27
         y: 1161
-        width: 221
-        height: 205
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 217
+        height: 203
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1165,15 +1165,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_59
+      name: Boss_Attack1_Fire_2
       rect:
         serializedVersion: 2
-        x: 265
-        y: 1161
-        width: 212
-        height: 205
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 267
+        y: 1163
+        width: 208
+        height: 201
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1186,15 +1186,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_60
+      name: Boss_Attack1_Fire_3
       rect:
         serializedVersion: 2
-        x: 503
-        y: 1161
-        width: 201
-        height: 199
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 505
+        y: 1163
+        width: 198
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1207,15 +1207,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_61
+      name: Boss_Attack1_Fire_4
       rect:
         serializedVersion: 2
-        x: 746
-        y: 1161
-        width: 201
-        height: 195
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 748
+        y: 1163
+        width: 197
+        height: 191
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1228,15 +1228,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_62
+      name: Boss_Attack1_Fire_5
       rect:
         serializedVersion: 2
-        x: 986
-        y: 1161
-        width: 206
-        height: 195
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 988
+        y: 1163
+        width: 203
+        height: 191
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1249,15 +1249,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_63
+      name: Boss_Attack1_Fire_6
       rect:
         serializedVersion: 2
-        x: 1227
-        y: 1161
-        width: 211
-        height: 196
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1229
+        y: 1163
+        width: 207
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1270,15 +1270,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_64
+      name: Boss_Attack1_Fire_7
       rect:
         serializedVersion: 2
-        x: 1471
-        y: 1161
-        width: 211
-        height: 198
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1473
+        y: 1163
+        width: 207
+        height: 194
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1291,15 +1291,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_65
+      name: Boss_Attack1_Fire_8
       rect:
         serializedVersion: 2
-        x: 1715
-        y: 1161
-        width: 212
-        height: 201
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1716
+        y: 1163
+        width: 209
+        height: 197
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1312,15 +1312,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_66
+      name: Boss_Attack1_Fire_9
       rect:
         serializedVersion: 2
-        x: 1956
-        y: 1161
-        width: 212
-        height: 205
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1958
+        y: 1163
+        width: 208
+        height: 201
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1333,15 +1333,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_67
+      name: Boss_Attack1_Fire_10
       rect:
         serializedVersion: 2
-        x: 2199
-        y: 1161
-        width: 213
-        height: 202
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2200
+        y: 1163
+        width: 211
+        height: 198
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1354,15 +1354,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_68
+      name: Boss_Attack1_Fire_11
       rect:
         serializedVersion: 2
-        x: 2440
-        y: 1161
-        width: 221
-        height: 199
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2442
+        y: 1163
+        width: 217
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1375,15 +1375,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_69
+      name: Boss_Attack1_Fire_12
       rect:
         serializedVersion: 2
-        x: 2681
-        y: 1161
-        width: 228
-        height: 202
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2683
+        y: 1163
+        width: 224
+        height: 198
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1396,15 +1396,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_72
+      name: Boss_Attack2_End_1
       rect:
         serializedVersion: 2
-        x: 25
-        y: 912
-        width: 221
-        height: 210
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 27
+        y: 914
+        width: 217
+        height: 206
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1417,15 +1417,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_73
+      name: Boss_Attack2_End_2
       rect:
         serializedVersion: 2
-        x: 265
-        y: 912
-        width: 212
-        height: 211
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 267
+        y: 914
+        width: 208
+        height: 207
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1438,15 +1438,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_74
+      name: Boss_Attack2_End_3
       rect:
         serializedVersion: 2
-        x: 503
-        y: 912
-        width: 201
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 505
+        y: 914
+        width: 198
+        height: 205
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1459,15 +1459,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_75
+      name: Boss_Attack2_End_4
       rect:
         serializedVersion: 2
-        x: 746
-        y: 912
-        width: 201
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 748
+        y: 914
+        width: 197
+        height: 205
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1480,15 +1480,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_76
+      name: Boss_Attack2_End_5
       rect:
         serializedVersion: 2
-        x: 986
-        y: 912
-        width: 206
-        height: 207
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 988
+        y: 914
+        width: 203
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1501,15 +1501,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_77
+      name: Boss_Attack2_End_6
       rect:
         serializedVersion: 2
-        x: 1227
-        y: 912
-        width: 211
-        height: 207
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1229
+        y: 914
+        width: 207
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1522,15 +1522,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_78
+      name: Boss_Attack2_End_7
       rect:
         serializedVersion: 2
-        x: 1471
-        y: 912
-        width: 211
-        height: 207
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1473
+        y: 914
+        width: 207
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1543,15 +1543,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_79
+      name: Boss_Attack2_End_8
       rect:
         serializedVersion: 2
-        x: 1715
-        y: 912
-        width: 212
-        height: 209
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1716
+        y: 914
+        width: 209
+        height: 205
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1564,15 +1564,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_80
+      name: Boss_Attack2_End_9
       rect:
         serializedVersion: 2
-        x: 1956
-        y: 912
-        width: 212
-        height: 207
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1958
+        y: 914
+        width: 208
+        height: 203
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1585,15 +1585,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_81
+      name: Boss_Attack2_End_10
       rect:
         serializedVersion: 2
-        x: 2199
-        y: 912
-        width: 213
-        height: 206
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2200
+        y: 914
+        width: 211
+        height: 202
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1606,15 +1606,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_82
+      name: Boss_Attack2_End_11
       rect:
         serializedVersion: 2
-        x: 2440
-        y: 912
-        width: 221
-        height: 207
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2442
+        y: 914
+        width: 217
+        height: 203
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1627,15 +1627,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_83
+      name: Boss_Attack2_End_12
       rect:
         serializedVersion: 2
-        x: 2681
-        y: 912
-        width: 228
-        height: 206
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2683
+        y: 914
+        width: 224
+        height: 202
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1648,15 +1648,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_85
+      name: Boss_Destory_1
       rect:
         serializedVersion: 2
-        x: 21
-        y: 655
-        width: 227
-        height: 180
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 23
+        y: 657
+        width: 225
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1669,15 +1669,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_86
+      name: Boss_Destory_2
       rect:
         serializedVersion: 2
-        x: 261
-        y: 655
-        width: 213
-        height: 181
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 263
+        y: 657
+        width: 210
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1690,15 +1690,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_87
+      name: Boss_Destory_3
       rect:
         serializedVersion: 2
-        x: 502
-        y: 655
-        width: 202
-        height: 183
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 504
+        y: 657
+        width: 198
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1711,15 +1711,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_88
+      name: Boss_Destory_4
       rect:
         serializedVersion: 2
-        x: 743
-        y: 655
-        width: 198
-        height: 184
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 744
+        y: 657
+        width: 195
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1732,15 +1732,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_89
+      name: Boss_Destory_5
       rect:
         serializedVersion: 2
-        x: 981
-        y: 655
-        width: 205
-        height: 184
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 983
+        y: 657
+        width: 201
+        height: 181
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1753,15 +1753,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_90
+      name: Boss_Destory_6
       rect:
         serializedVersion: 2
-        x: 1221
-        y: 655
-        width: 208
-        height: 184
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1223
+        y: 657
+        width: 205
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1774,15 +1774,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_91
+      name: Boss_Destory_7
       rect:
         serializedVersion: 2
-        x: 1462
-        y: 655
-        width: 210
-        height: 183
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1464
+        y: 658
+        width: 206
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1795,15 +1795,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_92
+      name: Boss_Destory_8
       rect:
         serializedVersion: 2
-        x: 1705
-        y: 655
-        width: 211
-        height: 183
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1706
+        y: 657
+        width: 208
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1816,15 +1816,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_93
+      name: Boss_Destory_9
       rect:
         serializedVersion: 2
-        x: 1943
-        y: 655
-        width: 212
-        height: 183
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1945
+        y: 657
+        width: 208
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1837,15 +1837,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_94
+      name: Boss_Destory_10
       rect:
         serializedVersion: 2
-        x: 2183
-        y: 655
-        width: 217
-        height: 183
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2184
+        y: 657
+        width: 214
+        height: 179
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1858,15 +1858,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_95
+      name: Boss_Destory_11
       rect:
         serializedVersion: 2
-        x: 2422
-        y: 655
-        width: 226
-        height: 181
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2424
+        y: 657
+        width: 222
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1879,15 +1879,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_96
+      name: Boss_Destory_12
       rect:
         serializedVersion: 2
-        x: 2662
-        y: 655
-        width: 234
-        height: 181
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 2665
+        y: 657
+        width: 230
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2428,10 +2428,10 @@ TextureImporter:
       name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_126
       rect:
         serializedVersion: 2
-        x: 800
-        y: 574
-        width: 10
-        height: 8
+        x: 1631
+        y: 535
+        width: 25
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2698,27 +2698,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_139
-      rect:
-        serializedVersion: 2
-        x: 785
-        y: 565
-        width: 10
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e140845b021947d494f86374106379b
-      internalID: -168008474
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_140
       rect:
         serializedVersion: 2
@@ -2803,69 +2782,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_144
-      rect:
-        serializedVersion: 2
-        x: 752
-        y: 554
-        width: 7
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2d33558eb2514b76a152ba6ee7777e2
-      internalID: -1462354568
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_145
-      rect:
-        serializedVersion: 2
-        x: 760
-        y: 549
-        width: 10
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7349ebefddba442048819c4f7da73bc1
-      internalID: 1850978437
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_146
-      rect:
-        serializedVersion: 2
-        x: 797
-        y: 561
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c7a404dabc54408cb214288201d668c
-      internalID: 1773498225
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_147
       rect:
         serializedVersion: 2
@@ -2890,10 +2806,10 @@ TextureImporter:
       name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_148
       rect:
         serializedVersion: 2
-        x: 874
-        y: 558
-        width: 4
-        height: 4
+        x: 1653
+        y: 524
+        width: 42
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2950,15 +2866,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_151
+      name: Boss_Attack2_Bomb_1
       rect:
         serializedVersion: 2
-        x: 1484
-        y: 528
-        width: 23
-        height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1485
+        y: 530
+        width: 20
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2974,12 +2890,12 @@ TextureImporter:
       name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_152
       rect:
         serializedVersion: 2
-        x: 1507
-        y: 528
-        width: 25
-        height: 37
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1508
+        y: 530
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2995,12 +2911,12 @@ TextureImporter:
       name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_153
       rect:
         serializedVersion: 2
-        x: 1531
-        y: 529
-        width: 29
-        height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1533
+        y: 531
+        width: 25
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3016,12 +2932,12 @@ TextureImporter:
       name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_154
       rect:
         serializedVersion: 2
-        x: 1560
-        y: 531
-        width: 31
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1561
+        y: 532
+        width: 28
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3037,12 +2953,12 @@ TextureImporter:
       name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_155
       rect:
         serializedVersion: 2
-        x: 1590
-        y: 531
-        width: 244
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1592
+        y: 532
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3226,10 +3142,10 @@ TextureImporter:
       name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_164
       rect:
         serializedVersion: 2
-        x: 851
-        y: 551
-        width: 4
-        height: 4
+        x: 1804
+        y: 538
+        width: 23
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3247,10 +3163,10 @@ TextureImporter:
       name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_165
       rect:
         serializedVersion: 2
-        x: 868
-        y: 548
-        width: 5
-        height: 5
+        x: 1706
+        y: 517
+        width: 22
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3394,10 +3310,10 @@ TextureImporter:
       name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_172
       rect:
         serializedVersion: 2
-        x: 862
-        y: 528
-        width: 4
-        height: 4
+        x: 1770
+        y: 536
+        width: 23
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3415,10 +3331,10 @@ TextureImporter:
       name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_173
       rect:
         serializedVersion: 2
-        x: 872
-        y: 531
-        width: 4
-        height: 4
+        x: 1728
+        y: 528
+        width: 35
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3668,9 +3584,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 892
-        y: 489
-        width: 6
-        height: 6
+        y: 491
+        width: 10
+        height: 4
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4801,9 +4717,9 @@ TextureImporter:
       name: Boss_Swim_12
       rect:
         serializedVersion: 2
-        x: 294
+        x: 295
         y: 168
-        width: 259
+        width: 257
         height: 48
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -4814,27 +4730,6 @@ TextureImporter:
       bones: []
       spriteID: fb0378a9d896d49cb83a17c5d14f9047
       internalID: -1460768300
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Neo Geo NGCD - Metal Slug 3 - Huge Hermit_242
-      rect:
-        serializedVersion: 2
-        x: 2509
-        y: 0
-        width: 431
-        height: 210
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 45f76c2e14cb5448d906e5f61771cc33
-      internalID: 103329245
       vertices: []
       indices: 
       edges: []
@@ -4850,6 +4745,67 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Boss_Attack1_Fire_1: -884772201
+      Boss_Attack1_Fire_10: -117237151
+      Boss_Attack1_Fire_11: 1608975219
+      Boss_Attack1_Fire_12: -274116153
+      Boss_Attack1_Fire_2: 2092416991
+      Boss_Attack1_Fire_3: -189302821
+      Boss_Attack1_Fire_4: 1400955954
+      Boss_Attack1_Fire_5: -576576833
+      Boss_Attack1_Fire_6: 755440231
+      Boss_Attack1_Fire_7: -50791791
+      Boss_Attack1_Fire_8: 697612137
+      Boss_Attack1_Fire_9: -1067716263
+      Boss_Attack2_Bomb_1: -981267520
+      Boss_Attack2_End_1: -1333704738
+      Boss_Attack2_End_10: 1792204131
+      Boss_Attack2_End_11: 1290176073
+      Boss_Attack2_End_12: -348827883
+      Boss_Attack2_End_2: 1208824846
+      Boss_Attack2_End_3: 474834790
+      Boss_Attack2_End_4: 1390798115
+      Boss_Attack2_End_5: -143345641
+      Boss_Attack2_End_6: 1830236906
+      Boss_Attack2_End_7: 2133356045
+      Boss_Attack2_End_8: 1109328019
+      Boss_Attack2_End_9: 879547740
+      Boss_Attack2_Fire_1: 597629794
+      Boss_Attack2_Fire_10: -2141541577
+      Boss_Attack2_Fire_11: 419414294
+      Boss_Attack2_Fire_12: -1047003117
+      Boss_Attack2_Fire_2: -1025101222
+      Boss_Attack2_Fire_3: -740601144
+      Boss_Attack2_Fire_4: 1585816266
+      Boss_Attack2_Fire_5: 78634015
+      Boss_Attack2_Fire_6: -1360483479
+      Boss_Attack2_Fire_7: -577248838
+      Boss_Attack2_Fire_8: -431954473
+      Boss_Attack2_Fire_9: -1569816444
+      Boss_Attack2_Ready_1: -1640895427
+      Boss_Attack2_Ready_10: 162554283
+      Boss_Attack2_Ready_11: -1797117372
+      Boss_Attack2_Ready_12: 518717641
+      Boss_Attack2_Ready_2: -667265071
+      Boss_Attack2_Ready_3: -667265071
+      Boss_Attack2_Ready_4: 546089411
+      Boss_Attack2_Ready_5: -1621786355
+      Boss_Attack2_Ready_6: 23170626
+      Boss_Attack2_Ready_7: 469209870
+      Boss_Attack2_Ready_8: -1404988025
+      Boss_Attack2_Ready_9: 1395677155
+      Boss_Destory_1: 87771028
+      Boss_Destory_10: 1134469574
+      Boss_Destory_11: 867531350
+      Boss_Destory_12: -1800106744
+      Boss_Destory_2: -744032474
+      Boss_Destory_3: 285190071
+      Boss_Destory_4: -377663185
+      Boss_Destory_5: 568707011
+      Boss_Destory_6: -1399720284
+      Boss_Destory_7: 997001540
+      Boss_Destory_8: 1775496293
+      Boss_Destory_9: 1789694843
       Boss_Idle_1: -1449429793
       Boss_Idle_10: -697601923
       Boss_Idle_11: -1960896246
@@ -4927,7 +4883,6 @@ TextureImporter:
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_148: -517388846
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_149: -1658389580
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_150: -1200612971
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_151: -981267520
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_152: -356729120
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_153: -75473180
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_154: -461235830
@@ -4958,7 +4913,6 @@ TextureImporter:
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_177: -1217579461
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_178: -266476117
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_179: 960865641
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_18: -776084066
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_180: 1948017068
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_181: 1207718209
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_182: -1576507900
@@ -4969,7 +4923,6 @@ TextureImporter:
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_187: -2124366670
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_188: -984148683
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_189: 2059022463
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_19: -1640895427
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_190: -1891959475
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_191: 98396499
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_192: 415779339
@@ -4981,134 +4934,77 @@ TextureImporter:
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_198: 191556155
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_199: -505720593
       Neo Geo NGCD - Metal Slug 3 - Huge Hermit_2: -1864015116
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_20: -667265071
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_200: -1978093987
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_201: 509744259
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_202: 1362705200
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_203: 1899209131
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_204: -558630744
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_205: -323726107
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_206: 1165899467
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_207: -1090840489
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_208: -1665664132
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_209: -379864447
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_21: 546089411
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_210: 144300510
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_211: -4303898
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_212: 389482283
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_213: 195740150
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_214: -19989133
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_215: 372533716
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_216: 1970581982
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_217: 692979799
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_218: -1516526410
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_219: 296501230
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_22: -1621786355
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_220: -1501925110
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_221: 313677172
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_222: -57636992
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_223: 888077795
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_224: 1768184261
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_225: -919217331
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_226: 139097601
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_227: 373576902
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_23: 23170626
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_24: 469209870
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_240: -652724575
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_241: -932483937
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_242: 103329245
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_243: -212167334
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_244: -1203288093
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_245: -470843945
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_246: 1723127555
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_247: 1910148742
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_248: -1419439367
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_249: 1824913255
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_25: -1404988025
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_250: 986195089
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_251: 2118770897
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_252: 649150277
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_253: -1364546400
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_254: 1428545961
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_255: -2010717302
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_256: 307535035
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_257: -1941133592
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_258: 391800000
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_26: 1395677155
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_27: 162554283
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_28: -1797117372
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_29: 518717641
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_30: -27496761
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_31: -1275454964
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_32: -808448712
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_33: -270103517
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_34: 254512102
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_35: 827325370
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_36: -78702510
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_37: 314816780
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_38: -567360490
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_39: -1264799835
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_4: 410725590
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_40: 641834940
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_41: -1691868493
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_42: 1682084800
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_43: -260097877
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_44: -417616950
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_45: -391780983
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_46: 597629794
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_47: -1025101222
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_48: -740601144
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_49: 1585816266
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_50: 78634015
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_51: -1360483479
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_52: -577248838
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_53: -431954473
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_54: -1569816444
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_55: -2141541577
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_56: 419414294
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_57: -1047003117
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_58: -884772201
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_59: 2092416991
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_60: -189302821
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_61: 1400955954
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_62: -576576833
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_63: 755440231
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_64: -50791791
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_65: 697612137
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_66: -1067716263
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_67: -117237151
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_68: 1608975219
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_69: -274116153
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_70: 437534512
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_71: 1346582136
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_72: -1333704738
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_73: 1208824846
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_74: 474834790
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_75: 1390798115
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_76: -143345641
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_77: 1830236906
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_78: 2133356045
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_79: 1109328019
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_80: 879547740
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_81: 1792204131
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_82: 1290176073
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_83: -348827883
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_84: -1066157628
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_85: 87771028
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_86: -744032474
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_87: 285190071
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_88: -377663185
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_89: 568707011
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_90: -1399720284
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_91: 997001540
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_92: 1775496293
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_93: 1789694843
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_94: 1134469574
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_95: 867531350
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_96: -1800106744
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_97: 87339023
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_98: -1465335533
-      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_99: -1850869748
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_200: 509744259
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_201: 1362705200
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_202: 1899209131
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_203: -558630744
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_204: -323726107
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_205: 1165899467
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_206: -1090840489
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_207: -1665664132
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_208: -379864447
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_209: 546089411
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_210: -4303898
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_211: 389482283
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_212: 195740150
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_213: -19989133
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_214: 372533716
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_215: 1970581982
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_216: 692979799
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_217: -1516526410
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_218: 296501230
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_219: -1621786355
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_220: 313677172
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_221: -57636992
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_222: 888077795
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_223: 1768184261
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_224: -919217331
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_225: 139097601
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_226: 373576902
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_227: 23170626
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_240: -932483937
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_241: 103329245
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_242: -212167334
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_243: -1203288093
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_244: -470843945
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_245: 1723127555
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_246: 1910148742
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_247: -1419439367
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_248: 1824913255
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_249: -1404988025
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_250: 2118770897
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_251: 649150277
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_252: -1364546400
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_253: 1428545961
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_254: -2010717302
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_255: 307535035
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_256: -1941133592
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_257: 391800000
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_258: 1395677155
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_30: -1275454964
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_31: -808448712
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_32: -270103517
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_33: 254512102
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_34: 827325370
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_35: -78702510
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_36: 314816780
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_37: -567360490
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_38: -1264799835
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_39: 410725590
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_4: 641834940
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_40: -1691868493
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_41: 1682084800
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_42: -260097877
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_43: -417616950
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_44: -391780983
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_45: 597629794
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_70: 1346582136
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_71: -1333704738
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_84: 87339023
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_97: -1465335533
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_98: -1850869748
+      Neo Geo NGCD - Metal Slug 3 - Huge Hermit_99: 322446270
+      Stage_1_Boss_0: -776084066
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

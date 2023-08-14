@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -220,7 +220,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_Gun,
+      name: Laser_Gun
       rect:
         serializedVersion: 2
         x: 574
@@ -241,7 +241,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_Chaser
+      name: Iron_Lizard
       rect:
         serializedVersion: 2
         x: 600
@@ -262,7 +262,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Item_1
+      name: Enemy_Chaser
       rect:
         serializedVersion: 2
         x: 626
@@ -324,6 +324,153 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: grenade_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1746
+        width: 32
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874bfaf5303a540e5b5cce78266142bf
+      internalID: 1600006400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grenade_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1746
+        width: 32
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250afbba3459c485cb5db52e6e6ca872
+      internalID: -1639147213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grenade_3
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1746
+        width: 32
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c398cfc40406e40c397a0332f604e2bf
+      internalID: -2138098964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grenade_4
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1746
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1d28fc1001a41c5b1c2d34a4363da9
+      internalID: 2147216453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grenade_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1746
+        width: 32
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0d983a332a640e5b9a4acdca85a655
+      internalID: 932829104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grenade_6
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1746
+        width: 32
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b2264ef7294477cb5bdb3ab47329b3
+      internalID: 1379768672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grenade_7
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1746
+        width: 32
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530e7bf515d7e4e7e95ac3712bcd9019
+      internalID: 183931348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -336,14 +483,21 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Drop_Shot: -1077357417
-      Enemy_Chaser: -1069452394
+      Enemy_Chaser: -197622545
       Flame_Shot: 1420708844
       Heavy_Machinegun: -886922754
-      Item_1: -197622545
-      Laser_Gun,: -1535461685
+      Iron_Lizard: -1069452394
+      Laser_Gun: -1535461685
       Rocket_Launcher: 612722030
       Shot_Gun: -200986983
       Super_Grenade: -2083653884
+      grenade_1: 1600006400
+      grenade_2: -1639147213
+      grenade_3: -2138098964
+      grenade_4: 2147216453
+      grenade_5: 932829104
+      grenade_6: 1379768672
+      grenade_7: 183931348
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

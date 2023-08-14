@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
     public static Weapon instance = null;
-
+    [SerializeField] EWeaponName eWeapon;
     private void Awake()
     {
         if (null == instance) instance = this;
@@ -21,14 +19,14 @@ public class Weapon : MonoBehaviour
     }
 
     //연사 속도
-    private float autospeed;
-    public float AUTOSPEED
+    private float firespeed;
+    public float FIRESPEED
     {
         get;
         set;
     }
 
-    //한탄창 갯수
+    //한탄창 갯수 (무한 - 999)
     private float gunmagazine;
     private float GUNMAGAZINE
     {
@@ -42,33 +40,63 @@ public class Weapon : MonoBehaviour
         switch(weaponName)
         {
             case EWeaponName.Default:
+                DAMAGE = 1f;
+                FIRESPEED = 1f;
+                GUNMAGAZINE = 999f;
                 break;
 
             case EWeaponName.Heavy_Machinegun:
+                DAMAGE = 1f;
+                FIRESPEED = 5f;
+                GUNMAGAZINE = 200f;
                 break;
 
             case EWeaponName.Rocket_Launcher:
+                DAMAGE = 1f;
+                FIRESPEED = 5f;
+                GUNMAGAZINE = 200f;
                 break;
 
             case EWeaponName.Flame_Shot:
+                DAMAGE = 1f;
+                FIRESPEED = 5f;
+                GUNMAGAZINE = 200f;
                 break;
 
             case EWeaponName.Shot_Gun:
+                DAMAGE = 20f;
+                FIRESPEED = 1f;
+                GUNMAGAZINE = 30f;
                 break;
 
             case EWeaponName.Drop_Shot:
+                DAMAGE = 3f;
+                FIRESPEED = 1f;
+                GUNMAGAZINE = 30f;
                 break;
 
             case EWeaponName.Super_Grenade:
+                DAMAGE = 10f;
+                FIRESPEED = 1f;
+                GUNMAGAZINE = 20f;
                 break;
 
             case EWeaponName.Laser_Gun:
+                DAMAGE = 1.4f; //발당
+                FIRESPEED = 4f;
+                GUNMAGAZINE = 200f;
                 break;
 
             case EWeaponName.Enemy_Chaser:
+                DAMAGE = 1f;
+                FIRESPEED = 1f;
+                GUNMAGAZINE = 40f;
                 break;
 
             case EWeaponName.Iron_Lizard:
+                DAMAGE = 3f;
+                FIRESPEED = 1f;
+                GUNMAGAZINE = 30;
                 break;
         }
     }
