@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 6087991413970714432}
   - component: {fileID: 1781620822861224379}
   - component: {fileID: 5779962831920199871}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Laser_Gun
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: -1535461685, guid: ea7e0a1453b57472c865b5c895e03b8b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

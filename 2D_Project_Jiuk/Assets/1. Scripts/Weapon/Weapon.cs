@@ -34,6 +34,10 @@ public class Weapon : MonoBehaviour
         set;
     }
 
+    public EWeaponName EWEAPON
+    {
+        get;
+    }
 
     public void GetWeapon(EWeaponName weaponName)
     {
