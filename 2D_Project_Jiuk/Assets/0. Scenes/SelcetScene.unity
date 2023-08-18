@@ -3394,6 +3394,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c6e90651b6d14df684080925f7730ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bullet_name:
+  - Default
+  - Heavy_Machinegun
+  - Flame_Shot
+  - Shot_Gun
+  - Super_Grenade
+  - Rocket_Launcher
+  - Laser_Gun
+  - Iron_Lizard
+  - Enemy_Chaser
+  - Drop_Shot
   Bullets:
   - {fileID: 4606837151271735975, guid: c0b24c35f31df452db87477b2fca0816, type: 3}
   - {fileID: 4606837151271735975, guid: c0b24c35f31df452db87477b2fca0816, type: 3}

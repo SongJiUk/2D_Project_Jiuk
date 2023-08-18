@@ -2,16 +2,11 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    public static Weapon instance = null;
-    [SerializeField] EWeaponName eWeapon;
-    private void Awake()
-    {
-        if (null == instance) instance = this;
-        else Destroy(this.gameObject);
-    }
+
+    public EWeaponName eWeapon;
 
 
-    private float damage = 1f;
+    private float damage;
     public float DAMAGE
     {
         get;
@@ -34,9 +29,20 @@ public class Weapon : MonoBehaviour
         set;
     }
 
-    public EWeaponName EWEAPON
+   
+    public string WEAPON_NAME
     {
         get;
+    }
+
+    private void Start()
+    {
+
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        GetWeapon(eWeapon);
+        Player.instace.ChangeWeapon(this);
     }
 
     public void GetWeapon(EWeaponName weaponName)

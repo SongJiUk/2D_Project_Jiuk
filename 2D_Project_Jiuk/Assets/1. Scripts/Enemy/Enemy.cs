@@ -13,6 +13,7 @@ public class Enemy : Creature
     // Update is called once per frame
     void Update()
     {
-        
+        //0.16, -0.67
     }
 }
+ 

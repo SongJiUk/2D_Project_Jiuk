@@ -7,8 +7,10 @@ public class Player : Creature
     public static Player instace = null;
     
     Vector2 movement = Vector2.zero;
-    Vector3 left = new Vector3(-1f, 1f, 1f);
-    Vector3 right = new Vector3(1f, 1f, 1f);
+    Vector2 dir = Vector2.zero;
+    Vector2 left = new Vector2(-1f, 1f);
+    Vector2 right = new Vector2(1f, 1f);
+    Vector3 raycast = new Vector3(0, 0.5f, 0);
 
     float speed = 3f;
     bool isShoot = false;
@@ -32,16 +34,20 @@ public class Player : Creature
     [SerializeField] GameObject[] firePosObj;
     [SerializeField]
     GameObject[] BulletObj;
+    public Weapon weapon;
     Vector3 Firepos = Vector3.zero;
     Vector3 UpFirepos = Vector3.zero;
     Vector3 DownFirepos = Vector3.zero;
     float RandomNum;
+    public LayerMask enemyLayer;
+
     private void Awake()
     {
         if (null == instace) instace = this;
         else Destroy(this.gameObject);
 
 
+        dir = Vector2.right;
         Firepos = firePosObj[0].transform.localPosition;
         UpFirepos = firePosObj[0].transform.localPosition + new Vector3(-1f, 1f, 0);
         DownFirepos = firePosObj[0].transform.localPosition + new Vector3(-0.9f, -1.2f, 0);
@@ -103,9 +109,22 @@ public class Player : Creature
         
     }
 
-    void ChangeWeapon()
+    public void ChangeWeapon(Weapon _weapon)
     {
+        weapon = _weapon;
+        Debug.Log(weapon.eWeapon);
+        string weapon_name = weapon.eWeapon.ToString();
 
+        if(weapon.eWeapon.Equals(EWeaponName.Default))
+        {
+            isGetHw = false;
+        }
+        else
+        {
+            isGetHw = true;
+        }
+
+        UpperAnim.SetBool("IsGetHw", isGetHw);
     }
 
     private void Update()
@@ -169,12 +188,15 @@ public class Player : Creature
         if (movement.x < 0)
         {
             transform.localScale = left;
+            dir = Vector2.left * 3f;
         }
         else if (movement.x > 0)
         {
             transform.localScale = right;
+            dir = Vector2.right * 3f;
         }
 
+       
 
         if (movement.y < 0)
         {
@@ -182,6 +204,7 @@ public class Player : Creature
             {
                 isSit = false;
                 isLookDown = true;
+                UpperAnim.SetBool("LookDown", isLookDown);
                 firePosObj[0].transform.localPosition = DownFirepos;
             }
             else isSit = true;
@@ -189,6 +212,7 @@ public class Player : Creature
         else if (movement.y > 0)
         {
             isLookUp = true;
+            UpperAnim.SetBool("LookUP", isLookUp);
             firePosObj[0].transform.localPosition = UpFirepos;
             isSit = false;
         }
@@ -198,6 +222,9 @@ public class Player : Creature
             firePosObj[0].transform.localPosition = Firepos;
             isLookDown = false;
             isSit = false;
+
+            UpperAnim.SetBool("LookUP", isLookUp);
+            UpperAnim.SetBool("LookDown", isLookDown);
             CharacterChange(isSit);
         }
 
@@ -228,14 +255,8 @@ public class Player : Creature
             {
                 RandomNum = Random.Range(0, 1f);
                 UpperAnim.SetFloat("MeleeNum", RandomNum);
-
             }
-            //var bullet = ObjectPool.instance.bullet_que.Dequeue();
-
-            //bullet.SetActive(true);
-            //bullet.transform.position = firePosObj[0].transform.position;
-            //bullet.GetComponent<Rigidbody2D>().AddForce(Vector2.right * 100f);
-
+            else ObjectPool.instance.GetBullet("Default");
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift))
@@ -330,6 +351,28 @@ public class Player : Creature
         UpperAnim.SetFloat("PositionY", movement.y);
         LowerAnim.SetFloat("PositionX", movement.x);
         LowerAnim.SetFloat("PositionY", movement.y);
+    }
+
+    private void FixedUpdate()
+    {
+        // 플레이어와 적의 위치를 가져옴
+        Vector2 playerPosition = transform.position + raycast;
+
+        // 플레이어에서 적 방향으로 레이를 쏘고 충돌 감지
+
+        RaycastHit2D hit = Physics2D.Raycast(playerPosition, dir, Mathf.Infinity, enemyLayer);
+
+        if (hit.collider != null)
+        {
+            // 플레이어와 적 사이의 거리 계산
+            float distance = hit.distance;
+            if (distance < 0.6f) isMelee = true;
+            else isMelee = false;
+
+            Debug.Log("플레이어와 적 사이의 거리: " + distance);
+        }
+
+        Debug.DrawRay(transform.position + new Vector3(0, 0.5f, 0), dir, new Color(0, 1, 0));
 
     }
 
@@ -352,15 +395,14 @@ public class Player : Creature
             isMelee = true;
 
             UpperAnim.SetBool("IsMelee", isMelee);
-
         }
 
-        if(collision.CompareTag("Weapon"))
-        {
-            Debug.Log(collision.GetComponent<Weapon>().EWEAPON);
-            isGetHw = true;
-            UpperAnim.SetBool("IsGetHw", isGetHw);
-        }
+        //if(collision.CompareTag("Weapon"))
+        //{
+        //    Debug.Log(collision.GetComponent<Weapon>().eWeapon);
+        //    isGetHw = true;
+        //    UpperAnim.SetBool("IsGetHw", isGetHw);
+        //}
         
     }
 

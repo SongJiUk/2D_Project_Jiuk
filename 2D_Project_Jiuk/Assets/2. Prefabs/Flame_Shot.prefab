@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 5023746612542440229}
   - component: {fileID: 3937954287119896533}
   - component: {fileID: 539676980865799719}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Flame_Shot
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae5bf8e8d07064f8c8bf1d9c94ebae4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eWeapon: 3
+  eWeapon: 2
 --- !u!61 &539676980865799719
 BoxCollider2D:
   m_ObjectHideFlags: 0

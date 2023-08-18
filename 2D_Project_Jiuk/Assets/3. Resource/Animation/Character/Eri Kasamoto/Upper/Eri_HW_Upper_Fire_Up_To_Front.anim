@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Eri_Upper_HW_Melee_Attack_2
+  m_Name: Eri_HW_Upper_Fire_Up_To_Front
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,15 +21,9 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -1476317886, guid: 5974a0c069b5d44228a9d347acb0818f, type: 3}
-    - time: 0.1
-      value: {fileID: 428098103, guid: 5974a0c069b5d44228a9d347acb0818f, type: 3}
-    - time: 0.2
-      value: {fileID: 916566859, guid: 5974a0c069b5d44228a9d347acb0818f, type: 3}
-    - time: 0.31666666
-      value: {fileID: -845921927, guid: 5974a0c069b5d44228a9d347acb0818f, type: 3}
-    - time: 0.41666666
-      value: {fileID: 1216328189, guid: 5974a0c069b5d44228a9d347acb0818f, type: 3}
+      value: {fileID: 291222263, guid: 5974a0c069b5d44228a9d347acb0818f, type: 3}
+    - time: 0.25
+      value: {fileID: 428538879, guid: 5974a0c069b5d44228a9d347acb0818f, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -52,17 +46,14 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -1476317886, guid: 5974a0c069b5d44228a9d347acb0818f, type: 3}
-    - {fileID: 428098103, guid: 5974a0c069b5d44228a9d347acb0818f, type: 3}
-    - {fileID: 916566859, guid: 5974a0c069b5d44228a9d347acb0818f, type: 3}
-    - {fileID: -845921927, guid: 5974a0c069b5d44228a9d347acb0818f, type: 3}
-    - {fileID: 1216328189, guid: 5974a0c069b5d44228a9d347acb0818f, type: 3}
+    - {fileID: 291222263, guid: 5974a0c069b5d44228a9d347acb0818f, type: 3}
+    - {fileID: 428538879, guid: 5974a0c069b5d44228a9d347acb0818f, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.43333334
+    m_StopTime: 0.26666668
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

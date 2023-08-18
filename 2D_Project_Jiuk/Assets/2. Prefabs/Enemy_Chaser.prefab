@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 2099598362330972392}
   - component: {fileID: 8947441327659758820}
   - component: {fileID: 3083719648586920514}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Enemy_Chaser
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae5bf8e8d07064f8c8bf1d9c94ebae4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eWeapon: 8
+  eWeapon: 7
 --- !u!61 &3083719648586920514
 BoxCollider2D:
   m_ObjectHideFlags: 0

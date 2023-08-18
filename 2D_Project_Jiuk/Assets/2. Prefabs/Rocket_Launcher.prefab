@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 5079035751498499526}
   - component: {fileID: 4821037917120964434}
   - component: {fileID: 9108581598557756583}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Rocket_Launcher
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae5bf8e8d07064f8c8bf1d9c94ebae4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eWeapon: 2
+  eWeapon: 5
 --- !u!61 &9108581598557756583
 BoxCollider2D:
   m_ObjectHideFlags: 0
