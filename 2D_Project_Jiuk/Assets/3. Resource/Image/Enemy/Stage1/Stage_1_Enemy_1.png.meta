@@ -1206,6 +1206,1791 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_Attack2_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 356
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4963fd5e401e84b54be55752d14a8b18
+      internalID: -527560007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_Attack2_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 356
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae9f3b6ba9a64760b0a2d13361df3b2
+      internalID: -1840903849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_Attack2_3
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 356
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87206ae1e40cb40e2abb472390573691
+      internalID: 244540869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_Attack2_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 356
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b50c4b72041c46639863484265701e7
+      internalID: -197537450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_Attack2_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 356
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29d118d791264afc9f7ea0cb5cf4d3b
+      internalID: 1701255116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_Attack2_6
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 356
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e93c3547eb04ead89d9f35209dac96
+      internalID: -160059658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_Attack2_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 356
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f726c0b1d0c42688d47957262d2b2d
+      internalID: -1682517308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_Attack2_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 356
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43402e5917e6402893c85c601f24059
+      internalID: 1683936203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_Attack2_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 356
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe81f8f6987a34c2da3ca2792e06263f
+      internalID: 1167102497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_Attack2_10
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 356
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbeb1260129e4d2eb799f0628ebb118
+      internalID: 165586445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_Attack2_11
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 356
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5065f9cf554e4f8f967a4c3e048ea84
+      internalID: -322644259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_Attack2_12
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 356
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e491ef2a4bbd41568a5c87d2fb66603
+      internalID: 2112705549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_Attack2_13
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 351
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ddc8b8b2410d46daaceb198db36ea58
+      internalID: 695972265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_Attack2_14
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 350
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a94727351d54823b51f8363a0e7bd7
+      internalID: 1117690045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_Attack2_15
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 347
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746ede0238405440c95584998afa62da
+      internalID: 479631996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_Attack2_16
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 347
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e7ecac48d614f0794a5134a0133cf5
+      internalID: 1862547768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_Attack2_17
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 345
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0904d1d6a2c0143fe9bf4a66cd42672a
+      internalID: 686696800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_Attack2_18
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 344
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade412d4abc9a44e6ad249a86f32d2c4
+      internalID: -874755168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_1_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 726
+        width: 51
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3262c3360014ab7b37e73c4a2533ad
+      internalID: -719922356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_1_2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 726
+        width: 52
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1820cd6177594cbe9eb61d90d1f7773
+      internalID: -2058521493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_1_3
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 726
+        width: 53
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16a2b51ca4454b7bbd9385faec7ee01
+      internalID: 632630550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_1_Enemy_1_3
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 726
+        width: 41
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0ef5233214f46bf8f947180dc63036
+      internalID: 1865499163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_1_5
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 726
+        width: 40
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f886fec8af24611ab6ec6417d0fd97
+      internalID: -421583055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_2_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 675
+        width: 36
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1995e4e891c9547f9b6908cd39c03374
+      internalID: 1682759162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_2_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 675
+        width: 37
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e5bc0974c9d40f59d9767e88a94be7
+      internalID: -52105161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_2_3
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 675
+        width: 33
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96949a9b4ac95462b83492b0c808cf6d
+      internalID: 848081842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_2_4
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 675
+        width: 35
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005835bdae5f543f7817743c420e9866
+      internalID: 1419177861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_2_5
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 675
+        width: 34
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4dc24d585b77419fa1e0444fa97cd73
+      internalID: -961130597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_3_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 607
+        width: 37
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e768ca142ef3461dbe1cb7c03ec2376
+      internalID: -976914814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_3_2
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 607
+        width: 33
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02f5d554807044a6b276e821e4ce04e
+      internalID: -275806168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_1_Enemy_1_12
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 607
+        width: 34
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce30b5e0332684488848e18dfe16f595
+      internalID: 531281760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_3_4
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 607
+        width: 35
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7ec30fdeefd4ed7ae172e42d1f50fd
+      internalID: -1267145316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_3_5
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 607
+        width: 36
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb772feed55914d0a8daf9caf13b4e91
+      internalID: 1956918068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_3_6
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 607
+        width: 36
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63bb189e1e664620b060ced8443d4e3
+      internalID: 841038218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_3_7
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 607
+        width: 35
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc34b74b322544aea962236de2f30ee
+      internalID: 894237865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_3_8
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 608
+        width: 40
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd454c36c5d14468f902d9616718e81f
+      internalID: 187164378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_3_9
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 562
+        width: 40
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19dbfda8409cf4e50a248dfc4d102884
+      internalID: 767414965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_3_10
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 562
+        width: 41
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6290e8359f8741728e49409509c4d02
+      internalID: 1100729188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_3_11
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 562
+        width: 44
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922fee3b68a764745b1b1b5f55194769
+      internalID: -1902199665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_3_12
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 562
+        width: 44
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b764b46bab68e456ca0473c431c80226
+      internalID: 403837466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_4_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 520
+        width: 33
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d8348f0a4d5422c8b1f9e2fb36a9e7
+      internalID: -1950135417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_4_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 520
+        width: 33
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8e4ff21a7e449fc8313a53a4821e91
+      internalID: 380366919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_4_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 520
+        width: 37
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55403e8900d2443198f13ce5eb923b69
+      internalID: -1592790214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_4_4
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 520
+        width: 35
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d83e4f5adecc4a7db8b365dc4e6d96c
+      internalID: 1389513011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_4_5
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 520
+        width: 42
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b4caaa664ce47babc44aa85f1f27e6
+      internalID: 1979714478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_4_6
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 520
+        width: 39
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c6d1959f81c485e82a25dca449a71d
+      internalID: -1980879461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_4_7
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 520
+        width: 41
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496b2edfebf324196a3d2a22b1fdbc55
+      internalID: 1158512479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_4_8
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 519
+        width: 34
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719d27ff05ba44617886da9fc2ee42d3
+      internalID: 250838900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_4_9
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 519
+        width: 32
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafdb51d6b05640c5848e191c2d14605
+      internalID: -1435074163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_4_10
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 519
+        width: 30
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07bcf3fff7fd4cb2af6e99ae96ae035
+      internalID: -1037703243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_4_11
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 519
+        width: 31
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2603722636784aa7a239b8f6b0803ad
+      internalID: -620856719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_4_12
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 519
+        width: 29
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2652c52bbf7974971beed0218c082860
+      internalID: 422191044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_4_13
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 493
+        width: 39
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817a52139bcfe4a55ac64ef99ba11e04
+      internalID: -402479567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_4_14
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 493
+        width: 39
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62848f63ff074c3d980237b5fdb9083
+      internalID: 1266158005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_4_15
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 493
+        width: 38
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abb2a77f4521464aa9beca0ceab0ce0
+      internalID: 2129993911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_4_16
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 493
+        width: 39
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5894a56f7faaf4b37bd05673e9ebad98
+      internalID: -644468501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_4_17
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 493
+        width: 39
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34b2a1cdf044466893f440602bd2250
+      internalID: -506989061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_4_18
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 493
+        width: 40
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac87c3765da8c4848afccd92464d2f62
+      internalID: -1982689981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_5_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 453
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418f396832de24c6585432b3334bc3ba
+      internalID: -699355947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_5_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 453
+        width: 24
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d4aacfe9a4443169cf7c49e03cf4a1
+      internalID: -408351035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_5_3
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 453
+        width: 25
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fc69d0246b24f22b705d91a3650dcf
+      internalID: -1625936594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_5_4
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 453
+        width: 22
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09110cfac7d75495c96216db6702a9ea
+      internalID: -532520106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_5_5
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 453
+        width: 21
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b228f75c93a54e16aeb7e612dc1ff9f
+      internalID: 1864029502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_5_6
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 453
+        width: 15
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10893e4a3e31944448a7120d401381ed
+      internalID: -1134958354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_5_7
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 453
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5187c7cd17f9c4f47b8369cf4e4bbd53
+      internalID: 744511375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_5_8
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 453
+        width: 16
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8789a1fb6fc5044f39cddd5b20bb6d68
+      internalID: 509023811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_5_9
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 453
+        width: 13
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80dc654f6c0094e9e92581d83b42bd20
+      internalID: -840298725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_5_10
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 453
+        width: 19
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7c42d422cae42349cd6eb0f6a49181
+      internalID: 1051371191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_5_11
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 421
+        width: 27
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48f8722d350e4f6dbda75f5c18dcb15
+      internalID: 1166083798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_5_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 421
+        width: 23
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e638de4ca9044dc5a9731db865d30d4
+      internalID: -862739212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_5_13
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 420
+        width: 24
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3edff735b15e4a838dcb0daac63f68a
+      internalID: 1583696356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_5_14
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 420
+        width: 27
+        height: 8
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4baee4a83a8354050a64792032d68769
+      internalID: -473133028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_5_15
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 420
+        width: 27
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b7bc28a18e341838d594ecbd210b0e
+      internalID: 1613637830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_effect2_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 233
+        width: 56
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711b9a3d64b4d4698afbf5ee73050341
+      internalID: 1389817882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_effect2_2
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 234
+        width: 64
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0400f1e974085468e876f4bbae83ed48
+      internalID: -609568453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_effect2_3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 232
+        width: 67
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fde7b96234024a54ac987499c9ebbbb
+      internalID: 1282592648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_effect2_4
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 233
+        width: 68
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2a6ea338d834b90bb94c1851c5a6ff
+      internalID: -642933603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_effect2_5
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 233
+        width: 72
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2876bc47fa7474bf484a05a7bc8b9502
+      internalID: -1828345478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_effect1_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 308
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7b4c50331144de4a94245df839c66f
+      internalID: -2020131380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_effect1_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 307
+        width: 20
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba97e0d5c7d5d4c8cbca63d4520a68a6
+      internalID: -296619990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_effect1_3
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 304
+        width: 25
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c876ba9df16dd49748360cd53dcb0879
+      internalID: -2053213292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_effect1_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 304
+        width: 24
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82903eba146e418b96dd5a006caa0dc
+      internalID: -612274078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_effect1_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 307
+        width: 20
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa095b29af30438bbeab7a3711ff1bb
+      internalID: -397107064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_effect1_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 309
+        width: 22
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a222a4cac584252a10aff684faf96b
+      internalID: 2022851656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_explosion_effect1_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 309
+        width: 22
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b9b8b6499324ac48a4f4570d70be13
+      internalID: -1030592511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1274,6 +3059,91 @@ TextureImporter:
       Stage1_Enemy1_Walk_5: -1060159307
       Stage1_Enemy1_Walk_6: 1631317490
       Stage1_Enemy1_Walk_7: 231147743
+      Stage1_Enemy_Attack2_1: -527560007
+      Stage1_Enemy_Attack2_10: 1683936203
+      Stage1_Enemy_Attack2_11: 1167102497
+      Stage1_Enemy_Attack2_12: 165586445
+      Stage1_Enemy_Attack2_13: -322644259
+      Stage1_Enemy_Attack2_14: 2112705549
+      Stage1_Enemy_Attack2_15: 695972265
+      Stage1_Enemy_Attack2_16: 1117690045
+      Stage1_Enemy_Attack2_17: 479631996
+      Stage1_Enemy_Attack2_18: 1862547768
+      Stage1_Enemy_Attack2_2: -527560007
+      Stage1_Enemy_Attack2_3: -1840903849
+      Stage1_Enemy_Attack2_4: -527560007
+      Stage1_Enemy_Attack2_5: 244540869
+      Stage1_Enemy_Attack2_6: -197537450
+      Stage1_Enemy_Attack2_7: 1701255116
+      Stage1_Enemy_Attack2_8: -160059658
+      Stage1_Enemy_Attack2_9: -1682517308
+      Stage1_Enemy_explosion_1_1: -719922356
+      Stage1_Enemy_explosion_1_2: -2058521493
+      Stage1_Enemy_explosion_1_3: 632630550
+      Stage1_Enemy_explosion_1_5: -421583055
+      Stage1_Enemy_explosion_2_1: 1682759162
+      Stage1_Enemy_explosion_2_2: -52105161
+      Stage1_Enemy_explosion_2_3: 848081842
+      Stage1_Enemy_explosion_2_4: 1419177861
+      Stage1_Enemy_explosion_2_5: -961130597
+      Stage1_Enemy_explosion_3_1: -976914814
+      Stage1_Enemy_explosion_3_10: 767414965
+      Stage1_Enemy_explosion_3_11: 1100729188
+      Stage1_Enemy_explosion_3_12: -1902199665
+      Stage1_Enemy_explosion_3_2: -275806168
+      Stage1_Enemy_explosion_3_4: -1267145316
+      Stage1_Enemy_explosion_3_5: 1956918068
+      Stage1_Enemy_explosion_3_6: 841038218
+      Stage1_Enemy_explosion_3_7: -1243517219
+      Stage1_Enemy_explosion_3_8: 894237865
+      Stage1_Enemy_explosion_3_9: 187164378
+      Stage1_Enemy_explosion_4_1: -1950135417
+      Stage1_Enemy_explosion_4_10: -1435074163
+      Stage1_Enemy_explosion_4_11: -620856719
+      Stage1_Enemy_explosion_4_12: -620856719
+      Stage1_Enemy_explosion_4_13: 422191044
+      Stage1_Enemy_explosion_4_14: 422191044
+      Stage1_Enemy_explosion_4_15: -402479567
+      Stage1_Enemy_explosion_4_16: 1266158005
+      Stage1_Enemy_explosion_4_17: 1266158005
+      Stage1_Enemy_explosion_4_18: -1118763313
+      Stage1_Enemy_explosion_4_2: 380366919
+      Stage1_Enemy_explosion_4_3: 380366919
+      Stage1_Enemy_explosion_4_4: -1592790214
+      Stage1_Enemy_explosion_4_5: 1389513011
+      Stage1_Enemy_explosion_4_6: 1979714478
+      Stage1_Enemy_explosion_4_7: -1980879461
+      Stage1_Enemy_explosion_4_8: 1158512479
+      Stage1_Enemy_explosion_4_9: 250838900
+      Stage1_Enemy_explosion_5_1: -699355947
+      Stage1_Enemy_explosion_5_10: 509023811
+      Stage1_Enemy_explosion_5_11: -840298725
+      Stage1_Enemy_explosion_5_12: 1051371191
+      Stage1_Enemy_explosion_5_13: 1166083798
+      Stage1_Enemy_explosion_5_14: 1166083798
+      Stage1_Enemy_explosion_5_15: 1166083798
+      Stage1_Enemy_explosion_5_2: -699355947
+      Stage1_Enemy_explosion_5_3: -699355947
+      Stage1_Enemy_explosion_5_4: -408351035
+      Stage1_Enemy_explosion_5_5: 1864029502
+      Stage1_Enemy_explosion_5_6: 1864029502
+      Stage1_Enemy_explosion_5_7: 1864029502
+      Stage1_Enemy_explosion_5_8: -1134958354
+      Stage1_Enemy_explosion_5_9: 744511375
+      Stage1_Enemy_explosion_effect1_1: -2020131380
+      Stage1_Enemy_explosion_effect1_2: -296619990
+      Stage1_Enemy_explosion_effect1_3: -2053213292
+      Stage1_Enemy_explosion_effect1_4: -612274078
+      Stage1_Enemy_explosion_effect1_5: -397107064
+      Stage1_Enemy_explosion_effect1_6: 2022851656
+      Stage1_Enemy_explosion_effect1_7: -1030592511
+      Stage1_Enemy_explosion_effect2_1: 1389817882
+      Stage1_Enemy_explosion_effect2_2: -609568453
+      Stage1_Enemy_explosion_effect2_3: 1282592648
+      Stage1_Enemy_explosion_effect2_4: -642933603
+      Stage1_Enemy_explosion_effect2_5: -1828345478
+      Stage_1_Enemy_1_12: 531281760
+      Stage_1_Enemy_1_3: 1865499163
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

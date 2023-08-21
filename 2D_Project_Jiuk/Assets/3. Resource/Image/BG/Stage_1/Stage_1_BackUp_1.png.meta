@@ -1,0 +1,681 @@
+fileFormatVersion: 2
+guid: 5e3a2fbfaca834eac8beacca0de8b969
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 29
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boat_Swim_1
+      rect:
+        serializedVersion: 2
+        x: 3286
+        y: 1049
+        width: 223
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed276830ee92c4f4d90c1eff68c8caf3
+      internalID: 1906760471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boat_Swim_2
+      rect:
+        serializedVersion: 2
+        x: 3510
+        y: 1050
+        width: 224
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4096cdbb4ae6e4deea792f4fdb7392b8
+      internalID: -1764600997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boat_Swim_3
+      rect:
+        serializedVersion: 2
+        x: 3735
+        y: 1051
+        width: 222
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b7d0450fbe041809c8ef505f43e4c0
+      internalID: -222852046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boat_Swim_4
+      rect:
+        serializedVersion: 2
+        x: 3962
+        y: 1049
+        width: 218
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5d24e847aa24b9c9d08550818f0d8f
+      internalID: -1305825226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boat_Swim_5
+      rect:
+        serializedVersion: 2
+        x: 4186
+        y: 1047
+        width: 220
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be14027cbe8164b76880b47ac30a1b31
+      internalID: -1241535818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boat_Swim_6
+      rect:
+        serializedVersion: 2
+        x: 4413
+        y: 1046
+        width: 216
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771ab025531384716b6be974998bffee
+      internalID: 422902857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boat_Swim_7
+      rect:
+        serializedVersion: 2
+        x: 4630
+        y: 1046
+        width: 220
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f756ee47a888b466cb73eb17be7fc860
+      internalID: -461600210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boat_Swim_8
+      rect:
+        serializedVersion: 2
+        x: 4851
+        y: 1044
+        width: 222
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79761869fce34cb9a1918cc8efeaf71
+      internalID: -194027449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boat_Swim_break_1
+      rect:
+        serializedVersion: 2
+        x: 3286
+        y: 1002
+        width: 228
+        height: 28
+      alignment: 9
+      pivot: {x: 0.496294, y: 0.3491538}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8531bf3713d7451e924208daa0a73e8
+      internalID: 21156408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boat_Swim_break_2
+      rect:
+        serializedVersion: 2
+        x: 3517
+        y: 1005
+        width: 229
+        height: 24
+      alignment: 9
+      pivot: {x: 0.50184333, y: 0.39440408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60bea494d2414adcbacdc1787d2556d
+      internalID: -2054172964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boat_Swim_break_3
+      rect:
+        serializedVersion: 2
+        x: 3756
+        y: 1005
+        width: 218
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.29092878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82402b08a62e4c70b41b491a063c930
+      internalID: -1501476978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boat_Swim_break_4
+      rect:
+        serializedVersion: 2
+        x: 3977
+        y: 1003
+        width: 227
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5017746, y: 0.25221136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fea18bd86d64dccb4974c1cef782f1
+      internalID: -1452080527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boat_Swim_break_5
+      rect:
+        serializedVersion: 2
+        x: 4208
+        y: 1001
+        width: 227
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5008862, y: 0.319498}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb77e27561014f3ba8334914ae449ff
+      internalID: 1799666096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_1_BackUp_1_5
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 1000
+        width: 235
+        height: 29
+      alignment: 9
+      pivot: {x: 0.49914396, y: 0.31255683}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d818e855937c429aab0cc50c09af6b2
+      internalID: -1965201974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boat_Swim_break_7
+      rect:
+        serializedVersion: 2
+        x: 4676
+        y: 998
+        width: 234
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5008618, y: 0.29237938}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6370a18a024cc44db852b2086825b34f
+      internalID: 809793071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boat_Swim_break_8
+      rect:
+        serializedVersion: 2
+        x: 4923
+        y: 994
+        width: 226
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37503788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22058e276aa9c4752aafa5db669b21f4
+      internalID: 699954960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boat_Swim_break_Soon_1
+      rect:
+        serializedVersion: 2
+        x: 3048
+        y: 949
+        width: 239
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44293755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095b7da642ac642308fb31f4c10cd74f
+      internalID: 1787333896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boat_Swim_break_Soon_2
+      rect:
+        serializedVersion: 2
+        x: 3288
+        y: 945
+        width: 241
+        height: 49
+      alignment: 9
+      pivot: {x: 0.49822417, y: 0.4301272}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a203833123ae4766a4348821872bfe1
+      internalID: -420301915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boat_Swim_break_Soon_3
+      rect:
+        serializedVersion: 2
+        x: 3529
+        y: 941
+        width: 242
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44126025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646b73272fba04c4b878365f34f8a903
+      internalID: 1906375128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boat_Swim_break_Soon_4
+      rect:
+        serializedVersion: 2
+        x: 3772
+        y: 940
+        width: 240
+        height: 52
+      alignment: 9
+      pivot: {x: 0.50178325, y: 0.40946844}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db526019116bc4e1d993d3f08013ab80
+      internalID: -1465299463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boat_Swim_break_Soon_5
+      rect:
+        serializedVersion: 2
+        x: 4020
+        y: 940
+        width: 236
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39300773}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c5645b6d674481ea3ed5e93982e5a0
+      internalID: -1885273135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boat_Swim_break_Soon_6
+      rect:
+        serializedVersion: 2
+        x: 4262
+        y: 948
+        width: 236
+        height: 44
+      alignment: 9
+      pivot: {x: 0.45996922, y: 0.530562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69c107d376344b0a95b09d90bb560c0
+      internalID: 594495275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boat_Swim_break_Soon_7
+      rect:
+        serializedVersion: 2
+        x: 4499
+        y: 948
+        width: 205
+        height: 47
+      alignment: 9
+      pivot: {x: 0.49373809, y: 0.38162556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922e2ed2153784db59adbca0f07c7b0c
+      internalID: 1684079202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boat_Swim_break_Soon_8
+      rect:
+        serializedVersion: 2
+        x: 4715
+        y: 947
+        width: 229
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.43191388}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fc4944551d642f6a5cee257d3d8ff0
+      internalID: 855313078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Boat_Swim_1: 1906760471
+      Boat_Swim_2: -1764600997
+      Boat_Swim_3: -222852046
+      Boat_Swim_4: -1305825226
+      Boat_Swim_5: -1241535818
+      Boat_Swim_6: 422902857
+      Boat_Swim_7: -461600210
+      Boat_Swim_8: -194027449
+      Boat_Swim_break_1: 21156408
+      Boat_Swim_break_2: -2054172964
+      Boat_Swim_break_3: -2054172964
+      Boat_Swim_break_4: -1501476978
+      Boat_Swim_break_5: -1452080527
+      Boat_Swim_break_7: 1799666096
+      Boat_Swim_break_8: 809793071
+      Boat_Swim_break_Soon_1: 1787333896
+      Boat_Swim_break_Soon_2: -420301915
+      Boat_Swim_break_Soon_3: 1906375128
+      Boat_Swim_break_Soon_4: -1465299463
+      Boat_Swim_break_Soon_5: -1885273135
+      Boat_Swim_break_Soon_6: 594495275
+      Boat_Swim_break_Soon_7: 594495275
+      Boat_Swim_break_Soon_8: 1684079202
+      Stage_1_BackUp_1_5: -1965201974
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

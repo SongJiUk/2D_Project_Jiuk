@@ -1017,6 +1017,132 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_Swim_1
+      rect:
+        serializedVersion: 2
+        x: 3686
+        y: 1051
+        width: 196
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da2c180f905147d0a8c046815226f89
+      internalID: -1670133415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_Swim_2
+      rect:
+        serializedVersion: 2
+        x: 3910
+        y: 1050
+        width: 197
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55851ee9c9e1e45d0a6c03a74add01f5
+      internalID: -114548719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_Swim_3
+      rect:
+        serializedVersion: 2
+        x: 4133
+        y: 1050
+        width: 197
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c00780897866485c81062a54d1686a5
+      internalID: 1357500571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_Swim_4
+      rect:
+        serializedVersion: 2
+        x: 4357
+        y: 1047
+        width: 196
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42a549ec06a34407802d7babaf07d4a
+      internalID: -2013150976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_Swim_5
+      rect:
+        serializedVersion: 2
+        x: 4584
+        y: 1046
+        width: 195
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b372c7f580e4f1da234dee2938affc
+      internalID: 718041369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy_Swim_6
+      rect:
+        serializedVersion: 2
+        x: 4806
+        y: 1049
+        width: 196
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6116ac5379b0147b3ad3f9f9427845b0
+      internalID: -1198097414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1028,6 +1154,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Stage1_Enemy_Swim_1: -1670133415
+      Stage1_Enemy_Swim_2: -114548719
+      Stage1_Enemy_Swim_3: 1357500571
+      Stage1_Enemy_Swim_4: -2013150976
+      Stage1_Enemy_Swim_5: 718041369
+      Stage1_Enemy_Swim_6: -1198097414
       Stage_1_1: 1000710787
       Stage_1_1_1_1: -891912201
       Stage_1_1_1_2: 1924020075

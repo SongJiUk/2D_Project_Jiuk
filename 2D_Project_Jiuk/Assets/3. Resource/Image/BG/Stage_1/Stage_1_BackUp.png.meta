@@ -156,6 +156,657 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_ldle_1
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1296
+        width: 210
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797fa1bcf006c4c1c8cbf2d3418325f7
+      internalID: 1404032108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_ldle_2
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 1296
+        width: 209
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0d21eab61c542f9b5cce977471315a
+      internalID: 1674743546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_ldle_3
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1296
+        width: 209
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8144a76200f24b469ff6ff780c98f7a
+      internalID: -966980458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_ldle_4
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 1296
+        width: 210
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68c0e81aa25f4734815d69d484d14c7
+      internalID: -653027271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_ldle_5
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 1296
+        width: 209
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0f8be840b4b4022b1715f506cb0333
+      internalID: -1239358635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_ldle_6
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 1296
+        width: 210
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45031f30a5677470c92790869c693930
+      internalID: 1295249051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_ldle_7
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 1296
+        width: 211
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c81b885b09bb4251a762342ba4c9363
+      internalID: 2116597323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_ldle_8
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 1296
+        width: 210
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6471fb6ff4547408d821bc55ce0b4bfd
+      internalID: -981797844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_Break_1
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 1188
+        width: 211
+        height: 97
+      alignment: 9
+      pivot: {x: 0.54183596, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c53c85de2a14c938d9bc2dad3d5557
+      internalID: -276871979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_Break_2
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 1188
+        width: 210
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5314151, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfb49a1dc34a4530abcf1b2c11b2f11
+      internalID: -1402924684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_Break_3
+      rect:
+        serializedVersion: 2
+        x: 2829
+        y: 1188
+        width: 210
+        height: 98
+      alignment: 9
+      pivot: {x: 0.5314151, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751e56d764fcf41fb86bcb6584e1ccb1
+      internalID: 512597138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_Break_4
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 1188
+        width: 211
+        height: 98
+      alignment: 9
+      pivot: {x: 0.53413343, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d7e19b20afc4f66b14e404b498339c
+      internalID: 995922204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_Break_5
+      rect:
+        serializedVersion: 2
+        x: 3252
+        y: 1188
+        width: 210
+        height: 98
+      alignment: 9
+      pivot: {x: 0.5323905, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dea1d2bebafc43eea05f3af88f6ff58
+      internalID: 261108240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_Break_6
+      rect:
+        serializedVersion: 2
+        x: 3463
+        y: 1188
+        width: 211
+        height: 98
+      alignment: 9
+      pivot: {x: 0.53413343, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0283a6b0feb4c4d03935e3f04dd46180
+      internalID: 1689271812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_Break_7
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 1188
+        width: 212
+        height: 99
+      alignment: 9
+      pivot: {x: 0.5339724, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da69f211bc7404148ab7454d20e9f50f
+      internalID: 1818786952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_Break_8
+      rect:
+        serializedVersion: 2
+        x: 3888
+        y: 1188
+        width: 211
+        height: 99
+      alignment: 9
+      pivot: {x: 0.53320426, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c010ccff6401486ab9e6f518ecbaaab
+      internalID: 573024999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_Break_9
+      rect:
+        serializedVersion: 2
+        x: 4102
+        y: 1189
+        width: 224
+        height: 90
+      alignment: 9
+      pivot: {x: 0.5609218, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6940c0984aaf41d1bb6a5d1faa5084e
+      internalID: -1644732957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_Break_10
+      rect:
+        serializedVersion: 2
+        x: 4327
+        y: 1189
+        width: 222
+        height: 93
+      alignment: 9
+      pivot: {x: 0.55650204, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b23882d4beab41c7a77c1a0496f3300
+      internalID: -1687710534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_Break_11
+      rect:
+        serializedVersion: 2
+        x: 4550
+        y: 1191
+        width: 219
+        height: 91
+      alignment: 9
+      pivot: {x: 0.5472384, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac678cd444404c52b9afd3d7a33feb4
+      internalID: -1794917685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_Break_12
+      rect:
+        serializedVersion: 2
+        x: 4770
+        y: 1189
+        width: 219
+        height: 91
+      alignment: 9
+      pivot: {x: 0.55324274, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e85dbeeed4f4b75844efe7c0e9ae2a
+      internalID: -517518215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_Break_soon_1
+      rect:
+        serializedVersion: 2
+        x: 2573
+        y: 1087
+        width: 208
+        height: 94
+      alignment: 9
+      pivot: {x: 0.52723813, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7227e9baa0ab4384b738c48e9addc75
+      internalID: 1603970306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_Break_soon_2
+      rect:
+        serializedVersion: 2
+        x: 2782
+        y: 1093
+        width: 216
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5563569, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31d6b09e42464796818748529949661
+      internalID: 1975242523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_Break_soon_3
+      rect:
+        serializedVersion: 2
+        x: 2999
+        y: 1107
+        width: 224
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5956933, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affda0858a1f747659db11d678ae4690
+      internalID: -1433481188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_Break_soon_4
+      rect:
+        serializedVersion: 2
+        x: 3224
+        y: 1107
+        width: 227
+        height: 74
+      alignment: 9
+      pivot: {x: 0.59588164, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0ef34f58b2e4c8fa90f35250d070c5
+      internalID: -205336484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_Break_soon_5
+      rect:
+        serializedVersion: 2
+        x: 3452
+        y: 1107
+        width: 231
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5999666, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a17ae40af95745b7a9333563699f8f8
+      internalID: -977156543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_Break_soon_6
+      rect:
+        serializedVersion: 2
+        x: 3686
+        y: 1108
+        width: 237
+        height: 73
+      alignment: 9
+      pivot: {x: 0.61703503, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a987bc2609f0844b99e66935ffeeedd5
+      internalID: 2020061592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_Break_soon_7
+      rect:
+        serializedVersion: 2
+        x: 3925
+        y: 1108
+        width: 243
+        height: 73
+      alignment: 9
+      pivot: {x: 0.6198118, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d6307c0698b408d9382bf1aaae51df
+      internalID: 1524910436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_Break_soon_8
+      rect:
+        serializedVersion: 2
+        x: 4169
+        y: 1108
+        width: 238
+        height: 73
+      alignment: 9
+      pivot: {x: 0.6124114, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1af8d13ad3c7e4b3cae280c6f2135e2e
+      internalID: -81120541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_Break_soon_9
+      rect:
+        serializedVersion: 2
+        x: 4408
+        y: 1106
+        width: 234
+        height: 75
+      alignment: 9
+      pivot: {x: 0.6011869, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bc060bcaed94b2c9fe2b21bbb11a97
+      internalID: -563619079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_Break_soon_10
+      rect:
+        serializedVersion: 2
+        x: 4643
+        y: 1108
+        width: 238
+        height: 73
+      alignment: 9
+      pivot: {x: 0.6070628, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f8bc58f8cf9458bbb0d9c1bb8f3d5e
+      internalID: -1949854586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Boat_Break_soon_11
+      rect:
+        serializedVersion: 2
+        x: 4882
+        y: 1106
+        width: 237
+        height: 75
+      alignment: 9
+      pivot: {x: 0.6126343, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f126ed5cb24754fde973a7e9df0b4e8a
+      internalID: 1597418355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -167,7 +818,39 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Stage1_Boat_Break_1: -276871979
+      Stage1_Boat_Break_10: -1644732957
+      Stage1_Boat_Break_11: -1687710534
+      Stage1_Boat_Break_12: -517518215
+      Stage1_Boat_Break_2: -1402924684
+      Stage1_Boat_Break_3: 512597138
+      Stage1_Boat_Break_4: 995922204
+      Stage1_Boat_Break_5: 261108240
+      Stage1_Boat_Break_6: 1689271812
+      Stage1_Boat_Break_7: 1818786952
+      Stage1_Boat_Break_8: 573024999
+      Stage1_Boat_Break_9: -1644732957
+      Stage1_Boat_Break_soon_1: 1603970306
+      Stage1_Boat_Break_soon_10: -1949854586
+      Stage1_Boat_Break_soon_11: 1597418355
+      Stage1_Boat_Break_soon_2: 1975242523
+      Stage1_Boat_Break_soon_3: -1433481188
+      Stage1_Boat_Break_soon_4: -205336484
+      Stage1_Boat_Break_soon_5: -977156543
+      Stage1_Boat_Break_soon_6: 2020061592
+      Stage1_Boat_Break_soon_7: 1524910436
+      Stage1_Boat_Break_soon_8: -81120541
+      Stage1_Boat_Break_soon_9: -563619079
+      Stage1_Boat_ldle_1: 1404032108
+      Stage1_Boat_ldle_2: 1674743546
+      Stage1_Boat_ldle_3: 1674743546
+      Stage1_Boat_ldle_4: -966980458
+      Stage1_Boat_ldle_5: -1239358635
+      Stage1_Boat_ldle_6: 1295249051
+      Stage1_Boat_ldle_7: 2116597323
+      Stage1_Boat_ldle_8: -981797844
       Stage_1_2: -1870310313
+      Stage_1_BackUp_0: -517518215
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

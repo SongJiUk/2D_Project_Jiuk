@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 29
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -157,7 +157,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stage_1_Fishing Boat_Die
+      name: Stage1_FishingBoat_Soon_1
       rect:
         serializedVersion: 2
         x: 237
@@ -303,6 +303,783 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Smoke_1
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 557
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9735b951dc91e424a8e956dd56979155
+      internalID: -71132225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Smoke_2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 556
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee56eaaff14b24244bee7cc4776513dd
+      internalID: 701375418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Smoke_3
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 556
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f983fb30d906493ba3af0c742396f94
+      internalID: -1317936866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Smoke_4
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 556
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632ad8545dd2d41baaee664ed31feaa7
+      internalID: 391965500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Smoke_5
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 557
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b83e5f768b94fb89fb6a028fe1766c
+      internalID: 764569562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Smoke_6
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 558
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f495fa7221c049bba669840bbec8848
+      internalID: 466197917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Smoke_7
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 560
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4813ab544bea048959ab046a5119e940
+      internalID: -501357308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Smoke_8
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 559
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec52210f2fc1c44a3b5468857ab736e1
+      internalID: -345212804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Smoke_9
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 560
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c56d2d82347d465c87cf1f3c121c191
+      internalID: -387812881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Smoke_10
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 560
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2151f2dae90484429a1a7b87273fe6ce
+      internalID: 855039515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Soon_effect_1
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 224
+        width: 141
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7637abf2a05254bf897bbb20d7f691c6
+      internalID: 324544092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Soon_effect_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 206
+        width: 140
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c5c16f50a82406b927f93cb11ab1cc
+      internalID: -1598360969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Soon_effect_3
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 181
+        width: 140
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4597904c377542698632d7aed731a3a
+      internalID: -220233818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Soon_effect_4
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 163
+        width: 138
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb8779c8fb024d698bfd276f504f098
+      internalID: 205194417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Soon_effect_5
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 143
+        width: 138
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bece3e54a9ecf4073b295fa08762d6d0
+      internalID: 356778786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Soon_effect_6
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 124
+        width: 140
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04abf6033cc134c478d4f4f826bfeb7c
+      internalID: -780723646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Soon_effect_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 105
+        width: 140
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b77749fc72a4e95be1023d73320f94
+      internalID: 1750162010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Soon_effect_8
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 89
+        width: 138
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706f87f95de054407a38dc6ccaa8b0fc
+      internalID: -2030735119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Down_1
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 549
+        width: 160
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3b354fd0db54d09aa8f35628e2d381
+      internalID: -1657971015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Down_2
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 516
+        width: 160
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1702620e3c14be2873239093c4b7ff
+      internalID: -1108277364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Down_3
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 481
+        width: 160
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f426c0b4e198242138570f4f85536e64
+      internalID: -503128598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Down_4
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 449
+        width: 159
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d53725a16bd48f8b3ad62b0207d4c4
+      internalID: -1134094960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Down_5
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 407
+        width: 144
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a52821ed22654c18a230e22809bc9fb
+      internalID: 1419256310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Down_6
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 377
+        width: 124
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c6a5f6dfb6e48bdb8a65cf71981017
+      internalID: -1563102118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Down_7
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 347
+        width: 94
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0139de71744cd4a5faf2d3937c3a16b8
+      internalID: -118044301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Down_8
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 314
+        width: 78
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea13d50079f54f6a8222dd7fcc3595e
+      internalID: -41995109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Down_9
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 293
+        width: 64
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a4c2f9ef41a4922be420bdaa183612
+      internalID: -2105306180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Down_10
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 267
+        width: 64
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a328a9afcb8c4420bb783a5c7fb75f3
+      internalID: -913499893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Down_11
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 245
+        width: 63
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f89e688d7864e989a5f10dcd2fc86d
+      internalID: -1573784677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Down_12
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 223
+        width: 61
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2fefc58b7e9437b96649553ca23364
+      internalID: 1949082253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Down_13
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 231
+        width: 26
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f9fdbf39f5b4b3a897a087905054b0
+      internalID: 1224323337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Down_14
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 231
+        width: 29
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f9476157a734afea9c400547d39d13
+      internalID: -254251728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Down_15
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 231
+        width: 31
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4ce6195bac646a8b4efc5a24997179
+      internalID: -811420937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Down_16
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 231
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4452ba75ada4475aa6ab71d0c4b5aa
+      internalID: 83661078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Down_17
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 231
+        width: 31
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f18bd7c9ddf481c99851aa6349c4ec
+      internalID: -1179508489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Down_18
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 231
+        width: 31
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8715fbf1d5dbb4ca6b823e8957fd6894
+      internalID: -620403778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_FishingBoat_Break
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 49
+        width: 202
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830a2aa16077d4ed1966c0f1beff66c7
+      internalID: -308835456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -314,14 +1091,51 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Stage_1_Fishing Boat_Die: 1524664129
-      Stage_1_Fishing Boat_Idle: -1437709375
-      Stage_1_Fishing Boat_Soldier_1: -1619090393
-      Stage_1_Fishing Boat_Soldier_2: -1905523715
-      Stage_1_Fishing Boat_Soldier_3: -361114683
-      Stage_1_Fishing Boat_Soldier_4: -896082810
-      Stage_1_Fishing Boat_Soldier_5: 618957585
-      Stage_1_Fishing Boat_Soldier_6: -1588835819
+      Stage1_FishingBoat_Break: -308835456
+      Stage1_FishingBoat_Down_1: -1657971015
+      Stage1_FishingBoat_Down_10: -913499893
+      Stage1_FishingBoat_Down_11: -1573784677
+      Stage1_FishingBoat_Down_12: 1949082253
+      Stage1_FishingBoat_Down_13: 1224323337
+      Stage1_FishingBoat_Down_14: -254251728
+      Stage1_FishingBoat_Down_15: -811420937
+      Stage1_FishingBoat_Down_16: 83661078
+      Stage1_FishingBoat_Down_17: -1179508489
+      Stage1_FishingBoat_Down_18: -620403778
+      Stage1_FishingBoat_Down_2: -1108277364
+      Stage1_FishingBoat_Down_3: -503128598
+      Stage1_FishingBoat_Down_4: -1134094960
+      Stage1_FishingBoat_Down_5: 1419256310
+      Stage1_FishingBoat_Down_6: -1563102118
+      Stage1_FishingBoat_Down_7: -118044301
+      Stage1_FishingBoat_Down_8: -41995109
+      Stage1_FishingBoat_Down_9: -2105306180
+      Stage1_FishingBoat_Smoke_1: -71132225
+      Stage1_FishingBoat_Smoke_10: 855039515
+      Stage1_FishingBoat_Smoke_2: 701375418
+      Stage1_FishingBoat_Smoke_3: -1317936866
+      Stage1_FishingBoat_Smoke_4: 391965500
+      Stage1_FishingBoat_Smoke_5: 764569562
+      Stage1_FishingBoat_Smoke_6: 466197917
+      Stage1_FishingBoat_Smoke_7: -501357308
+      Stage1_FishingBoat_Smoke_8: -345212804
+      Stage1_FishingBoat_Smoke_9: -387812881
+      Stage1_FishingBoat_Soon_1: 1524664129
+      Stage1_FishingBoat_Soon_effect_1: -1598360969
+      Stage1_FishingBoat_Soon_effect_2: -503128598
+      Stage1_FishingBoat_Soon_effect_3: -220233818
+      Stage1_FishingBoat_Soon_effect_4: 205194417
+      Stage1_FishingBoat_Soon_effect_5: 356778786
+      Stage1_FishingBoat_Soon_effect_6: -780723646
+      Stage1_FishingBoat_Soon_effect_7: 1750162010
+      Stage1_FishingBoat_Soon_effect_8: -2030735119
+      Stage_1_Fishing Boat_Idle: -1619090393
+      Stage_1_Fishing Boat_Soldier_1: -1905523715
+      Stage_1_Fishing Boat_Soldier_2: -361114683
+      Stage_1_Fishing Boat_Soldier_3: -896082810
+      Stage_1_Fishing Boat_Soldier_4: 618957585
+      Stage_1_Fishing Boat_Soldier_5: -1588835819
+      Stage_1_Fishing Boat_Soldier_6: -220233818
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

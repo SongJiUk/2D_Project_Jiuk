@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0e9d9ccf8304b464883e289011474b27
+guid: 90a56fa505fbc404284ff2dda174db3e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 29
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -136,369 +136,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NPC1_Idle1_Pose1_1
+      name: EXPLOSION_NORMAL_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2363
-        width: 30
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7edc22a1839984d6787c71ca3c4cb348
-      internalID: -617130397
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose1_2
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 2363
-        width: 31
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98600380682364312a130783f8b9bd04
-      internalID: 1354875390
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose1_3
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 2363
-        width: 36
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fdcd09279faf9498789aa0307ba21c6a
-      internalID: -617655722
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose1_4
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 2363
-        width: 37
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f27c4315e997848509d6bbc66e71de36
-      internalID: -70041389
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose1_5
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 2363
-        width: 37
-        height: 27
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97a90731f9b754596be4848dda9e2c2b
-      internalID: 642402265
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose1_OFF_1
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 2364
+        x: 108
+        y: 2912
         width: 38
-        height: 28
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b33a453ef5c545a0b5c32f7b67bed5c
-      internalID: -553152054
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose1_OFF_2
-      rect:
-        serializedVersion: 2
-        x: 233
-        y: 2363
-        width: 40
-        height: 31
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a9670c00eb022417da4805b52aae5081
-      internalID: -302156353
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose1_OFF_3
-      rect:
-        serializedVersion: 2
-        x: 276
-        y: 2363
-        width: 42
-        height: 33
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3f2e548a6df74c5fa3fd5d485475a8b
-      internalID: 511118863
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose1_OFF_4
-      rect:
-        serializedVersion: 2
-        x: 321
-        y: 2363
-        width: 43
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a3e5d7ede8c9844dba3ccde1209d8ea5
-      internalID: 1112007481
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose2_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 2292
-        width: 20
-        height: 57
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc025fe61f06a477fa40a154a5280b25
-      internalID: -1085615372
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose2_2
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 2292
-        width: 19
-        height: 57
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b475e2532a5b4de7acc70a1d4dd1ce1
-      internalID: 1108131182
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose2_3
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 2292
-        width: 19
-        height: 57
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e4b1d1d8e9cd41e99d894c7e8cd6d55
-      internalID: -1612944516
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose2_4
-      rect:
-        serializedVersion: 2
-        x: 68
-        y: 2292
-        width: 18
-        height: 57
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f073c0f4c722475c840446b058fd284
-      internalID: -1195953424
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose2_5
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 2292
-        width: 18
-        height: 57
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f5785a8f7f9d44d0a92828e8cdad93a5
-      internalID: -593242966
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose2_OFF_1
-      rect:
-        serializedVersion: 2
-        x: 295
-        y: 2296
-        width: 33
-        height: 43
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a101b35bd2c1414794982d5e3153de1
-      internalID: -1314121237
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose2_OFF_2
-      rect:
-        serializedVersion: 2
-        x: 331
-        y: 2297
-        width: 29
-        height: 43
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b7f15872e2d74c37859486e4a46b0d4
-      internalID: -35664211
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose2_OFF_3
-      rect:
-        serializedVersion: 2
-        x: 363
-        y: 2296
-        width: 38
-        height: 42
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22732abb892154722a03ab7b4639ade7
-      internalID: 7069020
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose2_OFF_4
-      rect:
-        serializedVersion: 2
-        x: 404
-        y: 2297
-        width: 31
         height: 34
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -507,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59624d0a245fe4633a34a847fdfa68d6
-      internalID: -1736701477
+      spriteID: 8c9dee6ec0d9a4b808094951b56da7b9
+      internalID: 1528030495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC1_Idle1_Pose2_OFF_5
+      name: EXPLOSION_NORMAL_2
       rect:
         serializedVersion: 2
-        x: 438
-        y: 2297
-        width: 27
-        height: 34
+        x: 154
+        y: 2912
+        width: 41
+        height: 36
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -528,188 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45124ae6331e44be6b8400c2aa4baacc
-      internalID: 1232058419
+      spriteID: ba829273d6fd647d09e020a5f24bbeee
+      internalID: 1990088557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC1_Idle1_Pose3_1
+      name: EXPLOSION_NORMAL_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2226
-        width: 33
-        height: 45
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8828d1797ef5749499b486c4920db8c4
-      internalID: -1744362693
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose3_2
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 2226
-        width: 34
-        height: 45
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec960761f700f40648ad0723bc8e366c
-      internalID: -1911384330
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose3_3
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 2226
-        width: 35
-        height: 45
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6217f5881b4b4d158b08c69d33882de
-      internalID: -676468054
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose3_4
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 2226
-        width: 34
-        height: 45
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0112efb1d148d4f8490591860f8cdb07
-      internalID: -644211927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose3_5
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 2226
-        width: 36
-        height: 45
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b8a7bbb585b54bb984acd6a9ee707ca
-      internalID: -738210892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose3_6
-      rect:
-        serializedVersion: 2
-        x: 187
-        y: 2226
-        width: 38
-        height: 45
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a1c2765f3cc8641a68fd22fc7c07ec09
-      internalID: -971872040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose3_7
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 2226
-        width: 39
-        height: 45
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f32143480343e4b88bc4dd23b48d16d5
-      internalID: -670590760
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose3_8
-      rect:
-        serializedVersion: 2
-        x: 270
-        y: 2226
-        width: 43
-        height: 45
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c7e706c2cb964eedbe70fb212853bed
-      internalID: 311411334
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose3_9
-      rect:
-        serializedVersion: 2
-        x: 316
-        y: 2226
+        x: 201
+        y: 2912
         width: 44
-        height: 48
+        height: 38
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -717,18 +192,123 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f351054572b9549328dd9c626a5e9d4b
-      internalID: 75571688
+      spriteID: 697d3d3d9e40c4e37878b8ec97c09a6e
+      internalID: 229370597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC1_Idle1_Pose3_OFF_1
+      name: EXPLOSION_NORMAL_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2175
+        x: 248
+        y: 2912
+        width: 44
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d776c2b85c3324623a5a56ce49228a2b
+      internalID: 1469805207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_NORMAL_5
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 2912
+        width: 44
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c21beccab0ed49bca0e353be789cc67
+      internalID: -1746027882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_NORMAL_5.1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 2912
+        width: 47
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7530967fc77941f094efcf5b6764285
+      internalID: -1581718486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_NORMAL_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 2912
+        width: 45
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fd70613c22c4824b4339a33d4b8227
+      internalID: -2145299976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_NORMAL_7
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 2913
+        width: 45
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34a5bf17395c4634b8895f96b73df28
+      internalID: 305487481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_NORMAL_8
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 2914
         width: 45
         height: 45
       alignment: 7
@@ -738,482 +318,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bcb8985c3dec454ca2de3d33a28fae1
-      internalID: 1665242244
+      spriteID: 7c204d08951d741f3aeb3eadade50ef0
+      internalID: -1058597249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC1_Idle1_Pose3_OFF_2
+      name: EXPLOSION_NORMAL_9
       rect:
         serializedVersion: 2
-        x: 48
-        y: 2175
-        width: 46
-        height: 45
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c619cb30193bf49669e8af2b4b9a758d
-      internalID: -60457561
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Idle1_Pose3_OFF_3
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 2175
-        width: 46
-        height: 45
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 508382ccf13c54534b7e18a6a43340fd
-      internalID: -834827008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Walk_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 2130
-        width: 33
-        height: 38
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 887a4a276837f41258dfca72507a0df1
-      internalID: 825475442
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Walk_2
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 2130
-        width: 34
-        height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7b5ba9d9620b498b814ef09c107ef2e
-      internalID: 1509065780
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Walk_3
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 2130
-        width: 29
-        height: 38
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2cc68a8b037b44c3a8450174e15b5c4
-      internalID: 1330155585
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Walk_4
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 2131
-        width: 21
-        height: 40
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a945650dbd284727a002f6109663dc2
-      internalID: -906599309
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Walk_5
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 2132
-        width: 19
-        height: 38
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 279e49eae6da44c11b2b40a267ac05b5
-      internalID: 1279905111
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Walk_6
-      rect:
-        serializedVersion: 2
-        x: 151
-        y: 2130
-        width: 23
-        height: 39
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee16d81835b2b491892418fe0fc45df6
-      internalID: -1067171915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Walk_7
-      rect:
-        serializedVersion: 2
-        x: 177
-        y: 2130
-        width: 30
-        height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2cdec514bfd14c4da1ed08460c39d33
-      internalID: 1449758178
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Walk_8
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 2130
-        width: 25
-        height: 38
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f1df192821f1409e881c1cc9ed35b12
-      internalID: -627031101
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Walk_9
-      rect:
-        serializedVersion: 2
-        x: 238
-        y: 2130
-        width: 22
-        height: 39
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d179b590c9cbe45c9beab30cfe93a992
-      internalID: -2045952041
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Walk_10
-      rect:
-        serializedVersion: 2
-        x: 263
-        y: 2130
-        width: 22
-        height: 40
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 069b5b72d0fb94c0b8dad4fb8eedf3f5
-      internalID: 1238978034
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Walk_11
-      rect:
-        serializedVersion: 2
-        x: 287
-        y: 2131
-        width: 30
-        height: 38
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67615ab1f9b0a4b05825a238da9fe40a
-      internalID: 292757349
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Walk_12
-      rect:
-        serializedVersion: 2
-        x: 321
-        y: 2131
-        width: 33
-        height: 38
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f244a43477e5d46fd86a2c73c0c90b46
-      internalID: -1665814791
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Contact_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1980
-        width: 20
-        height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c634e1a1e22a044f881918cb239fe82b
-      internalID: 1412424712
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Contact_2
-      rect:
-        serializedVersion: 2
-        x: 23
-        y: 1980
-        width: 22
-        height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 01ac366e9f2f04a09aec15ab488345aa
-      internalID: 51079816
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Contact_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 1979
-        width: 25
-        height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c80cd9c4e31ba4ef28209a71585574e5
-      internalID: -1139463843
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Contact_4
-      rect:
-        serializedVersion: 2
-        x: 76
-        y: 1980
-        width: 25
-        height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d02629e1d64b84734aa928db80a9f352
-      internalID: 1819907480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Contact_5
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 1980
-        width: 21
-        height: 35
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e75e8bf21e7274ee78d334744f69ec0f
-      internalID: -693141288
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Contact_6
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 1980
-        width: 21
-        height: 34
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 47bcc3331dc1644c6adbf8f18f52cf57
-      internalID: -2140066093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Contact_7
-      rect:
-        serializedVersion: 2
-        x: 152
-        y: 1980
-        width: 33
-        height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a6e29a1e41bc4749b9653a443450607
-      internalID: -394820206
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Contact_8
-      rect:
-        serializedVersion: 2
-        x: 188
-        y: 1980
-        width: 40
-        height: 38
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 867074e6fe7dd46558bf24f34805dbb1
-      internalID: -578529822
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Contact_9
-      rect:
-        serializedVersion: 2
-        x: 231
-        y: 1980
+        x: 540
+        y: 2914
         width: 44
-        height: 38
+        height: 46
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1221,20 +339,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34db047ced09845be95a4ee059ca2bf4
-      internalID: -1332182358
+      spriteID: 8047eb2d787404aca9329a5b1526af04
+      internalID: 1267186740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC1_Contact_10
+      name: EXPLOSION_NORMAL_10
       rect:
         serializedVersion: 2
-        x: 278
-        y: 1980
+        x: 4
+        y: 2846
+        width: 44
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e06b9e965e1c4a4e81a65cc3c509021
+      internalID: 212144329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_NORMAL_11
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 2846
+        width: 44
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62c5d3bf59f746a9ba176210870e19e
+      internalID: -1169923403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_NORMAL_12
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2847
         width: 42
-        height: 38
+        height: 45
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1242,146 +402,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9d4ec77623fb4c4383069f3af127156
-      internalID: 510171504
+      spriteID: a83b7f0da93ee4169b1017b2ff1c1a47
+      internalID: -1999675278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC1_Contact_11
-      rect:
-        serializedVersion: 2
-        x: 323
-        y: 1980
-        width: 42
-        height: 38
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a7d8a6f59b8a645819a2e9c32dacf6db
-      internalID: 1449337684
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Contact_12
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1937
-        width: 21
-        height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 025b7e33db9084a28be345b12a5abffd
-      internalID: -890707857
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Contact_13
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 1937
-        width: 22
-        height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: acb84f1e4e4b3476288b6fdd6a9fcf85
-      internalID: -534010022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Contact_14
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 1937
-        width: 24
-        height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78b6601ac78084b21aaeadef726e1810
-      internalID: -1399558603
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Contact_15
-      rect:
-        serializedVersion: 2
-        x: 76
-        y: 1937
-        width: 31
-        height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2d33117d61ba4a48b8b44ecae4db9a8
-      internalID: 844157579
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Contact_16
-      rect:
-        serializedVersion: 2
-        x: 110
-        y: 1937
-        width: 32
-        height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e4e7431287275415397a4a4b004d8414
-      internalID: 327640801
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Contact_17
+      name: EXPLOSION_NORMAL_13
       rect:
         serializedVersion: 2
         x: 145
-        y: 1937
-        width: 28
-        height: 37
+        y: 2848
+        width: 42
+        height: 44
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1389,20 +423,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 913a7f357c40d466082dd3d1a1bc1b9f
-      internalID: 1195719624
+      spriteID: 912b9094fc3ae457d9643bf619305ca0
+      internalID: -1594199166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC1_Contact_18
+      name: EXPLOSION_NORMAL_14
       rect:
         serializedVersion: 2
-        x: 176
-        y: 1937
-        width: 30
-        height: 37
+        x: 190
+        y: 2848
+        width: 39
+        height: 45
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1410,41 +444,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e82e838e247e14d19a35fd53ab21733a
-      internalID: -147264301
+      spriteID: 4f7bba1f9bfb7422c99086ba84dfbfc4
+      internalID: 1916156713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC1_Contact_19
+      name: EXPLOSION_NORMAL_15
       rect:
         serializedVersion: 2
-        x: 209
-        y: 1937
-        width: 32
-        height: 38
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbb9fe01be3fc4552b29c6755b24c5b2
-      internalID: 890884215
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Contact_20
-      rect:
-        serializedVersion: 2
-        x: 244
-        y: 1937
+        x: 234
+        y: 2849
         width: 38
-        height: 38
+        height: 45
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1452,20 +465,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4ba18f4fb59e43c2bdd8a9564007ea0
-      internalID: -1963992518
+      spriteID: 0bd423dbae15c43f6a7c8532db5663f4
+      internalID: -1580539687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC1_Contact_21
+      name: EXPLOSION_NORMAL_16
       rect:
         serializedVersion: 2
-        x: 285
-        y: 1937
-        width: 21
-        height: 40
+        x: 278
+        y: 2852
+        width: 39
+        height: 43
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1473,123 +486,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ead6d0c94cfd84bf7893442e6e8e2e97
-      internalID: -1997465873
+      spriteID: 992538b128cbd41b7b15381cec86a2e9
+      internalID: -1520785678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC1_Contact_22
+      name: EXPLOSION_NORMAL_17
       rect:
         serializedVersion: 2
-        x: 309
-        y: 1937
-        width: 21
-        height: 40
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be16509868799491ea87772f54a47222
-      internalID: 108612218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Contact_23
-      rect:
-        serializedVersion: 2
-        x: 333
-        y: 1937
-        width: 26
-        height: 40
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50a74e1d4388645df850ac6169ce7ba2
-      internalID: 1876619504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Contact_24
-      rect:
-        serializedVersion: 2
-        x: 362
-        y: 1937
-        width: 31
-        height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d42c9e52251b46768c8de9a1d8b69e9
-      internalID: 2070165465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Contact_25
-      rect:
-        serializedVersion: 2
-        x: 396
-        y: 1937
-        width: 25
-        height: 36
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 406cbe64bba2f4be4adaa8befb9c8e30
-      internalID: 1510390788
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Run_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1893
-        width: 40
-        height: 39
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39d1d09575da2412d9c709b027fbd810
-      internalID: 97248619
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: NPC1_Run_2
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 1893
+        x: 320
+        y: 2854
         width: 38
         height: 41
       alignment: 7
@@ -1599,20 +507,167 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0049be94d53124c829be669cdaab528a
-      internalID: 859218818
+      spriteID: d6dc23ec3004d4c58a188ad18074d45e
+      internalID: -52404694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC1_Run_3
+      name: EXPLOSION_NORMAL_18
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 2854
+        width: 35
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c46508da0b14a27869b404cbe18c1c
+      internalID: -2118241433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_NORMAL_19
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2855
+        width: 34
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c4a095216194170a1898ae1799e7dc
+      internalID: 1780030662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_NORMAL_20
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 2858
+        width: 32
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158a85039208e4d5dba6b7409042ad7f
+      internalID: 421352268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_NORMAL_21
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 2860
+        width: 32
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b654e96648ce247cf88bebc2a7686841
+      internalID: 1081663898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_NORMAL_22
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 2866
+        width: 31
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf60a7edf7a7b440bb3665bdd120445f
+      internalID: 1115842082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_NORMAL_23
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 2866
+        width: 28
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ff6df5900dd46f2927872cc0f9bf6c
+      internalID: -1904654156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Expolsion
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 446
+        width: 73
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18d7d46e4220471f999d28a19e30e3e
+      internalID: 1897778266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Expolsion_1
       rect:
         serializedVersion: 2
         x: 81
-        y: 1893
-        width: 32
-        height: 41
+        y: 447
+        width: 79
+        height: 76
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1620,20 +675,230 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c41d8f3a770eb49448c45c0319c9d6dd
-      internalID: -1613692738
+      spriteID: 35f6a5d588e4c4ce3a7b27f70fc17ec1
+      internalID: 1345867040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC1_Run_4
+      name: Enemy_Expolsion_2
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 447
+        width: 85
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c3716f26a4d478594871cba3e15468
+      internalID: 2051204217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Expolsion_3
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 447
+        width: 85
+        height: 86
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbce33018738246c9a5029e60c8d27f5
+      internalID: -277546614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Expolsion_4
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 447
+        width: 87
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e3c9da7269f41d793db28dcba22bfe
+      internalID: -439619375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Expolsion_5
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 447
+        width: 92
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d860f46e29b4c94a7e2272ad7f690d
+      internalID: 262961295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Expolsion_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 327
+        width: 100
+        height: 106
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595183be01eee4badae474b1b560475d
+      internalID: 1172064507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Expolsion_7
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 327
+        width: 103
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8927d62a956b42ec8f555c024683da0
+      internalID: 1242673207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Expolsion_8
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 327
+        width: 105
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19332640d40c84ff1ae8e179f66d2008
+      internalID: -866508846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Expolsion_9
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 327
+        width: 105
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1af80c5c2c4483cae30626fd0c3ffc
+      internalID: -252448507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Expolsion_10
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 327
+        width: 104
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4cdf4a54d334e958ad91bd9e70fefb
+      internalID: 286314452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Expolsion_11
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 199
+        width: 108
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9095f49de6c430e9d9e4a550cf2a15
+      internalID: 894388318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Expolsion_12
       rect:
         serializedVersion: 2
         x: 116
-        y: 1895
-        width: 38
-        height: 39
+        y: 199
+        width: 110
+        height: 119
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1641,20 +906,986 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60253e32cfcf9473da3c3d4d98614fd7
-      internalID: 169070706
+      spriteID: 9340045ed6bef4b93910e8f4f91cff05
+      internalID: -277261664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC1_Run_5
+      name: Enemy_Expolsion_13
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 199
+        width: 112
+        height: 117
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e977884c1f12e4a66be6f5edbdac7f57
+      internalID: 1346614722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Expolsion_14
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 210
+        width: 106
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b744c0bcafab34abb8bdbf0f0a20d721
+      internalID: -758399838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Expolsion_15
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 216
+        width: 105
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d819177795a6a44b1a82d69fba4b3426
+      internalID: -897182346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Expolsion_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 82
+        width: 102
+        height: 107
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e0f8f50faa44f4a8390b13f0baca21
+      internalID: 230338433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Expolsion_17
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 89
+        width: 96
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf67d330cec14ca684d57eb3cf75e68
+      internalID: -2053944177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Expolsion_18
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 95
+        width: 101
+        height: 97
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb356c5fd3e2449fdba102b42dc37e12
+      internalID: 1766271912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Expolsion_19
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 95
+        width: 95
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee6811ce503244d08d1b7a0acbd4f76
+      internalID: -1591152049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Expolsion_20
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 95
+        width: 82
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152740d87d4c349ac9dfc7422b445416
+      internalID: 786030964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Expolsion_21
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 20
+        width: 65
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: -0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c46b0f67c8cf400794e080e5e49179c
+      internalID: -742904731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Expolsion_22
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 29
+        width: 65
+        height: 46
+      alignment: 9
+      pivot: {x: 0.49999976, y: -0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa1c5833f99d451f836490b51e2ba4d
+      internalID: 2038685075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Expolsion_23
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 31
+        width: 68
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: -0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af04c6d034e274c2c8b2fe6985ddd7b1
+      internalID: 1082343845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_GRENADE
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 2370
+        width: 36
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64236d48bf8743b6bce7b3bc1ea9419
+      internalID: 1829211516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_GRENADE_1
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 2369
+        width: 38
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fcc92851ada547d79991a14d88b781c
+      internalID: -1819694513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_GRENADE_2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 2369
+        width: 34
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f80651fd4564ca5bd51026981404d1
+      internalID: -352599659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_GRENADE_3
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 2369
+        width: 41
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93e2e050236d4aaca221b1b36891abe
+      internalID: 768131411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_GRENADE_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 2369
+        width: 47
+        height: 90
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514a639e7b15a447eac099b971c8d408
+      internalID: 286065239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_GRENADE_5
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 2369
+        width: 47
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106411e069d9d4fc197d8792e54e44b2
+      internalID: -1459844952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_GRENADE_6
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 2369
+        width: 48
+        height: 94
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cd3290b2eb144a0b8e61012b166c31
+      internalID: 557227375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_GRENADE_7
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 2369
+        width: 48
+        height: 98
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad366c018d5cb46a7a73047d3732262e
+      internalID: -1286017454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_GRENADE_8
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 2369
+        width: 47
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5586107bf3025456f9e41e0cfe079c5b
+      internalID: 2096028314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_GRENADE_9
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 2370
+        width: 48
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69bc080659e94bca9c3c372ba716d1f
+      internalID: 2065788217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_GRENADE_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2259
+        width: 47
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de4d50c29e0b47d3ac31ea85a2c5fe1
+      internalID: -677675032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_GRENADE_11
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 2261
+        width: 47
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed0b2395f660403e9dc91846e695f2a
+      internalID: 949221934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_GRENADE_12
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2261
+        width: 48
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4265651b75dd48ba9ad1fa8eff89ad2
+      internalID: 803980813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_GRENADE_13
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 2261
+        width: 48
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e81bdade1ee46e39a168a31914a417
+      internalID: 1095004294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_GRENADE_14
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 2261
+        width: 48
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57642f55d7c30428993a593b356b1a81
+      internalID: 782484370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_GRENADE_15
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 2261
+        width: 48
+        height: 100
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6758f51c64014075bf3a3c0d9f76c3b
+      internalID: -628429321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_GRENADE_16
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 2261
+        width: 48
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b021fae06d504376ac6cfac55cca061
+      internalID: -1219326815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_GRENADE_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 2261
+        width: 48
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec04eb34d2a849d2ad0cf43c133c4b6
+      internalID: -1276455746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_GRENADE_18
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 2261
+        width: 47
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc17554d212964b7c926b2a28b73f0a2
+      internalID: 774105215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_GRENADE_19
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 2261
+        width: 47
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b077a757ff64033960515b4afe25bd
+      internalID: 1522846941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_GRENADE_20
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 2261
+        width: 48
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492d42be1c1814360843f2b7209c6945
+      internalID: -135950321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_BIG
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 2736
+        width: 64
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf86cf4cc7ac4c498d410d61949b73f
+      internalID: 1889218851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_BIG_1
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 2735
+        width: 66
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecc20cdcf8b64cceaf46f43958f5ef1
+      internalID: 1778638083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_BIG_2
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 2735
+        width: 74
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc94894c0ce842b78b55bb14c210b84
+      internalID: -247719772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_BIG_3
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 2735
+        width: 73
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d23aec62cf4d4b9db563723ca88d5f5
+      internalID: 1874035056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_BIG_4
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 2735
+        width: 74
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c468561d754bd42e78d80b0c9e66549f
+      internalID: -2089924223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_BIG_5
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2647
+        width: 75
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c97fbddfb77c4d1fa8217f0a9d7f099
+      internalID: -1077891078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_BIG_6
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 2648
+        width: 74
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f41d3a84a5e45ab8bdaa1e75acc640
+      internalID: 1512985821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_BIG_7
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2649
+        width: 75
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77709855ec3544f4b4fda34717281a0
+      internalID: -1636975174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_BIG_8
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 2649
+        width: 75
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d82e7eef43f84b2a8c93eab77308cc0
+      internalID: -1871961418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_BIG_9
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 2651
+        width: 75
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d525b15a24f49648f84b652318f1a2
+      internalID: -1709245310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_BIG_10
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2649
+        width: 73
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66cc0bfbbffd4e128ec9261ef78bc7c
+      internalID: -470757967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_BIG_11
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 2649
+        width: 73
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0690ccba12f24c6ea6145ec34ee863b
+      internalID: 2022753373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_BIG_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2562
+        width: 72
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb10b3e108dd4429b8988c0a0590a7a
+      internalID: -1786526865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_BIG_13
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2562
+        width: 67
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46553fc89a5e40e7aa9b779fc36d5e7
+      internalID: 2068371704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_BIG_14
       rect:
         serializedVersion: 2
         x: 157
-        y: 1893
-        width: 42
-        height: 40
+        y: 2564
+        width: 65
+        height: 74
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1662,20 +1893,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 508a941c9a7924a84bdde44473c76bf2
-      internalID: 421512955
+      spriteID: 4e107a26cfb544299bf5eaa6f85eb334
+      internalID: 203324210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC1_Run_6
+      name: EXPLOSION_BIG_15
       rect:
         serializedVersion: 2
-        x: 202
-        y: 1893
-        width: 36
-        height: 41
+        x: 228
+        y: 2565
+        width: 62
+        height: 76
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1683,20 +1914,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06eb125831912401f9d4a57b1396de90
-      internalID: -178794343
+      spriteID: 84f5e46ba0e774892a223ccc13c7cdf0
+      internalID: 567914633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC1_Run_7
+      name: EXPLOSION_BIG_16
       rect:
         serializedVersion: 2
-        x: 241
-        y: 1893
-        width: 36
-        height: 41
+        x: 299
+        y: 2567
+        width: 62
+        height: 74
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1704,20 +1935,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70a26fc197c6f43849c11d265c5804bb
-      internalID: 880676115
+      spriteID: dee60fa043be64a82b8eeb97b337dca7
+      internalID: -13159660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: NPC1_Run_8
+      name: EXPLOSION_BIG_17
       rect:
         serializedVersion: 2
-        x: 280
-        y: 1896
-        width: 41
-        height: 38
+        x: 369
+        y: 2569
+        width: 60
+        height: 72
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1725,8 +1956,155 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8683542b075d442781ce03f7e37ae5e
-      internalID: 936435163
+      spriteID: 1e13f9730e4294b299a1cc376390c366
+      internalID: 1861096134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_BIG_18
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 2568
+        width: 58
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14df0973308b7445e9c1fba3fee28079
+      internalID: -92537561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_BIG_19
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2569
+        width: 56
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59fe2950c1ec46ca9aa835d3b2237ba
+      internalID: 690521728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_BIG_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2479
+        width: 54
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af76f8533b32e470da2f6b5f86e86620
+      internalID: 784472008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_BIG_21
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 2479
+        width: 50
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa37d30f575184e8a830ea20bef86a0c
+      internalID: 678715398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_BIG_22
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2479
+        width: 47
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d11683ad5c148aea378bb4a0db232e
+      internalID: 62084096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_BIG_23
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 2479
+        width: 46
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79cd90de1e584ee398ae7b96287ef7b
+      internalID: -1770475607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPLOSION_BIG_24
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 2479
+        width: 47
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb882afdcbdaa44038dc25d7a81c929a
+      internalID: 29769623
       vertices: []
       indices: 
       edges: []
@@ -1742,82 +2120,100 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      NPC1_Contact_1: 1412424712
-      NPC1_Contact_10: 510171504
-      NPC1_Contact_11: 1449337684
-      NPC1_Contact_12: -890707857
-      NPC1_Contact_13: -534010022
-      NPC1_Contact_14: -1399558603
-      NPC1_Contact_15: 844157579
-      NPC1_Contact_16: 327640801
-      NPC1_Contact_17: 1195719624
-      NPC1_Contact_18: -147264301
-      NPC1_Contact_19: 890884215
-      NPC1_Contact_2: 51079816
-      NPC1_Contact_20: -1963992518
-      NPC1_Contact_21: -1997465873
-      NPC1_Contact_22: 108612218
-      NPC1_Contact_23: 1876619504
-      NPC1_Contact_24: 2070165465
-      NPC1_Contact_25: 1510390788
-      NPC1_Contact_3: -1139463843
-      NPC1_Contact_4: 1819907480
-      NPC1_Contact_5: -693141288
-      NPC1_Contact_6: -2140066093
-      NPC1_Contact_7: -394820206
-      NPC1_Contact_8: -578529822
-      NPC1_Contact_9: -1332182358
-      NPC1_Idle1_Pose1_1: -617130397
-      NPC1_Idle1_Pose1_2: -617130397
-      NPC1_Idle1_Pose1_3: -617130397
-      NPC1_Idle1_Pose1_4: -617130397
-      NPC1_Idle1_Pose1_5: -617130397
-      NPC1_Idle1_Pose1_OFF_1: -553152054
-      NPC1_Idle1_Pose1_OFF_2: -553152054
-      NPC1_Idle1_Pose1_OFF_3: -553152054
-      NPC1_Idle1_Pose1_OFF_4: -553152054
-      NPC1_Idle1_Pose2_1: 511118863
-      NPC1_Idle1_Pose2_2: 1112007481
-      NPC1_Idle1_Pose2_3: -1085615372
-      NPC1_Idle1_Pose2_4: -1085615372
-      NPC1_Idle1_Pose2_5: -1085615372
-      NPC1_Idle1_Pose2_OFF_1: -1085615372
-      NPC1_Idle1_Pose2_OFF_2: 1108131182
-      NPC1_Idle1_Pose2_OFF_3: -1612944516
-      NPC1_Idle1_Pose2_OFF_4: -1195953424
-      NPC1_Idle1_Pose2_OFF_5: -593242966
-      NPC1_Idle1_Pose3_1: -1736701477
-      NPC1_Idle1_Pose3_2: -1744362693
-      NPC1_Idle1_Pose3_3: -1744362693
-      NPC1_Idle1_Pose3_4: -1744362693
-      NPC1_Idle1_Pose3_5: -1911384330
-      NPC1_Idle1_Pose3_6: -676468054
-      NPC1_Idle1_Pose3_7: -644211927
-      NPC1_Idle1_Pose3_8: -738210892
-      NPC1_Idle1_Pose3_9: 97248619
-      NPC1_Idle1_Pose3_OFF_1: -60457561
-      NPC1_Idle1_Pose3_OFF_2: -834827008
-      NPC1_Idle1_Pose3_OFF_3: -834827008
-      NPC1_Run_1: 859218818
-      NPC1_Run_2: -1613692738
-      NPC1_Run_3: 169070706
-      NPC1_Run_4: 421512955
-      NPC1_Run_5: -178794343
-      NPC1_Run_6: 880676115
-      NPC1_Run_7: 936435163
-      NPC1_Run_8: 825475442
-      NPC1_Walk_1: -1067171915
-      NPC1_Walk_10: 1449758178
-      NPC1_Walk_11: -627031101
-      NPC1_Walk_12: 825475442
-      NPC1_Walk_2: 825475442
-      NPC1_Walk_3: 825475442
-      NPC1_Walk_4: 825475442
-      NPC1_Walk_5: 1509065780
-      NPC1_Walk_6: 1330155585
-      NPC1_Walk_7: -906599309
-      NPC1_Walk_8: 1279905111
-      NPC1_Walk_9: 1665242244
+      EXPLOSION_BIG: 1889218851
+      EXPLOSION_BIG_1: 1778638083
+      EXPLOSION_BIG_10: -470757967
+      EXPLOSION_BIG_11: 2022753373
+      EXPLOSION_BIG_12: -1786526865
+      EXPLOSION_BIG_13: 2068371704
+      EXPLOSION_BIG_14: 203324210
+      EXPLOSION_BIG_15: 567914633
+      EXPLOSION_BIG_16: -13159660
+      EXPLOSION_BIG_17: 1861096134
+      EXPLOSION_BIG_18: -92537561
+      EXPLOSION_BIG_19: 690521728
+      EXPLOSION_BIG_2: -247719772
+      EXPLOSION_BIG_20: 784472008
+      EXPLOSION_BIG_21: 678715398
+      EXPLOSION_BIG_22: 62084096
+      EXPLOSION_BIG_23: -1770475607
+      EXPLOSION_BIG_24: 29769623
+      EXPLOSION_BIG_3: 1874035056
+      EXPLOSION_BIG_4: -2089924223
+      EXPLOSION_BIG_5: -1077891078
+      EXPLOSION_BIG_6: 1512985821
+      EXPLOSION_BIG_7: -1636975174
+      EXPLOSION_BIG_8: -1871961418
+      EXPLOSION_BIG_9: -1709245310
+      EXPLOSION_GRENADE: 1829211516
+      EXPLOSION_GRENADE_1: -1819694513
+      EXPLOSION_GRENADE_10: 2065788217
+      EXPLOSION_GRENADE_11: -677675032
+      EXPLOSION_GRENADE_12: 949221934
+      EXPLOSION_GRENADE_13: 803980813
+      EXPLOSION_GRENADE_14: 782484370
+      EXPLOSION_GRENADE_15: 782484370
+      EXPLOSION_GRENADE_16: -628429321
+      EXPLOSION_GRENADE_17: -1219326815
+      EXPLOSION_GRENADE_18: -1276455746
+      EXPLOSION_GRENADE_19: 774105215
+      EXPLOSION_GRENADE_2: -1819694513
+      EXPLOSION_GRENADE_20: 1522846941
+      EXPLOSION_GRENADE_3: -352599659
+      EXPLOSION_GRENADE_4: 768131411
+      EXPLOSION_GRENADE_5: 286065239
+      EXPLOSION_GRENADE_6: 557227375
+      EXPLOSION_GRENADE_7: 557227375
+      EXPLOSION_GRENADE_8: -1286017454
+      EXPLOSION_GRENADE_9: 2096028314
+      EXPLOSION_NORMAL_1: 229370597
+      EXPLOSION_NORMAL_10: -1169923403
+      EXPLOSION_NORMAL_11: -1999675278
+      EXPLOSION_NORMAL_12: -1594199166
+      EXPLOSION_NORMAL_13: 1916156713
+      EXPLOSION_NORMAL_14: -1580539687
+      EXPLOSION_NORMAL_15: -1520785678
+      EXPLOSION_NORMAL_16: -52404694
+      EXPLOSION_NORMAL_17: -2118241433
+      EXPLOSION_NORMAL_18: 1780030662
+      EXPLOSION_NORMAL_19: 421352268
+      EXPLOSION_NORMAL_2: 1469805207
+      EXPLOSION_NORMAL_20: 1081663898
+      EXPLOSION_NORMAL_21: 1115842082
+      EXPLOSION_NORMAL_22: 1115842082
+      EXPLOSION_NORMAL_23: -1904654156
+      EXPLOSION_NORMAL_3: -1581718486
+      EXPLOSION_NORMAL_4: -2145299976
+      EXPLOSION_NORMAL_5: -1746027882
+      EXPLOSION_NORMAL_5.1: -1581718486
+      EXPLOSION_NORMAL_6: 305487481
+      EXPLOSION_NORMAL_7: -1058597249
+      EXPLOSION_NORMAL_8: 1267186740
+      EXPLOSION_NORMAL_9: 212144329
+      Enemy_Expolsion: 1345867040
+      Enemy_Expolsion_1: 2051204217
+      Enemy_Expolsion_10: 894388318
+      Enemy_Expolsion_11: 894388318
+      Enemy_Expolsion_12: -277261664
+      Enemy_Expolsion_13: 1346614722
+      Enemy_Expolsion_14: -758399838
+      Enemy_Expolsion_15: -897182346
+      Enemy_Expolsion_16: 230338433
+      Enemy_Expolsion_17: -2053944177
+      Enemy_Expolsion_18: 1766271912
+      Enemy_Expolsion_19: -1591152049
+      Enemy_Expolsion_2: -277546614
+      Enemy_Expolsion_20: 786030964
+      Enemy_Expolsion_21: -742904731
+      Enemy_Expolsion_22: 2038685075
+      Enemy_Expolsion_23: 1082343845
+      Enemy_Expolsion_3: -439619375
+      Enemy_Expolsion_4: 262961295
+      Enemy_Expolsion_5: 1172064507
+      Enemy_Expolsion_6: 1242673207
+      Enemy_Expolsion_7: -866508846
+      Enemy_Expolsion_8: -252448507
+      Enemy_Expolsion_9: 286314452
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

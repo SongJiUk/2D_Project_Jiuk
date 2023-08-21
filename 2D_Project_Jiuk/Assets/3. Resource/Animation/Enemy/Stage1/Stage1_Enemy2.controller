@@ -1,31 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1102 &-8252333582129049686
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Stage1_Enemy1_Die
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: b3ea513566284466496787da22c5464c, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
 --- !u!1107 &-6554026426321214934
 AnimatorStateMachine:
   serializedVersion: 6
@@ -36,20 +10,14 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: 7956844475983961719}
-    m_Position: {x: 360, y: -40, z: 0}
+    m_State: {fileID: -2039981241141884549}
+    m_Position: {x: 430, y: 120, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -2287715956932510901}
-    m_Position: {x: 310, y: 120, z: 0}
+    m_State: {fileID: 8669115115078308073}
+    m_Position: {x: 526.2533, y: 235.36938, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -8252333582129049686}
-    m_Position: {x: 560, y: -50, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 8103462098865810376}
-    m_Position: {x: 490, y: 150, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -5629509850837242983}
-    m_Position: {x: 463.02875, y: 63.318527, z: 0}
+    m_State: {fileID: -2835447007520917711}
+    m_Position: {x: 536.2533, y: 245.36938, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -59,15 +27,15 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: 8103462098865810376}
---- !u!1102 &-5629509850837242983
+  m_DefaultState: {fileID: -2039981241141884549}
+--- !u!1102 &-2835447007520917711
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Stage1_Enemy1_Walk
+  m_Name: Stage1_Enemy2_Die
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -80,20 +48,20 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: a4a2cd28cd348446383074fdafe533d8, type: 2}
+  m_Motion: {fileID: 7400000, guid: 87d1b09ba79af4449a38e21f3b2d4199, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1102 &-2287715956932510901
+--- !u!1102 &-2039981241141884549
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Stage1_Enemy1_Attack2
+  m_Name: Stage1_Enemy1_Flying
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -106,7 +74,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: f351f959ab13d45e480e67d89378deca, type: 2}
+  m_Motion: {fileID: 7400000, guid: 99bf7c5b28b514eabb8756bb4a1cfae1, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -118,7 +86,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Crab_Cont
+  m_Name: Stage1_Enemy2
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -134,14 +102,14 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
---- !u!1102 &7956844475983961719
+--- !u!1102 &8669115115078308073
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Stage1_Enemy1_Attack
+  m_Name: Stage1_Enemy2_Attack
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -154,33 +122,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 0cee0053bdff14fcebc435860308bbb8, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &8103462098865810376
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Stage1_Enemy1_Idle
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 25e9dbc2fbc26469189741788bb99ed0, type: 2}
+  m_Motion: {fileID: 7400000, guid: bde74db99d4d148b28198bb58cfe1ba2, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
