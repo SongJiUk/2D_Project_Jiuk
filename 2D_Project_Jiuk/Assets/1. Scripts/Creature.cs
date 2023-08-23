@@ -26,40 +26,4 @@ public class Creature : MonoBehaviour
     {
 
     }
-
-    protected void Hit()
-    {
-        HP--;
-        if (HP <= 0)
-        {
-            HP = 0;
-            Die();
-        }
-    }
-
-    protected void Die()
-    {
-
-    }
-
-    protected void Attack()
-    {
-
-    }
-
-    protected void Jump()
-    {
-
-    }
-
-    protected void Sit()
-    {
-
-    }
-
-    protected void Move()
-    {
-
-    }
-
 }

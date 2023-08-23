@@ -111,6 +111,8 @@ public class Weapon : MonoBehaviour
         }
     }
 
+
+
     /*
      * 데미지, 발사수, 총알 갯수
      * 기본 무기 : 1

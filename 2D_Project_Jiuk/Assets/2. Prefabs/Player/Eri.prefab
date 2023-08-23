@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7704445018508157418}
   - component: {fileID: 2805392336311863441}
   - component: {fileID: 5495212540092179204}
-  - component: {fileID: 2617044262499140879}
   m_Layer: 6
   m_Name: Eri
   m_TagString: Player
@@ -54,6 +53,8 @@ MonoBehaviour:
   - {fileID: 2961611094434527060}
   - {fileID: 5126750289074068321}
   - {fileID: 8947948344996126154}
+  UpperCollider: {fileID: 2544905807357788606}
+  AllBodyCollider: {fileID: 2982862655337337501}
   UpperAnim: {fileID: 1004145488069786418}
   LowerAnim: {fileID: 7183530883743847495}
   AllBodyAnim: {fileID: 8646167572849895366}
@@ -94,51 +95,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &2617044262499140879
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1123385179768160876}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.010009766, y: 0.12517059}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.38724104, y: 0.010452836}
-    oldSize: {x: 1.4, y: 1.08}
-    newSize: {x: 1.75, y: 1.35}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.6695175, y: 1.4509454}
-  m_EdgeRadius: 0
 --- !u!1 &2961611094434527060
 GameObject:
   m_ObjectHideFlags: 0
@@ -150,7 +106,7 @@ GameObject:
   - component: {fileID: 8598603607668198684}
   - component: {fileID: 248171884622069136}
   - component: {fileID: 1004145488069786418}
-  - component: {fileID: 4275424118546539956}
+  - component: {fileID: 2544905807357788606}
   m_Layer: 6
   m_Name: Eri_Upper_Body
   m_TagString: Untagged
@@ -215,7 +171,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 5
   m_Sprite: {fileID: -1885638831, guid: 5974a0c069b5d44228a9d347acb0818f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -248,14 +204,14 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!61 &4275424118546539956
+--- !u!61 &2544905807357788606
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2961611094434527060}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -277,10 +233,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.63121605, y: 0.15450096}
+  m_Offset: {x: -0.0075263977, y: 0.21274394}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.48673373, y: 0.17438616}
@@ -291,7 +247,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.4305458, y: 1.5906134}
+  m_Size: {x: 0.7604523, y: 1.4238871}
   m_EdgeRadius: 0
 --- !u!1 &5126750289074068321
 GameObject:
@@ -366,8 +322,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
-  m_Sprite: {fileID: 888571181, guid: 5974a0c069b5d44228a9d347acb0818f, type: 3}
+  m_SortingOrder: 4
+  m_Sprite: {fileID: -1973448741, guid: 5974a0c069b5d44228a9d347acb0818f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -503,6 +459,7 @@ GameObject:
   - component: {fileID: 8894945348746797120}
   - component: {fileID: 5140494284766824188}
   - component: {fileID: 8646167572849895366}
+  - component: {fileID: 2982862655337337501}
   m_Layer: 6
   m_Name: Eri_Body
   m_TagString: Untagged
@@ -519,7 +476,7 @@ Transform:
   m_GameObject: {fileID: 8947948344996126154}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.35, z: 0}
+  m_LocalPosition: {x: 0, y: -0.569, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -566,7 +523,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 5
   m_Sprite: {fileID: -272461234, guid: 5974a0c069b5d44228a9d347acb0818f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -599,3 +556,48 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!61 &2982862655337337501
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8947948344996126154}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.063473105, y: 0.5342383}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.2071658, y: 0.023001535}
+    oldSize: {x: 2.04, y: 1.12}
+    newSize: {x: 1, y: 1.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9721825, y: 1.12}
+  m_EdgeRadius: 0

@@ -4,16 +4,42 @@ using UnityEngine;
 
 public class Enemy : Creature
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] protected Player player;
+    [SerializeField] protected EStage1Monster monster;
+    [SerializeField] protected SpriteRenderer sprite;
+    [SerializeField] protected Animator anim;
+    public LayerMask enemyLayer;
+    protected Vector2 dir = Vector2.zero;
+
+    //몬스터 AI
+    protected float detectionRadius;
+    protected float attackRange;
+    protected float attackCooldown;
+    protected float moveSpeed;
+
+    protected float lastAttackTime = 0f;
+
+
+    //anim
+    // isDie
+    // Attack1, Attack2
+    // ExplosionDie
+    // Walk
+   
+    public void SetMonster(float _hp, float _attackRange, float _attackCoolDown, float _detectionRadius
+        , float _moveSpeed)
     {
-        
+        //SetMonster(4f, 5f, 3f, 5f);
+        HP = _hp;
+        attackRange = _attackRange;
+        attackCooldown = _attackCoolDown;
+        detectionRadius = _detectionRadius;
+        moveSpeed = _moveSpeed;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        //0.16, -0.67
+        //Debug.Log("sdfddsaasdf");
     }
 }
  

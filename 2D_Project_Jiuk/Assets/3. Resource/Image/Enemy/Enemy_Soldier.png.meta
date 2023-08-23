@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 10
+  spritePixelsToUnits: 29
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -144,7 +144,7 @@ TextureImporter:
         width: 31
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -165,7 +165,7 @@ TextureImporter:
         width: 24
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -186,7 +186,7 @@ TextureImporter:
         width: 26
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -207,7 +207,7 @@ TextureImporter:
         width: 21
         height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -228,7 +228,7 @@ TextureImporter:
         width: 22
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -249,7 +249,7 @@ TextureImporter:
         width: 33
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -270,7 +270,7 @@ TextureImporter:
         width: 34
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -291,7 +291,7 @@ TextureImporter:
         width: 15
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -312,7 +312,7 @@ TextureImporter:
         width: 36
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -325,15 +325,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_Soldier_9
+      name: Boat_Soldier_8
       rect:
         serializedVersion: 2
-        x: 791
-        y: 798
-        width: 28
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 783
+        y: 792
+        width: 33
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -346,15 +346,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_Soldier_10
+      name: Boat_Soldier_7
       rect:
         serializedVersion: 2
-        x: 829
-        y: 796
-        width: 29
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 822
+        y: 792
+        width: 33
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -367,15 +367,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_Soldier_11
+      name: Boat_Soldier_6
       rect:
         serializedVersion: 2
-        x: 863
-        y: 798
-        width: 28
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 860
+        y: 792
+        width: 32
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -388,15 +388,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_Soldier_12
+      name: Boat_Soldier_5
       rect:
         serializedVersion: 2
-        x: 903
-        y: 799
-        width: 22
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 896
+        y: 792
+        width: 29
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -409,15 +409,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_Soldier_13
+      name: Boat_Soldier_1
       rect:
         serializedVersion: 2
         x: 776
-        y: 422
-        width: 33
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 424
+        width: 40
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -430,15 +430,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_Soldier_14
+      name: Boat_Soldier_2
       rect:
         serializedVersion: 2
-        x: 751
+        x: 735
         y: 424
-        width: 15
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 37
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -451,15 +451,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy_Soldier_15
+      name: Boat_Soldier_3
       rect:
         serializedVersion: 2
-        x: 708
-        y: 428
-        width: 22
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 699
+        y: 424
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -475,12 +475,12 @@ TextureImporter:
       name: Enemy_Soldier_16
       rect:
         serializedVersion: 2
-        x: 675
-        y: 425
+        x: 915
+        y: 0
         width: 20
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -488,6 +488,27 @@ TextureImporter:
       bones: []
       spriteID: 0688514da55fe4cbfa23ae8d78c43d15
       internalID: 1647189310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boat_Soldier_4
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 424
+        width: 26
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23a7224519d24e339f7b6b6c32b6a3c
+      internalID: -1562644043
       vertices: []
       indices: 
       edges: []
@@ -503,15 +524,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Boat_Soldier_1: -1764045304
+      Boat_Soldier_2: -105857882
+      Boat_Soldier_3: 426576322
+      Boat_Soldier_4: -1562644043
+      Boat_Soldier_5: 1358565862
+      Boat_Soldier_6: 855134210
+      Boat_Soldier_7: -1419332373
+      Boat_Soldier_8: -1998444407
       Enemy_1_0: -1234171866
       Enemy_Soldier_0: 493768735
       Enemy_Soldier_1: -389362559
-      Enemy_Soldier_10: -1419332373
-      Enemy_Soldier_11: 855134210
-      Enemy_Soldier_12: 1358565862
-      Enemy_Soldier_13: -1764045304
-      Enemy_Soldier_14: -105857882
-      Enemy_Soldier_15: 426576322
       Enemy_Soldier_16: 1647189310
       Enemy_Soldier_2: -156545267
       Enemy_Soldier_3: -447976816
@@ -520,7 +543,6 @@ TextureImporter:
       Enemy_Soldier_6: 220745512
       Enemy_Soldier_7: 426860698
       Enemy_Soldier_8: 1444541659
-      Enemy_Soldier_9: -1998444407
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

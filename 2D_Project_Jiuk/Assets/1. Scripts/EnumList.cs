@@ -14,3 +14,15 @@ public enum EWeaponName
     Iron_Lizard,
     Drop_Shot
 }
+
+[Serializable]
+public enum EStage1Monster
+{
+    Crab,
+    Fly,
+    Boat,
+    Soldier,
+    M3,
+    Fish,
+    Boss
+}

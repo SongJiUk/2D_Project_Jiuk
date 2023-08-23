@@ -162,8 +162,8 @@ TextureImporter:
         serializedVersion: 2
         x: 371
         y: 266
-        width: 1418
-        height: 220
+        width: 1436
+        height: 224
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -472,15 +472,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stage_1_1_4_2
+      name: Stage_1_1_4_2_7
       rect:
         serializedVersion: 2
         x: 1615
         y: 811
         width: 123
         height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1143,6 +1143,216 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Stage1_Boss_Road_1
+      rect:
+        serializedVersion: 2
+        x: 4958
+        y: 485
+        width: 32
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f4457cc82164116a3308c40daa1b97
+      internalID: 911060146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 629
+        width: 59
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b31776dc6ba43f98dd5ed1dab41e00
+      internalID: -962001484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_1_1_4_2_1
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 816
+        width: 86
+        height: 67
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f95d837894b4ed891ac1ca3923e1a2
+      internalID: -39883344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_1_1_4_2_2
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 816
+        width: 89
+        height: 63
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1de7c13fcab4994b6045e5012a358d
+      internalID: -1960491349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_1_1_4_2_3
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 815
+        width: 100
+        height: 56
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d915360834fd346dc9e751845ff46788
+      internalID: -1300059293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_1_1_4_2_4
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 813
+        width: 111
+        height: 45
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8643b786c5f4f4093fd7e0ce424755
+      internalID: -1059277506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_1_1_4_2_5
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 811
+        width: 131
+        height: 26
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855bc57668b6e4c7f9c2502618233289
+      internalID: -329614300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_1_1_4_2_6
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 810
+        width: 128
+        height: 39
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd9921290262456aa42ed5eb1902e5d
+      internalID: -420784665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_1_1_1_3
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 1606
+        width: 94
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d376e2cd7e745458eac6e958df80f919
+      internalID: -340762667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_1_1_1_4
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1606
+        width: 79
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454815a1a02a04734be58f3304c6d383
+      internalID: -1168913382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1154,6 +1364,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      1: -962001484
+      Stage1_Boss_Road_1: 911060146
+      Stage1_Boss_Road_2: 801440607
       Stage1_Enemy_Swim_1: -1670133415
       Stage1_Enemy_Swim_2: -114548719
       Stage1_Enemy_Swim_3: 1357500571
@@ -1163,13 +1376,21 @@ TextureImporter:
       Stage_1_1: 1000710787
       Stage_1_1_1_1: -891912201
       Stage_1_1_1_2: 1924020075
+      Stage_1_1_1_3: -340762667
+      Stage_1_1_1_4: -1168913382
       Stage_1_1_2_0: 661075839
       Stage_1_1_2_1: -1918890800
       Stage_1_1_2_3: 772205704
       Stage_1_1_3_1: 1027656085
       Stage_1_1_4_0: 468322059
       Stage_1_1_4_1: -1611138981
-      Stage_1_1_4_2: 321502531
+      Stage_1_1_4_2_1: 321502531
+      Stage_1_1_4_2_2: -39883344
+      Stage_1_1_4_2_3: -1960491349
+      Stage_1_1_4_2_4: -1300059293
+      Stage_1_1_4_2_5: -1059277506
+      Stage_1_1_4_2_6: -329614300
+      Stage_1_1_4_2_7: 321502531
       Stage_1_2: -1813341484
       Stage_1_2.1: -1953828914
       Stage_1_2_2_1: 115299009

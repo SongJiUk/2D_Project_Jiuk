@@ -11,10 +11,10 @@ public class ObjectPool : MonoBehaviour
 
     [Header("총알 생성 관련 ")]
     [SerializeField] string[] bullet_name;
-    [SerializeField] GameObject[] Bullets;
+    [SerializeField] Bullet[] Bullets;
     [SerializeField] GameObject[] Bullets_parent;
-    public Queue<GameObject>[] bullet_que;
-    public Dictionary<string, Queue<GameObject>> Bullet_Dic = new Dictionary<string, Queue<GameObject>>();
+    public Queue<Bullet>[] bullet_que;
+    public Dictionary<string, Queue<Bullet>> Bullet_Dic = new Dictionary<string, Queue<Bullet>>();
 
     private void Awake()
     {
@@ -33,15 +33,15 @@ public class ObjectPool : MonoBehaviour
 
     public void CreateBullet()
     {
-        bullet_que = new Queue<GameObject>[NumberOfWeapon];
+        bullet_que = new Queue<Bullet>[NumberOfWeapon];
         for (int j = 0; j < NumberOfWeapon; j++)
         {
-            bullet_que[j] = new Queue<GameObject>();
+            bullet_que[j] = new Queue<Bullet>();
 
             for (int i = 0; i < BulletCount; i++)
             {
                 var bullet = Instantiate(Bullets[j], Bullets_parent[j].transform);
-                bullet.SetActive(false);
+                bullet.gameObject.SetActive(false);
                 bullet_que[j].Enqueue(bullet);
             }
 
@@ -49,21 +49,21 @@ public class ObjectPool : MonoBehaviour
         }
     }
 
-    public GameObject GetBullet(string key)
+    public Bullet GetBullet(string key)
     {
 
         if (Bullet_Dic[key].Count > 0)
         {
-            GameObject bullet = Bullet_Dic[key].Dequeue();
-            bullet.SetActive(true);
+            Bullet bullet = Bullet_Dic[key].Dequeue();
+            bullet.gameObject.SetActive(true);
             return bullet;
         }
         else return null;
     }
 
-    public void ReturnBullet(GameObject bullet, string key)
+    public void ReturnBullet(Bullet bullet, string key)
     {
-        bullet.SetActive(false);
+        bullet.gameObject.SetActive(false);
         Bullet_Dic[key].Enqueue(bullet);
     }
 }

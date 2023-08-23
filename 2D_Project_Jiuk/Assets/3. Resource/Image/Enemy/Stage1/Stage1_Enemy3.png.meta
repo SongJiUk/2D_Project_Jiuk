@@ -1,0 +1,1627 @@
+fileFormatVersion: 2
+guid: 7b95e018cb089462984a0ccbdd212eac
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 29
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Jump_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1356
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45faa0bd44d5c48caa1616e5f42c271d
+      internalID: 693546733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Jump_2
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1356
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f6290ae5ad94b0ebe39859a903e66c
+      internalID: -1660159653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Jump_3
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1356
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e654dfe66c944db9f1eae2be1199dd
+      internalID: -363478088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Jump_4
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1356
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ba57746e88c490583fb43211cd3f5d
+      internalID: -1732346374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Jump_5
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1356
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3fd82de3ec646fdabd2714794b130c
+      internalID: -943926565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Jump_6
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1356
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb1759a8b3bf4555b0876835c152cc8
+      internalID: 1299077608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Jump_7
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1356
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac624b0c4b774c36b9ad026c3c47c10
+      internalID: -1394776639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Jump_8
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1356
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14aaa5c880ba45f1b8d5d96dbf97bac
+      internalID: 1498897116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Jump_9
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1356
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2732911b2efb4c239cff5b393aa8756
+      internalID: 1132111170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Jump_10
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1357
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9989664417c3c4fcd8b34f84eb58dedb
+      internalID: 1722585131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Jump_11
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1360
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58229b25e5f284ae29f791c4891fb6af
+      internalID: -1706230379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Jump_12
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1361
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a18c5b6cdc846e9856bca13ba2d491
+      internalID: -2042707514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1310
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40113826efebc43b8afb259eddacb8fd
+      internalID: 665393471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1309
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4808a53615864b6e9b7db9f2c7697f2
+      internalID: 1579484417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1309
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23551438f4c140e197b69b085c113fb
+      internalID: -342739164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1309
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dac05991378f4838a49655bcfc74eab
+      internalID: 990616184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1309
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181ef10c4b7c54cc199a35c63e23d54a
+      internalID: -910183929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1308
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114c62ea2e1bb4be8ae686d9a3c9e0cc
+      internalID: 1253293413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1307
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b909699002cf54c98b13afb3cc623c21
+      internalID: 559466371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1308
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476f4f3cccc304e9f9e622935ede1997
+      internalID: 1947939534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1309
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f913c7f667442f19064e3bdf28b536
+      internalID: 457942229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1309
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc31f1fe590141c7835f4d156dea128
+      internalID: -1288383212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1309
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c67e1a588faf4ebdba96e32cdfd0aaf
+      internalID: 397091280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1309
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4100ca9dfbd844d8483a88b9bd1906be
+      internalID: -1837803676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die1_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1208
+        width: 39
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665841aeddfc34a9d853f30f2b020d74
+      internalID: 2117747744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die1_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1206
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7adb18a126aba4b8fa4488b2da017079
+      internalID: 922984527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die1_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1204
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371e9fdf7736b43f1ba99ddc04bf5a44
+      internalID: 951856669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die1_4
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1203
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae3d8e3fc46844d1adc4223d1d1ac85
+      internalID: -351574379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die1_5
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1203
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e6f23d2e3c84a9f8929b1fdf1aaa8a
+      internalID: 356083115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die1_6
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1203
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7e4f8400aa54526a100fd5afc261d6
+      internalID: -154696990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die1_7
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1202
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e72d8812d2734e1abdf1da34f3ab8be
+      internalID: 1655114556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die1_8
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1199
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770124b6b3ed94ebbb49c50db7ad1510
+      internalID: -16122828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die1_9
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1199
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bf2d360912441f7b7265a77da76940
+      internalID: 1966216300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die1_10
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1210
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb132529bd62435f8d1df1a3ff2cffa
+      internalID: -712188105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die1_11
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1153
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879f8c1130ed2468b97547f853cfc5a5
+      internalID: 908765761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die1_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1153
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faed4ed20fb564481bb4a6943918ba34
+      internalID: -394094819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die1_13
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1154
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6ef4a30c8954985badc12914bccb5b
+      internalID: 886685835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die2_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1113
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58908964dddb644b38dcd436e3985225
+      internalID: 398587677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die2_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1114
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b507dfce5584d9a839ebd86570a1f8
+      internalID: -394928568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die2_3
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f8bb9c2f89945afad3ccb429827c08
+      internalID: -920337419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die2_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1109
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba47a676cccd4f36b88c6026424691e
+      internalID: -2131854064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die2_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1106
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2059575e201174cd98475f6beb2922bb
+      internalID: 1403317955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die2_6
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1109
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8061de34746f64f80b26630d61559c55
+      internalID: -1658598495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die2_6.1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1ec07f3c947417fbbbbd6cc91cccc5
+      internalID: 1440868279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die2_7
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1111
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8dc9d65779334d4687807fcd8d8aa62
+      internalID: 2045140813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die2_8
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1113
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5692c9fb297784ea39121a5f0d837773
+      internalID: 818126948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die2_9
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1114
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2bd7e61634342a68aaf24a8ab42f3a
+      internalID: 1612911775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die2_10
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48671e48c75e64ab7b711f740fe02721
+      internalID: -2043305373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die2_11
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1109
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c5054f5373442ebbd852483bcbb62b
+      internalID: 1142351005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die2_12
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1106
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29b0d5bcb8e0413890d105c3ed78403
+      internalID: 2019921617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die2_13
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1066
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eeebf92f593c440fa5c8c0faf7eedfd
+      internalID: 773283990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die2_14
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1069
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda0523211a61492194c29721fb1a4f5
+      internalID: 2042280089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_Die2_15
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1068
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c635176a9ac7e4b9cb729051bade1913
+      internalID: -1496622302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_INOUT_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 475
+        width: 25
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741b861a6e4f04566a837ae6c91a75de
+      internalID: -511314961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_INOUT_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 475
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e966084f191d4d758376e9689cb70e2
+      internalID: 1340118670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_INOUT_3
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 475
+        width: 30
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da722f5483274ca6b3b35dd56837707
+      internalID: 1652801903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_INOUT_4
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 475
+        width: 30
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1134460c5adc340e88bd53316a4dbe59
+      internalID: 1851795318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_INOUT_5
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 475
+        width: 31
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8cba93b175f41f2b149d8dbe1b59a3
+      internalID: -595848158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_INOUT_6
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 475
+        width: 30
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f880430cc30ca49efb2e9b1a99ad1d76
+      internalID: -104707899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_INOUT_7
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 475
+        width: 31
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a32e0f305bc4596bd94b2890a69d17
+      internalID: 793930072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_INOUT_8
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 475
+        width: 30
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7143d678405476cb14ad31638aff45
+      internalID: 1397293696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_INOUT_9
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 475
+        width: 29
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236891d304df0412fa748c42146f6aea
+      internalID: -1627817528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_INOUT_11
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 474
+        width: 29
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec68aae65322b427b8af8b7d054623a2
+      internalID: -2006650068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_INOUT_10
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 475
+        width: 31
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eee3ca9e2c414c49876bd2c2721bcc7
+      internalID: 83887751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_INOUT_12
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 474
+        width: 31
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e16f751d7a848359aadff609b3eb44
+      internalID: 2007704451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_INOUT_13
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 475
+        width: 30
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3452eb2e91e254a53bb6151242678b9d
+      internalID: 333208053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy3_INOUT_14
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 475
+        width: 32
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da4e9880e9784e6c869946c30bdaef6
+      internalID: 575124981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Stage1_Enemy3_Attack_1: -1837803676
+      Stage1_Enemy3_Attack_10: -1288383212
+      Stage1_Enemy3_Attack_11: 397091280
+      Stage1_Enemy3_Attack_12: -1837803676
+      Stage1_Enemy3_Attack_2: 1579484417
+      Stage1_Enemy3_Attack_3: -342739164
+      Stage1_Enemy3_Attack_4: 990616184
+      Stage1_Enemy3_Attack_5: -910183929
+      Stage1_Enemy3_Attack_6: 1253293413
+      Stage1_Enemy3_Attack_7: 559466371
+      Stage1_Enemy3_Attack_8: 1947939534
+      Stage1_Enemy3_Attack_9: 457942229
+      Stage1_Enemy3_Die1_1: 2117747744
+      Stage1_Enemy3_Die1_10: -712188105
+      Stage1_Enemy3_Die1_11: 908765761
+      Stage1_Enemy3_Die1_12: -394094819
+      Stage1_Enemy3_Die1_13: 886685835
+      Stage1_Enemy3_Die1_2: 922984527
+      Stage1_Enemy3_Die1_3: 951856669
+      Stage1_Enemy3_Die1_4: -351574379
+      Stage1_Enemy3_Die1_5: 356083115
+      Stage1_Enemy3_Die1_6: -154696990
+      Stage1_Enemy3_Die1_7: 1655114556
+      Stage1_Enemy3_Die1_8: -16122828
+      Stage1_Enemy3_Die1_9: 1966216300
+      Stage1_Enemy3_Die2_1: 398587677
+      Stage1_Enemy3_Die2_10: -2043305373
+      Stage1_Enemy3_Die2_11: 1142351005
+      Stage1_Enemy3_Die2_12: 2019921617
+      Stage1_Enemy3_Die2_13: 773283990
+      Stage1_Enemy3_Die2_14: 2042280089
+      Stage1_Enemy3_Die2_15: -1496622302
+      Stage1_Enemy3_Die2_2: -394928568
+      Stage1_Enemy3_Die2_3: -920337419
+      Stage1_Enemy3_Die2_4: -2131854064
+      Stage1_Enemy3_Die2_5: 1403317955
+      Stage1_Enemy3_Die2_6: -1658598495
+      Stage1_Enemy3_Die2_6.1: 1440868279
+      Stage1_Enemy3_Die2_7: 2045140813
+      Stage1_Enemy3_Die2_8: 818126948
+      Stage1_Enemy3_Die2_9: 1612911775
+      Stage1_Enemy3_INOUT_1: -511314961
+      Stage1_Enemy3_INOUT_10: 1851795318
+      Stage1_Enemy3_INOUT_11: -595848158
+      Stage1_Enemy3_INOUT_12: -104707899
+      Stage1_Enemy3_INOUT_13: 793930072
+      Stage1_Enemy3_INOUT_14: 1397293696
+      Stage1_Enemy3_INOUT_2: -511314961
+      Stage1_Enemy3_INOUT_3: -511314961
+      Stage1_Enemy3_INOUT_4: -511314961
+      Stage1_Enemy3_INOUT_5: -511314961
+      Stage1_Enemy3_INOUT_6: -511314961
+      Stage1_Enemy3_INOUT_7: -511314961
+      Stage1_Enemy3_INOUT_8: 1340118670
+      Stage1_Enemy3_INOUT_9: 1652801903
+      Stage1_Enemy3_Jump_1: 693546733
+      Stage1_Enemy3_Jump_10: 1722585131
+      Stage1_Enemy3_Jump_11: -1706230379
+      Stage1_Enemy3_Jump_12: -2042707514
+      Stage1_Enemy3_Jump_2: -1660159653
+      Stage1_Enemy3_Jump_3: -363478088
+      Stage1_Enemy3_Jump_4: -1732346374
+      Stage1_Enemy3_Jump_5: -943926565
+      Stage1_Enemy3_Jump_6: 1299077608
+      Stage1_Enemy3_Jump_7: -1394776639
+      Stage1_Enemy3_Jump_8: 1498897116
+      Stage1_Enemy3_Jump_9: 1132111170
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

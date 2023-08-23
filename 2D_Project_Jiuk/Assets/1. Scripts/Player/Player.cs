@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using UnityEngine;
 
 public class Player : Creature
@@ -8,6 +9,7 @@ public class Player : Creature
     
     Vector2 movement = Vector2.zero;
     Vector2 dir = Vector2.zero;
+    Vector3 bDir = Vector3.zero;
     Vector2 left = new Vector2(-1f, 1f);
     Vector2 right = new Vector2(1f, 1f);
     Vector3 raycast = new Vector3(0, 0.5f, 0);
@@ -20,10 +22,18 @@ public class Player : Creature
     bool isLookDown = false;
     bool isGetHw = false;
     bool isMelee = false;
+    bool isDie = false;
+
+    public bool ISDIE
+    {
+        get { return isDie; }
+    }
 
     [Header("캐릭터 관련")]
     [SerializeField] Rigidbody2D rigid;
     [SerializeField] GameObject[] CharacterBody;
+    [SerializeField] BoxCollider2D UpperCollider;
+    [SerializeField] BoxCollider2D AllBodyCollider;
 
     [Header("캐릭터 애니메이션 관련")]
     [SerializeField] Animator UpperAnim;
@@ -76,14 +86,17 @@ public class Player : Creature
     }
 
 
-    void Hit()
+    void Restart()
     {
-
+        rigid.simulated = true;
     }
 
     void Die()
     {
-
+        isDie = true;
+        rigid.simulated = false;
+        CharacterChange(true);
+        AllBodyAnim.SetTrigger("IsDie");
     }
 
     void Attack()
@@ -128,7 +141,7 @@ public class Player : Creature
     }
 
     private void Update()
-    {   
+    {
 
         /*
          * 
@@ -167,190 +180,210 @@ public class Player : Creature
 
 
         */
-        movement.x = Input.GetAxis("Horizontal");
-        movement.y = Input.GetAxis("Vertical");
 
-        
-
-        if(movement.x != 0)
+        if (!isDie)
         {
-            //firePosObj.transform.position += new Vector3(movement.x, movement.y, 0) * Time.deltaTime;
-        }
-
-        if(!isGetHw)
-        {
-            //Firepos = firePosObj.transform.position;
-            //firePosObj.transform.position = 
-        }
+            movement.x = Input.GetAxis("Horizontal");
+            movement.y = Input.GetAxis("Vertical");
 
 
-        //좌 우 변경
-        if (movement.x < 0)
-        {
-            transform.localScale = left;
-            dir = Vector2.left * 3f;
-        }
-        else if (movement.x > 0)
-        {
-            transform.localScale = right;
-            dir = Vector2.right * 3f;
-        }
 
-       
-
-        if (movement.y < 0)
-        {
-            if (isJump)
+            if (movement.x != 0)
             {
-                isSit = false;
-                isLookDown = true;
-                UpperAnim.SetBool("LookDown", isLookDown);
-                firePosObj[0].transform.localPosition = DownFirepos;
+                //firePosObj.transform.position += new Vector3(movement.x, movement.y, 0) * Time.deltaTime;
             }
-            else isSit = true;
-        }
-        else if (movement.y > 0)
-        {
-            isLookUp = true;
-            UpperAnim.SetBool("LookUP", isLookUp);
-            firePosObj[0].transform.localPosition = UpFirepos;
-            isSit = false;
-        }
-        else
-        {
-            isLookUp = false;
-            firePosObj[0].transform.localPosition = Firepos;
-            isLookDown = false;
-            isSit = false;
 
-            UpperAnim.SetBool("LookUP", isLookUp);
-            UpperAnim.SetBool("LookDown", isLookDown);
-            CharacterChange(isSit);
-        }
-
-        if (isSit)
-        {
-            speed = 1f;
-            CharacterChange(isSit);
-        }
-        else
-        {
-            speed = 3f;
-            CharacterChange(isSit);
-        }
-
-        //총쏘기
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            if (isLookUp) UpperAnim.SetTrigger("LookUpFire");
-            else if (isLookDown) UpperAnim.SetTrigger("LookDownFire");
-            else
+            if (!isGetHw)
             {
-                UpperAnim.SetTrigger("Fire");
-                AllBodyAnim.SetTrigger("Fire");
+                //Firepos = firePosObj.transform.position;
+                //firePosObj.transform.position = 
             }
 
 
-            if (isMelee)
+            //좌 우 변경
+            if (movement.x < 0)
             {
-                RandomNum = Random.Range(0, 1f);
-                UpperAnim.SetFloat("MeleeNum", RandomNum);
+                transform.localScale = left;
+                dir = Vector2.left * 3f;
+                bDir = Vector3.left;
             }
-            else ObjectPool.instance.GetBullet("Default");
-        }
-
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            if (!isJump)
+            else if (movement.x > 0)
             {
-                if (isSit)
+                transform.localScale = right;
+                dir = Vector2.right * 3f;
+                bDir = Vector3.right;
+            }
+
+
+
+            if (movement.y < 0)
+            {
+                if (isJump)
                 {
                     isSit = false;
-                    CharacterChange(isSit);
-                    
+                    isLookDown = true;
+                    UpperAnim.SetBool("LookDown", isLookDown);
+                    firePosObj[0].transform.localPosition = DownFirepos;
+                }
+                else
+                {
+                    isSit = true;
+                    AllBodyCollider.enabled = false;
+                }
+            }
+            else if (movement.y > 0)
+            {
+                isLookUp = true;
+                UpperAnim.SetBool("LookUP", isLookUp);
+                firePosObj[0].transform.localPosition = UpFirepos;
+                isSit = false;
+                UpperCollider.enabled = false;
+            }
+            else
+            {
+                isLookUp = false;
+                firePosObj[0].transform.localPosition = Firepos;
+                isLookDown = false;
+                isSit = false;
+                AllBodyCollider.enabled = false;
+
+                UpperAnim.SetBool("LookUP", isLookUp);
+                UpperAnim.SetBool("LookDown", isLookDown);
+                CharacterChange(isSit);
+            }
+
+            if (isSit)
+            {
+                speed = 1f;
+                CharacterChange(isSit);
+            }
+            else
+            {
+                speed = 3f;
+                CharacterChange(isSit);
+            }
+
+            //총쏘기
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                if (isLookUp) UpperAnim.SetTrigger("LookUpFire");
+                else if (isLookDown) UpperAnim.SetTrigger("LookDownFire");
+                else
+                {
+                    UpperAnim.SetTrigger("Fire");
+                    AllBodyAnim.SetTrigger("Fire");
                 }
 
-                isJump = true;
-                rigid.AddForce(Vector2.up * 6f, ForceMode2D.Impulse);
 
-
-
-                UpperAnim.SetBool("IsJump", isJump);
-                LowerAnim.SetBool("IsJump", isJump);
+                if (isMelee)
+                {
+                    RandomNum = Random.Range(0, 1f);
+                    UpperAnim.SetFloat("MeleeNum", RandomNum);
+                }
+                else
+                {
+                    var bullet = ObjectPool.instance.GetBullet("Default");
+                    bullet.transform.localPosition = Firepos;
+                    bullet.transform.localPosition += bDir * Time.deltaTime;
+                }
             }
-        }
 
-        //이동
-        transform.position += new Vector3(movement.x, 0, 0) * Time.deltaTime * speed;
-
-
-        if (!isJump)
-        {
-            //CharacterChange(isSit);
-
-        }
-        if (isJump)
-        {
-            /*
-             * 어느 상황에서라도 가능한것 - 죽기, 승
-             * 
-             * 
-              점프중일때 가능한것
-            1. 총쏘기
-            2. 근접공격
-            3. 가만히 있기
-            4. 수류탄 던지기
-            5. 밑으로 총쏘기
-            6. 위로 총쏘기
-            7. 탈것 타기
-
-             막아야 할것
-            1. 앉기
-             */
-
-            isSit = false;
-
-            
-
-            
-
-        }
-        else
-        {
-            /*
-              점프가 아닐때 가능한것
-            1. 가만히 있기
-            2. 위에 보기, 총쏘기
-            3. 수류탄 던지기
-            4. 총쏘기
-            5. 이동하기
-            6. 앉기 - 이동, 총쏘기
-             */
-
-            if(isSit)
+            if (Input.GetKeyDown(KeyCode.LeftShift))
             {
+                if (!isJump)
+                {
+                    if (isSit)
+                    {
+                        isSit = false;
+                        CharacterChange(isSit);
+
+                    }
+
+                    isJump = true;
+                    rigid.AddForce(Vector2.up * 6f, ForceMode2D.Impulse);
+
+
+
+                    UpperAnim.SetBool("IsJump", isJump);
+                    LowerAnim.SetBool("IsJump", isJump);
+                }
+            }
+
+            //이동
+            transform.position += new Vector3(movement.x, 0, 0) * Time.deltaTime * speed;
+
+
+            if (!isJump)
+            {
+                //CharacterChange(isSit);
+
+            }
+            if (isJump)
+            {
+                /*
+                 * 어느 상황에서라도 가능한것 - 죽기, 승
+                 * 
+                 * 
+                  점프중일때 가능한것
+                1. 총쏘기
+                2. 근접공격
+                3. 가만히 있기
+                4. 수류탄 던지기
+                5. 밑으로 총쏘기
+                6. 위로 총쏘기
+                7. 탈것 타기
+
+                 막아야 할것
+                1. 앉기
+                 */
+
+                isSit = false;
+
+
+
+
 
             }
             else
             {
+                /*
+                  점프가 아닐때 가능한것
+                1. 가만히 있기
+                2. 위에 보기, 총쏘기
+                3. 수류탄 던지기
+                4. 총쏘기
+                5. 이동하기
+                6. 앉기 - 이동, 총쏘기
+                 */
+
+                if (isSit)
+                {
+
+                }
+                else
+                {
+
+                }
+
 
             }
 
 
+
+
+            //앉았을 경우에 오브젝트 활성화, 비활성
+
+
+            AllBodyAnim.SetFloat("PositionX", movement.x);
+            AllBodyAnim.SetFloat("PositionY", movement.y);
+            UpperAnim.SetFloat("PositionX", movement.x);
+            UpperAnim.SetFloat("PositionY", movement.y);
+            LowerAnim.SetFloat("PositionX", movement.x);
+            LowerAnim.SetFloat("PositionY", movement.y);
         }
-
-        
-
-
-        //앉았을 경우에 오브젝트 활성화, 비활성
+        else AllBodyCollider.enabled = true;
 
 
-        AllBodyAnim.SetFloat("PositionX", movement.x);
-        AllBodyAnim.SetFloat("PositionY", movement.y);
-        UpperAnim.SetFloat("PositionX", movement.x);
-        UpperAnim.SetFloat("PositionY", movement.y);
-        LowerAnim.SetFloat("PositionX", movement.x);
-        LowerAnim.SetFloat("PositionY", movement.y);
     }
 
     private void FixedUpdate()
@@ -369,7 +402,7 @@ public class Player : Creature
             if (distance < 0.6f) isMelee = true;
             else isMelee = false;
 
-            Debug.Log("플레이어와 적 사이의 거리: " + distance);
+            //Debug.Log("플레이어와 적 사이의 거리: " + distance);
         }
 
         Debug.DrawRay(transform.position + new Vector3(0, 0.5f, 0), dir, new Color(0, 1, 0));
@@ -378,6 +411,8 @@ public class Player : Creature
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        
+        
         isJump = false;
 
         UpperAnim.SetBool("IsJump", isJump);
@@ -386,10 +421,16 @@ public class Player : Creature
     }
 
 
-    
+
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Enemy"))
+        if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("EnemyAttack")))
+        {
+            Die();
+        }
+
+        if (collision.CompareTag("Enemy"))
         {
 
             isMelee = true;

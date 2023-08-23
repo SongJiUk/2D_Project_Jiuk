@@ -8,7 +8,5 @@ public class Stage1_Boss : Creature
     protected void Init()
     {
         HP = 100f;
-
-        Hit();
     }
 }

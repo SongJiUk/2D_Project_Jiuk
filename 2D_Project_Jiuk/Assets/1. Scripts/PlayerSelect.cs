@@ -53,6 +53,7 @@ public class PlayerSelect : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.Space))
             {
+
                 Player_Select_img[picknum].SetActive(true);
                 Player_IMG[picknum].SetActive(true);
                 Invoke("PlayAnim", 0.5f);

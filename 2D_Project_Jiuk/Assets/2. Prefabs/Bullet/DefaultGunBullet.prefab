@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4612342574991314219}
   - component: {fileID: 8406398656988730832}
   - component: {fileID: 5520024157939221352}
-  - component: {fileID: 8749493837299137428}
+  - component: {fileID: 6094165860991547671}
   m_Layer: 12
   m_Name: DefaultGunBullet
   m_TagString: Weapon
@@ -28,13 +28,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4606837151271735975}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.2866583, w: 0.9580329}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -49.488743, y: -3.0610518, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 33.316}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4612342574991314219
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -159,7 +159,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &8749493837299137428
+--- !u!114 &6094165860991547671
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,7 +168,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4606837151271735975}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae5bf8e8d07064f8c8bf1d9c94ebae4b, type: 3}
+  m_Script: {fileID: 11500000, guid: a21a39e98f9a748bca5f6d3c75fdf00f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   eWeapon: 0
