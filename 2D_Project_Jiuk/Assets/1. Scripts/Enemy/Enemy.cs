@@ -8,8 +8,9 @@ public class Enemy : Creature
     [SerializeField] protected EStage1Monster monster;
     [SerializeField] protected SpriteRenderer sprite;
     [SerializeField] protected Animator anim;
+    [SerializeField] protected Rigidbody2D rigid;
     public LayerMask enemyLayer;
-    protected Vector2 dir = Vector2.zero;
+    protected Vector3 dir = Vector3.zero;
 
     //몬스터 AI
     protected float detectionRadius;

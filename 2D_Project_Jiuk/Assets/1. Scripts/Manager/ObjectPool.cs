@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditorInternal.ReorderableList;
 
 public class ObjectPool : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class ObjectPool : MonoBehaviour
 
     [Header("총알 생성 관련 ")]
     [SerializeField] string[] bullet_name;
-    [SerializeField] Bullet[] Bullets;
+    [SerializeField] GameObject[] Bullets;
     [SerializeField] GameObject[] Bullets_parent;
     public Queue<Bullet>[] bullet_que;
     public Dictionary<string, Queue<Bullet>> Bullet_Dic = new Dictionary<string, Queue<Bullet>>();
@@ -41,8 +42,8 @@ public class ObjectPool : MonoBehaviour
             for (int i = 0; i < BulletCount; i++)
             {
                 var bullet = Instantiate(Bullets[j], Bullets_parent[j].transform);
-                bullet.gameObject.SetActive(false);
-                bullet_que[j].Enqueue(bullet);
+                bullet.SetActive(false);
+                bullet_que[j].Enqueue(bullet.GetComponent<Bullet>());
             }
 
             Bullet_Dic.Add(bullet_name[j], bullet_que[j]);
@@ -58,7 +59,45 @@ public class ObjectPool : MonoBehaviour
             bullet.gameObject.SetActive(true);
             return bullet;
         }
-        else return null;
+        else
+        {
+            int num =  (int)findname(key);
+            var bullet = Instantiate(Bullets[num], Bullets_parent[num].transform);
+            bullet.SetActive(false);
+            Bullet_Dic[key].Enqueue(bullet.GetComponent<Bullet>());
+
+            Bullet bullets = Bullet_Dic[key].Dequeue();
+            bullets.gameObject.SetActive(true);
+            return bullets;
+
+        }
+    }
+
+    public EWeaponName findname(string name)
+    {
+        switch (name)
+        {
+            case "Default":
+                return EWeaponName.Default;
+            case "Heavy_Machinegun":
+                return EWeaponName.Heavy_Machinegun;
+            case "Flame_Shot":
+                return EWeaponName.Flame_Shot;
+            case "Shot_Gun":
+                return EWeaponName.Shot_Gun;
+            case "Super_Grenade":
+                return EWeaponName.Super_Grenade;
+            case "Rocket_Launcher":
+                return EWeaponName.Rocket_Launcher;
+            case "Laser_Gun":
+                return EWeaponName.Laser_Gun;
+            case "Iron_Lizard":
+                return EWeaponName.Iron_Lizard;
+            case "Drop_Shot":
+                return EWeaponName.Drop_Shot;
+        }
+
+        return 0;
     }
 
     public void ReturnBullet(Bullet bullet, string key)

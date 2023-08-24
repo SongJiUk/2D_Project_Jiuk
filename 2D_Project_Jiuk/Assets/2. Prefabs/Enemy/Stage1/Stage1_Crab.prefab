@@ -1196,6 +1196,7 @@ MonoBehaviour:
   monster: 0
   sprite: {fileID: 437616137996768113}
   anim: {fileID: 7596731357611382723}
+  rigid: {fileID: 8942348510356926656}
   enemyLayer:
     serializedVersion: 2
     m_Bits: 64

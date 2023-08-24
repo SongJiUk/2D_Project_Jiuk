@@ -13,7 +13,6 @@ public class Stage1_Crab : Enemy
     [SerializeField] BoxCollider2D seeRight;
 
     Vector3 playerPos = Vector3.zero;
-    Vector3 dir = Vector3.left;
     int RandomNum;
     void Start()
     {
@@ -120,6 +119,8 @@ public class Stage1_Crab : Enemy
 
     protected void Die()
     {
+        //죽으면 리지드바디 꺼버리기
+        rigid.simulated = false;
         anim.SetTrigger("isDie");
         //anim.SetTrigger("ExplosionDie");
        
