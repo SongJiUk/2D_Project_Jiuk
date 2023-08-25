@@ -16,7 +16,7 @@ public class Stage1_Crab : Enemy
     int RandomNum;
     void Start()
     {
-        if(isMeleeAttack) SetMonster(3f, 2f, 2f, 5f, 2f);
+        if(isMeleeAttack) SetMonster(10000f, 2f, 2f, 5f, 2f);
         else SetMonster(3f, 5f, 2f, 5f, 2f);
     }
 
@@ -101,21 +101,38 @@ public class Stage1_Crab : Enemy
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("Weapon")))
+
+        //맞으면 색 변하게
+        if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("PlayerAttack")))
         {
-            Hit();
+            
+            Hit(Player.instace.weapon);
+        }
+
+        if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("GrenadeAttack")))
+        {
+            Hit(Player.instace.weapon);
         }
     }
 
-    protected void Hit()
+    protected void Hit(Weapon _weapon)
     {
-        HP--;
+        
         if (HP <= 0)
         {
             HP = 0;
             Die();
         }
     }
+    //protected void Hit(Weapon _weapon)
+    //{
+        
+    //    if (HP <= 0)
+    //    {
+    //        HP = 0;
+    //        Die();
+    //    }
+    //}
 
     protected void Die()
     {

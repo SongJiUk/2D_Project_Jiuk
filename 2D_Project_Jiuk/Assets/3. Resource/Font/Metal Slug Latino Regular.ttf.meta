@@ -10,8 +10,7 @@ TrueTypeFontImporter:
   includeFontData: 1
   fontNames:
   - Metal Slug Latino
-  fallbackFontReferences:
-  - {fileID: 12800000, guid: 0710e6ba5c2744a4fa7207d25802d525, type: 3}
+  fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

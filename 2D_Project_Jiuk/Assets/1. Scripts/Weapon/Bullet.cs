@@ -7,6 +7,8 @@ public class Bullet : Weapon
     Vector3 Dir = Vector3.zero;
     
 
+    public GameObject explosionPrefab;
+    public GameObject NormalEffectPrefab;
     void Start()
     {
         if(eWeapon == EWeaponName.Default)
@@ -20,14 +22,32 @@ public class Bullet : Weapon
     {
         if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("Enemy")))
         {
+            if(ISEXPLOSIONBULLET)
+            {
+                GameObject explosion = Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+                ObjectPool.instance.ReturnBullet(this, eWeapon.ToString());
+
+                Destroy(explosion, 0.4f);
+                
+            }
+            else
+            {
+                GameObject explosion = Instantiate(NormalEffectPrefab, transform.position, Quaternion.identity);
+                ObjectPool.instance.ReturnBullet(this, eWeapon.ToString());
+                Destroy(explosion, 0.4f);
+            }
+        }
+
+        if(collision.gameObject.layer.Equals(LayerMask.NameToLayer("NPC")))
+        {
             ObjectPool.instance.ReturnBullet(this, eWeapon.ToString());
         }
     }
 
-    public void FireBullet(Vector3 _dir)
+    public void FireBullet(Vector3 _dir, float _shootSpeed)
     {
         Dir = _dir;
-        
+        SHOTSPEED = _shootSpeed;
         StartCoroutine(FireBullet());
     }
 
@@ -36,7 +56,7 @@ public class Bullet : Weapon
         while(true)
         {
             yield return null;
-            transform.position += transform.right * Time.deltaTime * ShotSpeed;
+            transform.position += transform.right * Time.deltaTime * SHOTSPEED;
 
 
         }

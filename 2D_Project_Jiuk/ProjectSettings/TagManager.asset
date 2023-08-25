@@ -21,9 +21,9 @@ TagManager:
   - EnemyAttack
   - Weapon
   - Road
-  - 
-  - 
-  - 
+  - GrenadeAttack
+  - NPC
+  - TakeOffNPC
   - 
   - 
   - 

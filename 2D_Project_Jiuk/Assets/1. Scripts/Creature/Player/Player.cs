@@ -14,6 +14,7 @@ public class Player : Creature
     Vector2 left = new Vector2(-1f, 1f);
     Vector2 right = new Vector2(1f, 1f);
     Vector3 raycast = new Vector3(0, 0.5f, 0);
+    Vector3 LastPos = Vector3.zero;
 
     float speed = 3f;
     bool isShoot = false;
@@ -25,6 +26,13 @@ public class Player : Creature
     bool isMelee = false;
     bool isDie = false;
 
+    int Life = 2;
+    public int LIFE
+    {
+        get { return Life; }
+        set { Life = value; }
+    }
+
     public bool ISDIE
     {
         get { return isDie; }
@@ -35,6 +43,7 @@ public class Player : Creature
     [SerializeField] GameObject[] CharacterBody;
     [SerializeField] BoxCollider2D UpperCollider;
     [SerializeField] BoxCollider2D AllBodyCollider;
+    
 
     [Header("캐릭터 애니메이션 관련")]
     [SerializeField] Animator UpperAnim;
@@ -43,24 +52,17 @@ public class Player : Creature
 
     [Header("총 발사 관련")]
     [SerializeField] GameObject[] firePosObj;
-    [SerializeField]
-    GameObject[] BulletObj;
+    [SerializeField] GameObject[] BulletObj;
     public Weapon weapon;
     Vector3 Firepos = Vector3.zero;
-    Vector3 UpFirepos = Vector3.zero;
-    Vector3 DownFirepos = Vector3.zero;
-    Vector3 bulletRot = Vector3.zero;
-    Vector3 bulletUP = new Vector3(0f, 0f, 90f);
-    Vector3 bulletDown = new Vector3(0f, 0f, -90f);
-    Vector3 bulletRight = Vector3.zero;
+
+    private bool canShoot = true;
+
     Vector3 bulletLeft = new Vector3(0f, 180f, 0f);
-    Quaternion bulletLeftQ = new Quaternion(0f, 180f, 0f,1f);
-    Quaternion bulletRightQ = new Quaternion(0f, 0f, 0f,1f);
     float RandomNum;
     public LayerMask enemyLayer;
     Transform pos;
     string WeaponName = "Default";
-    bool isLeft;
 
 
     private void Awake()
@@ -70,13 +72,6 @@ public class Player : Creature
 
 
         dir = Vector2.right;
-        //Firepos = firePosObj[0].transform.localPosition;
-        //UpFirepos = firePosObj[0].transform.localPosition + new Vector3(-1f, 1f, 0);
-        //DownFirepos = firePosObj[0].transform.localPosition + new Vector3(-0.9f, -1.2f, 0);
-        //pos = firePosObj[0].transform;
-        //firePosObj[0].transform.localPosition = Firepos;
-
-        
         isGetHw = false;
     }
 
@@ -100,12 +95,14 @@ public class Player : Creature
     private void Start()
     {
         weapon.DefaultWeapon();
+
     }
 
 
-    void Restart()
+    void Respawn()
     {
         rigid.simulated = true;
+        transform.position = LastPos + new Vector3(0f, 3f, 0f);
     }
 
     void Die()
@@ -114,6 +111,16 @@ public class Player : Creature
         rigid.simulated = false;
         CharacterChange(true);
         AllBodyAnim.SetTrigger("IsDie");
+        Life--;
+        LastPos = transform.position;
+        if (Life == 0)
+        {
+            //다시 시작 
+        }
+        else
+        {
+            Respawn();
+        }
     }
 
     
@@ -128,6 +135,10 @@ public class Player : Creature
        
         UpperAnim.SetBool("IsGetHw", isGetHw);
         AllBodyAnim.SetBool("IsGetHw", isGetHw);
+
+        
+
+        UpperAnim.SetBool("IsHeavyMachinGun", weapon.ISHEAVYMACHINGUN);
     }
 
     void HandleInput()
@@ -214,9 +225,10 @@ public class Player : Creature
 
 
         //총쏘기
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (canShoot && Input.GetKeyDown(KeyCode.Space))
         {
             Fire();
+            StartCoroutine(ShootCooldown());
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && !isJump)
@@ -234,6 +246,7 @@ public class Player : Creature
         LowerAnim.SetFloat("PositionX", movement.x);
         LowerAnim.SetFloat("PositionY", movement.y);
     }
+
 
 
     void Fire()
@@ -259,13 +272,20 @@ public class Player : Creature
         }
     }
 
+    private IEnumerator ShootCooldown()
+    {
+        canShoot = false;
+        yield return new WaitForSeconds(weapon.SHOOTINTERVAL);
+        canShoot = true;
+    }
+
     IEnumerator FireBullet()
        {
         while(true)
         {
             for (int i = 0; i < weapon.FIRESPEED; i++)
             {
-                yield return new WaitForSeconds(0.1f);
+                yield return new WaitForSeconds(0.15f);
                 var bullet = ObjectPool.instance.GetBullet(WeaponName);
                 if (isSit)
                 {
@@ -278,7 +298,7 @@ public class Player : Creature
                     bullet.transform.rotation = firePosObj[0].transform.rotation;
                 }
 
-                bullet.FireBullet(bDir);
+                bullet.FireBullet(bDir, weapon.SHOTSPEED);
             }
 
             break;
@@ -334,8 +354,8 @@ public class Player : Creature
 
         if(collision.gameObject.layer == LayerMask.NameToLayer("Road"))
         {
+           
             isJump = false;
-
             UpperAnim.SetBool("IsJump", isJump);
             LowerAnim.SetBool("IsJump", isJump);
         }

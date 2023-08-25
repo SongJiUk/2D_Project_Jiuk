@@ -1320,7 +1320,7 @@ TextureImporter:
         width: 94
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1341,7 +1341,7 @@ TextureImporter:
         width: 79
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1349,6 +1349,27 @@ TextureImporter:
       bones: []
       spriteID: 454815a1a02a04734be58f3304c6d383
       internalID: -1168913382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage_1_1_2_1
+      rect:
+        serializedVersion: 2
+        x: 4362
+        y: 1546
+        width: 103
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c46110842ce4596abe18d230aa5419
+      internalID: -1918890800
       vertices: []
       indices: 
       edges: []
