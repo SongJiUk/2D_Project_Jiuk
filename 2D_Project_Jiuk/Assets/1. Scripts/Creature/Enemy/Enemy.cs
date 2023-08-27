@@ -12,6 +12,7 @@ public class Enemy : Creature
     public LayerMask enemyLayer;
     protected Vector3 dir = Vector3.zero;
     protected Vector3 playerPos = Vector3.zero;
+    protected bool IsexplosionDie = false;
     //몬스터 AI
     protected float detectionRadius;
     protected float attackRange;
@@ -21,11 +22,6 @@ public class Enemy : Creature
     protected float lastAttackTime = 0f;
 
 
-    //anim
-    // isDie
-    // Attack1, Attack2
-    // ExplosionDie
-    // Walk
    
     public void SetMonster(float _hp, float _attackRange, float _attackCoolDown, float _detectionRadius
         , float _moveSpeed)
@@ -41,7 +37,6 @@ public class Enemy : Creature
     private float newAlphaValue = 0.9f;
     private float defaultAlphaValue = 1f;
     Color DefaultColor = Color.white;
-
     public IEnumerator HitShine()
     {
         Color currentColor = sprite.material.color;
@@ -70,9 +65,10 @@ public class Enemy : Creature
         StartCoroutine(HitShine());
     }
 
+
     public void Die()
     {
-        //죽으면 리지드바디 꺼버리기
+        //ì£½ì¼ë©´ ë¦¬ì§ëë°ë êº¼ë²ë¦¬ê¸°
         rigid.simulated = false;
         anim.SetTrigger("isDie");
     }
@@ -82,4 +78,3 @@ public class Enemy : Creature
         Destroy(gameObject);
     }
 }
- 

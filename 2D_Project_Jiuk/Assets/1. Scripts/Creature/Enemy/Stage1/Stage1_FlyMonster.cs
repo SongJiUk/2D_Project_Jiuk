@@ -60,16 +60,9 @@ public class Stage1_FlyMonster : Enemy
     private void MoveTowardsPlayer()
     {
         float playerPosX;
-        if (sprite.flipX)
-        {
-            // ÇÃ·¹ÀÌ¾î°¡ ¿À¸¥ÂÊ
-            playerPosX = player.transform.position.x + 0.1f;
-        }
-        else
-        {
-            //ÇÃ·¹ÀÌ¾î°¡ ¿ÞÂÊ
-            playerPosX = player.transform.position.x + 0.1f;
-        }
+
+        if (sprite.flipX)   playerPosX = player.transform.position.x + 0.1f;
+        else playerPosX = player.transform.position.x + 0.1f;
 
         playerPos = new Vector3(playerPosX, player.transform.position.y, player.transform.position.z);
         Vector3 directionToPlayer = (playerPos - transform.position).normalized;
@@ -78,7 +71,6 @@ public class Stage1_FlyMonster : Enemy
         Vector3 moveAmount = directionToPlayer * moveSpeed * Time.deltaTime;
         Vector3 moveVector = new Vector3(moveAmount.x, 0f, 0f);
 
-        // ÀÌµ¿ ½ÇÇà
         transform.Translate(moveVector);
 
     }
@@ -117,7 +109,7 @@ public class Stage1_FlyMonster : Enemy
 
         while (elapsedTime < attackDuration)
         {
-            // ºÎµå·¯¿î ÀÌµ¿À» À§ÇØ Vector3.Lerp¸¦ »ç¿ëÇÕ´Ï´Ù.
+            // ï¿½Îµå·¯ï¿½ï¿½ ï¿½Ìµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Vector3.Lerpï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.
             float t = elapsedTime / attackDuration;
             transform.position = Vector3.Lerp(attackStartPosition, attackTargetPosition, t);
 
@@ -138,7 +130,7 @@ public class Stage1_FlyMonster : Enemy
     }
     private Vector3 CalculateAttackTargetPosition()
     {
-        // ºÎÃ¤²Ã ¸ð¾çÀÇ °ø°Ý À§Ä¡¸¦ °è»êÇÏ¿© ¹ÝÈ¯ÇÕ´Ï´Ù.
+        // ï¿½ï¿½Ã¤ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½È¯ï¿½Õ´Ï´ï¿½.
         Vector3 attackDirection = (transform.position - player.transform.position).normalized;
         float angle = Mathf.Atan2(attackDirection.y, attackDirection.x) * Mathf.Rad2Deg + 90f;
         Quaternion attackRotation = Quaternion.AngleAxis(angle, Vector3.forward);
@@ -151,7 +143,7 @@ public class Stage1_FlyMonster : Enemy
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
-        //¸ÂÀ¸¸é »ö º¯ÇÏ°Ô
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½Ï°ï¿½
         if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("PlayerAttack")))
         {
 
@@ -173,15 +165,5 @@ public class Stage1_FlyMonster : Enemy
             Die();
         }
     }
-    //protected void Hit(Weapon _weapon)
-    //{
-
-    //    if (HP <= 0)
-    //    {
-    //        HP = 0;
-    //        Die();
-    //    }
-    //}
-
 
 }

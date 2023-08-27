@@ -12,7 +12,7 @@ public class Stage1_Crab : Enemy
     [SerializeField] BoxCollider2D seeLeft;
     [SerializeField] BoxCollider2D seeRight;
 
-    
+    Vector3 playerPos = Vector3.zero;
     int RandomNum;
     void Start()
     {
@@ -113,28 +113,23 @@ public class Stage1_Crab : Enemy
         {
             Hit(Player.instace.weapon);
         }
-
-        
     }
-    
-   
+
     protected void Hit(Weapon _weapon)
     {
-        StartHitShineParallel();
+        HP -= _weapon.DAMAGE;
         if (HP <= 0)
         {
             HP = 0;
             Die();
         }
     }
-    //protected void Hit(Weapon _weapon)
-    //{
-        
-    //    if (HP <= 0)
-    //    {
-    //        HP = 0;
-    //        Die();
-    //    }
-    //}
-
+    
+    public new void Die()
+    {
+        //ì£½ì¼ë©´ ë¦¬ì§ëë°ë êº¼ë²ë¦¬ê¸°
+        rigid.simulated = false;
+        anim.SetTrigger("isDie");
+        anim.SetTrigger("ExplosionDie");
+    }
 }

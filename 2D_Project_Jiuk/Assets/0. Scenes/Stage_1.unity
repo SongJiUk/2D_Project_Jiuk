@@ -6944,7 +6944,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 1344428590, guid: ae015526dc66f4e569addaf560bf4fde, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7592,7 +7592,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 1344428590, guid: ae015526dc66f4e569addaf560bf4fde, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8736,7 +8736,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 733486639597718218, guid: a096abfeaf5e94bb5a05687e05a30d13, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 51.99
+      value: 53.05
       objectReference: {fileID: 0}
     - target: {fileID: 733486639597718218, guid: a096abfeaf5e94bb5a05687e05a30d13, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8780,7 +8780,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6402973940930695349, guid: a096abfeaf5e94bb5a05687e05a30d13, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8795,17 +8795,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1256979766283315454, guid: a973382a97a19435faf4e89eb7ae63c2, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2682040099932974467, guid: a973382a97a19435faf4e89eb7ae63c2, type: 3}
       propertyPath: m_Name
       value: Stage1_Enemy3
       objectReference: {fileID: 0}
     - target: {fileID: 6379592857637230457, guid: a973382a97a19435faf4e89eb7ae63c2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 95.94
+      value: 100.03
       objectReference: {fileID: 0}
     - target: {fileID: 6379592857637230457, guid: a973382a97a19435faf4e89eb7ae63c2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.679887
+      value: -6.32
       objectReference: {fileID: 0}
     - target: {fileID: 6379592857637230457, guid: a973382a97a19435faf4e89eb7ae63c2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8838,6 +8842,10 @@ PrefabInstance:
     - target: {fileID: 6379592857637230457, guid: a973382a97a19435faf4e89eb7ae63c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8509189733860050687, guid: a973382a97a19435faf4e89eb7ae63c2, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

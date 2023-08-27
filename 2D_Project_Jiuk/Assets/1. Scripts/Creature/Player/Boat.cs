@@ -15,7 +15,7 @@ public class Boat : MonoBehaviour
         if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("Player")))
         {
             TakeBoat = true;
-            dir = Vector3.right * 0.1f;
+            dir = Vector3.right * 10f;
             trigger.enabled = false;
         }
     }
@@ -25,7 +25,7 @@ public class Boat : MonoBehaviour
 
         if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("Enemy")))
         {
-            TakeBoat = false;
+            TakeBoat = true;
             dir = Vector3.zero;
         }
     }
@@ -34,7 +34,7 @@ public class Boat : MonoBehaviour
     {
         if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("Enemy")))
         {
-            TakeBoat = false;
+            TakeBoat = true;
             dir = Vector3.zero;
         }
     }
@@ -44,12 +44,12 @@ public class Boat : MonoBehaviour
         if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("Enemy")))
         {
             TakeBoat = true;
-            dir = Vector3.right * 0.1f;
+            dir = Vector3.right * 10f;
         }
     }
 
     private void Update()
     {
-        if(TakeBoat) rigid.AddForce(dir);
+        if(TakeBoat) rigid.AddForce(dir * Time.deltaTime);
     }
 }

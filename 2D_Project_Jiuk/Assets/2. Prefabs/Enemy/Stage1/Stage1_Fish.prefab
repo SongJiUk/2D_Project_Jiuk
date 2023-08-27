@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8509189733860050687}
   - component: {fileID: 6492632945226603876}
   - component: {fileID: 2233530445366330342}
+  - component: {fileID: 8067109185759083545}
   - component: {fileID: 1256979766283315454}
   m_Layer: 7
   m_Name: Stage1_Fish
@@ -134,7 +135,20 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 6
+--- !u!114 &8067109185759083545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2682040099932974467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d05d446e5635142e990a37e52b863bb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 6492632945226603876}
 --- !u!61 &1256979766283315454
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -164,7 +178,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
