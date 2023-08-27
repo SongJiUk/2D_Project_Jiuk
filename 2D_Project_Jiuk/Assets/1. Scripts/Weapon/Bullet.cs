@@ -42,6 +42,24 @@ public class Bullet : Weapon
         {
             ObjectPool.instance.ReturnBullet(this, eWeapon.ToString());
         }
+
+        if(collision.gameObject.layer.Equals(LayerMask.NameToLayer("Object")))
+        {
+            if (ISEXPLOSIONBULLET)
+            {
+                GameObject explosion = Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+                ObjectPool.instance.ReturnBullet(this, eWeapon.ToString());
+
+                Destroy(explosion, 0.4f);
+
+            }
+            else
+            {
+                GameObject explosion = Instantiate(NormalEffectPrefab, transform.position, Quaternion.identity);
+                ObjectPool.instance.ReturnBullet(this, eWeapon.ToString());
+                Destroy(explosion, 0.4f);
+            }
+        }
     }
 
     public void FireBullet(Vector3 _dir, float _shootSpeed)

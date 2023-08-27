@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1582581094665011185}
   - component: {fileID: 2134918163981671375}
   - component: {fileID: 4777016010880829713}
+  - component: {fileID: 7820948389753816587}
   m_Layer: 14
   m_Name: SuperGrenade
   m_TagString: Untagged
@@ -168,3 +169,30 @@ MonoBehaviour:
   eWeapon: 4
   explosionPrefab: {fileID: 7366827494836375917, guid: 96c987e4d541448e898e4d0fdcfeffb2, type: 3}
   NormalEffectPrefab: {fileID: 7366827494836375917, guid: 96c987e4d541448e898e4d0fdcfeffb2, type: 3}
+--- !u!50 &7820948389753816587
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3479821576950263661}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

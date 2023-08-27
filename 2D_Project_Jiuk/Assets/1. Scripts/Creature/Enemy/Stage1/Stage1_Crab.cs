@@ -12,7 +12,7 @@ public class Stage1_Crab : Enemy
     [SerializeField] BoxCollider2D seeLeft;
     [SerializeField] BoxCollider2D seeRight;
 
-    Vector3 playerPos = Vector3.zero;
+    
     int RandomNum;
     void Start()
     {
@@ -113,8 +113,11 @@ public class Stage1_Crab : Enemy
         {
             Hit(Player.instace.weapon);
         }
-    }
 
+        
+    }
+    
+   
     protected void Hit(Weapon _weapon)
     {
         StartHitShineParallel();
@@ -133,19 +136,5 @@ public class Stage1_Crab : Enemy
     //        Die();
     //    }
     //}
-
-    protected void Die()
-    {
-        //죽으면 리지드바디 꺼버리기
-        rigid.simulated = false;
-        anim.SetTrigger("isDie");
-        //anim.SetTrigger("ExplosionDie");
-       
-    }
-
-    public void DestoryOBJ()
-    {
-        Destroy(gameObject);
-    }
 
 }

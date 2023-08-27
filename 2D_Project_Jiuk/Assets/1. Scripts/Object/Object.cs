@@ -8,10 +8,12 @@ public class Object : MonoBehaviour
 
     [SerializeField] GameObject OffObject;
     [SerializeField] GameObject OnObject;
+    [SerializeField] GameObject HitEffect;
 
-
+    
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        
         if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("PlayerAttack")))
         {
             Hit();
@@ -25,6 +27,7 @@ public class Object : MonoBehaviour
 
     public void Hit()
     {
+        StartCoroutine(HitAnim());
         hp--;
         if(hp <= 0)
         {
@@ -32,9 +35,20 @@ public class Object : MonoBehaviour
             Break();
         }
     }
+    
+    IEnumerator HitAnim()
+    {
+        if(HitEffect != null) HitEffect.SetActive(true);
+        yield return new WaitForSeconds(0.1f);
+
+        if(HitEffect != null) HitEffect.SetActive(false);
+        yield return new WaitForSeconds(0.1f);
+    }
 
     public void Break()
     {
         //터짐 
+        if(null != OffObject) OffObject.SetActive(false);
+        if (null != OnObject) OnObject.SetActive(true);
     }
 }

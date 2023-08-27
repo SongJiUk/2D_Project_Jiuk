@@ -11,7 +11,7 @@ public class Enemy : Creature
     [SerializeField] protected Rigidbody2D rigid;
     public LayerMask enemyLayer;
     protected Vector3 dir = Vector3.zero;
-
+    protected Vector3 playerPos = Vector3.zero;
     //몬스터 AI
     protected float detectionRadius;
     protected float attackRange;
@@ -41,6 +41,7 @@ public class Enemy : Creature
     private float newAlphaValue = 0.9f;
     private float defaultAlphaValue = 1f;
     Color DefaultColor = Color.white;
+
     public IEnumerator HitShine()
     {
         Color currentColor = sprite.material.color;
@@ -67,6 +68,18 @@ public class Enemy : Creature
     public void StartHitShineParallel()
     {
         StartCoroutine(HitShine());
+    }
+
+    public void Die()
+    {
+        //죽으면 리지드바디 꺼버리기
+        rigid.simulated = false;
+        anim.SetTrigger("isDie");
+    }
+
+    public void DestoryOBJ()
+    {
+        Destroy(gameObject);
     }
 }
  

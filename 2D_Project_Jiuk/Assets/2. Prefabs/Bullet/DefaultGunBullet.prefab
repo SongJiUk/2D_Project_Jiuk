@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4612342574991314219}
   - component: {fileID: 8406398656988730832}
   - component: {fileID: 6094165860991547671}
+  - component: {fileID: 6191370623011404910}
   m_Layer: 10
   m_Name: DefaultGunBullet
   m_TagString: Weapon
@@ -143,5 +144,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a21a39e98f9a748bca5f6d3c75fdf00f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  eWeapon: 0
   explosionPrefab: {fileID: 8248422420744170618, guid: f8c43dc7baf994eeeaa004be97029989, type: 3}
   NormalEffectPrefab: {fileID: 8248422420744170618, guid: f8c43dc7baf994eeeaa004be97029989, type: 3}
+--- !u!50 &6191370623011404910
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4606837151271735975}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
