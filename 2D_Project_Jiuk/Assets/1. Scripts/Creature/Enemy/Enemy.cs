@@ -38,9 +38,35 @@ public class Enemy : Creature
         moveSpeed = _moveSpeed;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private float newAlphaValue = 0.9f;
+    private float defaultAlphaValue = 1f;
+    Color DefaultColor = Color.white;
+    public IEnumerator HitShine()
     {
-        //Debug.Log("sdfddsaasdf");
+        Color currentColor = sprite.material.color;
+        Color changecolor = new Color(1f, 0.2f, 0.2f);
+        int count = 0;
+        while (true)
+        {
+            if (count == 1)
+            {
+                sprite.material.color = DefaultColor;
+                break;
+            }
+
+            yield return new WaitForSeconds(0.1f);
+            changecolor.a = newAlphaValue;
+            sprite.material.color = changecolor;
+            yield return new WaitForSeconds(0.1f);
+            changecolor.a = defaultAlphaValue;
+            sprite.material.color = DefaultColor;
+            count++;
+        }
+    }
+
+    public void StartHitShineParallel()
+    {
+        StartCoroutine(HitShine());
     }
 }
  

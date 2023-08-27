@@ -2970,6 +2970,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy1_Jump_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1735
+        width: 54
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62afc55fb1812d847bb42d8ded4b40ae
+      internalID: 1379353680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stage1_Enemy1_Jump_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1735
+        width: 54
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66269da2686f9e54892ff183b8b550e8
+      internalID: 678706011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1353
+        width: 15
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36816ba8ddc2e2c459eb23117140450c
+      internalID: -1280927540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -2981,6 +3044,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Hit: -1280927540
       Stage1_Enemy1_Attack2_1: -1663432891
       Stage1_Enemy1_Attack2_2: 75440834
       Stage1_Enemy1_Attack2_3: -1291539703
@@ -3031,6 +3095,8 @@ TextureImporter:
       Stage1_Enemy1_Idle_5: -621825548
       Stage1_Enemy1_Idle_6: -1379186798
       Stage1_Enemy1_Idle_7: -829174447
+      Stage1_Enemy1_Jump_1: 1379353680
+      Stage1_Enemy1_Jump_2: 678706011
       Stage1_Enemy1_Walk_1: 845008178
       Stage1_Enemy1_Walk_2: 368638505
       Stage1_Enemy1_Walk_3: -1166805803

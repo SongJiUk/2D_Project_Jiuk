@@ -16,7 +16,7 @@ public class Stage1_Crab : Enemy
     int RandomNum;
     void Start()
     {
-        if(isMeleeAttack) SetMonster(10000f, 2f, 2f, 5f, 2f);
+        if(isMeleeAttack) SetMonster(3f, 2f, 2f, 5f, 2f);
         else SetMonster(3f, 5f, 2f, 5f, 2f);
     }
 
@@ -117,7 +117,7 @@ public class Stage1_Crab : Enemy
 
     protected void Hit(Weapon _weapon)
     {
-        
+        StartHitShineParallel();
         if (HP <= 0)
         {
             HP = 0;
