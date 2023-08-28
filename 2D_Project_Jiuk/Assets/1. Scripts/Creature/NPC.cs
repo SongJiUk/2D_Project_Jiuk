@@ -92,7 +92,7 @@ public class NPC : Creature
     public void Run()
     {
         isRun = true;
-        Invoke("DestroyNPC", 3f);
+        Invoke("DestroyNPC", 2f);
     }
 
     public void DestroyNPC()

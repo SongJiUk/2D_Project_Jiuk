@@ -10778,10 +10778,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_1_Fishing Boat_Idle
       objectReference: {fileID: 0}
-    - target: {fileID: 6402973940930695349, guid: a096abfeaf5e94bb5a05687e05a30d13, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
