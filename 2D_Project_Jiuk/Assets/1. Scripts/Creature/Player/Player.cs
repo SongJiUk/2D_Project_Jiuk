@@ -2,15 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using UnityEngine;
-using static UnityEditor.PlayerSettings;
 
 public class Player : Creature
 {
     public static Player instace = null;
-
+    
     Vector2 movement = Vector2.zero;
     Vector2 dir = Vector2.zero;
-    Vector3 bDir = Vector3.right;
+    public Vector3 bDir = Vector3.right;
     Vector2 left = new Vector2(-1f, 1f);
     Vector2 right = new Vector2(1f, 1f);
     Vector3 raycast = new Vector3(0, 0.5f, 0);
@@ -43,11 +42,7 @@ public class Player : Creature
     [SerializeField] GameObject[] CharacterBody;
     [SerializeField] BoxCollider2D UpperCollider;
     [SerializeField] BoxCollider2D AllBodyCollider;
-
-    [Header("캐릭터 부활")]
-    private float respawnInvincibilityDuration = 3f; // 무적 상태 지속 시간
-    private bool isInvincible = false; // 무적 상태 여부
-    private float invincibilityTimer = 0f; // 무적 타이머
+    
 
     [Header("캐릭터 애니메이션 관련")]
     [SerializeField] Animator UpperAnim;
@@ -59,7 +54,7 @@ public class Player : Creature
     [SerializeField] GameObject[] BulletObj;
     public Weapon weapon;
     Vector3 Firepos = Vector3.zero;
-
+    int GrenadeCount;
     private bool canShoot = true;
 
     Vector3 bulletLeft = new Vector3(0f, 180f, 0f);
@@ -79,10 +74,10 @@ public class Player : Creature
         isGetHw = false;
     }
 
-
+    
     void CharacterChange(bool isOneObj)
     {
-        if (isOneObj)
+        if(isOneObj)
         {
             CharacterBody[0].SetActive(false);
             CharacterBody[1].SetActive(false);
@@ -99,49 +94,49 @@ public class Player : Creature
     private void Start()
     {
         weapon.DefaultWeapon();
+        GrenadeCount = 10;
 
     }
 
 
     void Respawn()
     {
-        
-        isDie = false;
         rigid.simulated = true;
-        CharacterChange(false);
         transform.position = LastPos + new Vector3(0f, 3f, 0f);
-        ActivateInvincibility();
     }
 
-    private void ActivateInvincibility()
-    {
-        isInvincible = true;
-        invincibilityTimer = respawnInvincibilityDuration;
-    }
     void Die()
     {
         isDie = true;
+        rigid.simulated = false;
         CharacterChange(true);
         AllBodyAnim.SetTrigger("IsDie");
-        AllBodyCollider.enabled = true;
         Life--;
         LastPos = transform.position;
+        //if (Life == 0)
+        //{
+        //    //다시 시작 
+        //}
+        //else
+        //{
+        //    Respawn();
+        //}
     }
 
-
+    
 
     public void ChangeWeapon(Weapon _weapon)
     {
         weapon = _weapon;
         WeaponName = weapon.eWeapon.ToString();
 
-        if (weapon.eWeapon.Equals(EWeaponName.Default)) isGetHw = false;
+        if(weapon.eWeapon.Equals(EWeaponName.Default)) isGetHw = false;
         else isGetHw = true;
-
+       
         UpperAnim.SetBool("IsGetHw", isGetHw);
         AllBodyAnim.SetBool("IsGetHw", isGetHw);
 
-
+        
 
         UpperAnim.SetBool("IsHeavyMachinGun", weapon.ISHEAVYMACHINGUN);
     }
@@ -173,7 +168,7 @@ public class Player : Creature
         }
 
 
-        //아래 보는 경우
+       //아래 보는 경우
         if (movement.y < 0)
         {
             //점프중에 아래 볼경우
@@ -217,7 +212,7 @@ public class Player : Creature
             UpperCollider.enabled = false;
             AllBodyCollider.enabled = true;
             CharacterChange(isSit);
-            if (isGetHw) AllBodyAnim.SetBool("IsGetHw", isGetHw);
+            if(isGetHw) AllBodyAnim.SetBool("IsGetHw", isGetHw);
         }
         else
         {
@@ -241,6 +236,12 @@ public class Player : Creature
             Jump();
         }
 
+        if(Input.GetKeyDown(KeyCode.E))
+        {
+            Boom();
+        }
+
+       
         transform.position += new Vector3(movement.x, 0, 0) * Time.deltaTime * speed;
 
 
@@ -252,7 +253,17 @@ public class Player : Creature
         LowerAnim.SetFloat("PositionY", movement.y);
     }
 
-
+    void Boom()
+    {
+        if(GrenadeCount > 0)
+        {
+            GrenadeCount--;
+            ObjectPool.instance.GetGrenade();
+            UpperAnim.SetTrigger("Boom");
+            AllBodyAnim.SetTrigger("Boom");
+        }
+        
+    }
 
     void Fire()
     {
@@ -309,6 +320,7 @@ public class Player : Creature
             break;
         }
     }
+
     void Jump()
     {
         if (!isJump)
@@ -330,25 +342,15 @@ public class Player : Creature
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Alpha1))
+        if (Input.GetKeyDown(KeyCode.R))
         {
-            if(Life != 0) Respawn();
-            //else //코인 넣게하기
+            Respawn();
         }
 
         if (!isDie)
         {
             HandleInput();
             UpdateAnimations();
-        }
-
-        if (isInvincible)
-        {
-            invincibilityTimer -= Time.deltaTime;
-            if (invincibilityTimer <= 0)
-            {
-                isInvincible = false;
-            }
         }
     }
 
@@ -371,7 +373,7 @@ public class Player : Creature
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Road") || collision.gameObject.layer == LayerMask.NameToLayer("Obejct"))
+        if(collision.gameObject.layer == LayerMask.NameToLayer("Road") || collision.gameObject.layer == LayerMask.NameToLayer("Object"))
         {
            
             isJump = false;
@@ -382,22 +384,38 @@ public class Player : Creature
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (isInvincible)
+        if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("EnemyAttack")))
         {
-           
+            Die();
         }
-        else
+
+        if (collision.CompareTag("Enemy"))
         {
-            if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("EnemyAttack")))
-            {
-                rigid.simulated = false;
-                Die();
-            }
+
+            isMelee = true;
+
+            UpperAnim.SetBool("IsMelee", isMelee);
+            AllBodyAnim.SetBool("IsMelee", isMelee);
         }
-        
     }
 
 
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Enemy"))
+        {
+            isMelee = true;
+            UpperAnim.SetBool("IsMelee", isMelee);
+            AllBodyAnim.SetBool("IsMelee", isMelee);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        isMelee = false;
+        UpperAnim.SetBool("IsMelee", isMelee);
+        AllBodyAnim.SetBool("IsMelee", isMelee);
+    }
 
 
 }

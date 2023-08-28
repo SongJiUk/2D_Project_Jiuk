@@ -7,15 +7,19 @@ public class Stage1_Boat : Enemy
     bool isBreak;
     void Start()
     {
-        SetMonster(25f, 0f, 0f, 0f, 2f);
+        SetMonster(25f, 0f, 0f, 10f, 2f);
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(!isBreak) transform.position += Vector3.left * Time.deltaTime * 0.5f;
-
+        float distanceToPlayer = Vector3.Distance(transform.position, Player.instace.transform.position);
+        if (distanceToPlayer <= detectionRadius)
+        {
+            if (!isBreak) transform.position += Vector3.left * Time.deltaTime * 0.5f;
+        }
+       
     }
 
     private float pushForce = 0.2f;
@@ -35,12 +39,17 @@ public class Stage1_Boat : Enemy
         if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("PlayerAttack")))
         {
 
-            Hit(Player.instace.weapon);
+            Hit(Player.instace.weapon.DAMAGE);
         }
 
         if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("GrenadeAttack")))
         {
-            Hit(Player.instace.weapon);
+            Hit(Player.instace.weapon.DAMAGE);
+        }
+        if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("Grenade")))
+        {
+
+            Hit(10f);
         }
     }
 
@@ -58,9 +67,10 @@ public class Stage1_Boat : Enemy
         }
     }
 
-    protected void Hit(Weapon _weapon)
+
+    protected void Hit(float _damage)
     {
-        //StartHitShineParallel();
+        HP -= _damage;
         if (HP <= 0)
         {
             HP = 0;

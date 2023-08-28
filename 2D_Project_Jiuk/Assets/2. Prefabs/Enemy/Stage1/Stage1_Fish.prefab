@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 8509189733860050687}
   - component: {fileID: 6492632945226603876}
   - component: {fileID: 2233530445366330342}
-  - component: {fileID: 8067109185759083545}
   - component: {fileID: 1256979766283315454}
+  - component: {fileID: 2999749586121462697}
   m_Layer: 7
   m_Name: Stage1_Fish
   m_TagString: Untagged
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 2
   m_Sprite: {fileID: 665393471, guid: 7b95e018cb089462984a0ccbdd212eac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -136,19 +136,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 6
---- !u!114 &8067109185759083545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2682040099932974467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d05d446e5635142e990a37e52b863bb0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 6492632945226603876}
 --- !u!61 &1256979766283315454
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -194,3 +181,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2758621, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2999749586121462697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2682040099932974467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f8adf076e03e47338e954f10d22dad3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  monster: 5
+  sprite: {fileID: 8509189733860050687}
+  anim: {fileID: 6492632945226603876}
+  rigid: {fileID: 2233530445366330342}
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 64

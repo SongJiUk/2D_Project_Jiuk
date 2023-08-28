@@ -11,8 +11,8 @@ public class Enemy : Creature
     [SerializeField] protected Rigidbody2D rigid;
     public LayerMask enemyLayer;
     protected Vector3 dir = Vector3.zero;
-    protected Vector3 playerPos = Vector3.zero;
     protected bool IsexplosionDie = false;
+    protected bool isDie;
     //몬스터 AI
     protected float detectionRadius;
     protected float attackRange;
@@ -68,9 +68,10 @@ public class Enemy : Creature
 
     public void Die()
     {
-        //ì£½ì¼ë©´ ë¦¬ì§ëë°ë êº¼ë²ë¦¬ê¸°
+        isDie = true;
         rigid.simulated = false;
         anim.SetTrigger("isDie");
+        
     }
 
     public void DestoryOBJ()

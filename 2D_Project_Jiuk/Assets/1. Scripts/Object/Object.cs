@@ -4,38 +4,44 @@ using UnityEngine;
 
 public class Object : MonoBehaviour
 {
-    public int hp;
+    public float hp;
 
     [SerializeField] GameObject OffObject;
     [SerializeField] GameObject OnObject;
     [SerializeField] GameObject HitEffect;
 
-    
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+
+        //맞으면 색 변하게
         if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("PlayerAttack")))
         {
-            Hit();
+
+            Hit(Player.instace.weapon.DAMAGE);
         }
 
         if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("GrenadeAttack")))
         {
-            Hit();
+            Hit(Player.instace.weapon.DAMAGE);
+        }
+
+        if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("Grenade")))
+        {
+            Hit(10f);
         }
     }
 
-    public void Hit()
+    protected void Hit(float _damage)
     {
-        StartCoroutine(HitAnim());
-        hp--;
-        if(hp <= 0)
+        hp -= _damage;
+        if (hp <= 0)
         {
             hp = 0;
             Break();
         }
     }
-    
+
     IEnumerator HitAnim()
     {
         if(HitEffect != null) HitEffect.SetActive(true);

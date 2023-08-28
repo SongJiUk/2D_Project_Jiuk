@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Stage1_FlyMonster : Enemy
 {
+    Vector3 playerPos = Vector3.zero;
+
     float attackTimer;
     private void Awake()
     {
@@ -109,7 +111,6 @@ public class Stage1_FlyMonster : Enemy
 
         while (elapsedTime < attackDuration)
         {
-            // �ε巯�� �̵��� ���� Vector3.Lerp�� ����մϴ�.
             float t = elapsedTime / attackDuration;
             transform.position = Vector3.Lerp(attackStartPosition, attackTargetPosition, t);
 
@@ -143,22 +144,29 @@ public class Stage1_FlyMonster : Enemy
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
-        //������ �� ���ϰ�
+        //맞으면 색 변하게
         if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("PlayerAttack")))
         {
 
-            Hit(Player.instace.weapon);
+            Hit(Player.instace.weapon.DAMAGE);
         }
 
         if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("GrenadeAttack")))
         {
-            Hit(Player.instace.weapon);
+            IsexplosionDie = true;
+            Hit(Player.instace.weapon.DAMAGE);
+        }
+
+        if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("Grenade")))
+        {
+            IsexplosionDie = true;
+            Hit(10f);
         }
     }
 
-    protected void Hit(Weapon _weapon)
+    protected void Hit(float _damage)
     {
-        StartHitShineParallel();
+        HP -= _damage;
         if (HP <= 0)
         {
             HP = 0;

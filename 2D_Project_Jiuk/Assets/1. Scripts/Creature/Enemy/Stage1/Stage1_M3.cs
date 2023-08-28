@@ -6,6 +6,7 @@ public class Stage1_M3 : Enemy
 {
     float attackTimer;
     int RandNUm;
+    public GameObject obj;
     private void Awake()
     {
         SetMonster(30f, 5f, 4f, 8f, 0f);
@@ -41,7 +42,7 @@ public class Stage1_M3 : Enemy
             Attack(RandNUm);
             lastAttackTime = Time.time;
         }
-    }
+    }   
 
     public void Attack(int _num)
     {
@@ -57,9 +58,32 @@ public class Stage1_M3 : Enemy
         }
     }
 
-    public void Hit(Weapon _weapon)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        HP -= _weapon.DAMAGE;
+
+        //맞으면 색 변하게
+        if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("PlayerAttack")))
+        {
+
+            Hit(Player.instace.weapon.DAMAGE);
+        }
+
+        if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("GrenadeAttack")))
+        {
+            IsexplosionDie = true;
+            Hit(Player.instace.weapon.DAMAGE);
+        }
+
+        if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("Grenade")))
+        {
+            IsexplosionDie = true;
+            Hit(10f);
+        }
+    }
+
+    protected void Hit(float _damage)
+    {
+        HP -= _damage;
         if (HP <= 0)
         {
             HP = 0;
@@ -67,19 +91,17 @@ public class Stage1_M3 : Enemy
         }
     }
 
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void Die()
     {
-        //맞으면 색 변하게
-        if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("PlayerAttack")))
-        {
+        isDie = true;
+        //rigid.simulated = false;
+        obj.SetActive(false);
+        DestoryOBJ();
 
-            Hit(Player.instace.weapon);
-        }
+    }
 
-        if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("GrenadeAttack")))
-        {
-            Hit(Player.instace.weapon);
-        }
+    public void DestoryOBJ()
+    {
+        Destroy(gameObject);
     }
 }

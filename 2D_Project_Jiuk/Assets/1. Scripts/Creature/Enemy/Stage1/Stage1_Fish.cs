@@ -15,6 +15,7 @@ public class Stage1_Fish : Enemy
     {
         float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
 
+        Debug.Log(distanceToPlayer);
         if (distanceToPlayer <= detectionRadius)
         {
 
@@ -28,24 +29,50 @@ public class Stage1_Fish : Enemy
         anim.SetTrigger("FindPlayer");
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void MoveToPlayer()
     {
+        StartCoroutine(MoveCoroutine());
+    }
+
+    IEnumerator MoveCoroutine()
+    {
+        if(!isDie)
+        {
+            while (true)
+            {
+                yield return null;
+                transform.position += Vector3.left * Time.deltaTime * moveSpeed;
+            }
+        }
+        
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+
         //맞으면 색 변하게
         if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("PlayerAttack")))
         {
 
-            Hit(Player.instace.weapon);
+            Hit(Player.instace.weapon.DAMAGE);
         }
 
         if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("GrenadeAttack")))
         {
-            Hit(Player.instace.weapon);
+            IsexplosionDie = true;
+            Hit(Player.instace.weapon.DAMAGE);
+        }
+
+        if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("Grenade")))
+        {
+            IsexplosionDie = true;
+            Hit(10f);
         }
     }
 
-    protected void Hit(Weapon _weapon)
+    protected void Hit(float _damage)
     {
-        HP -= _weapon.DAMAGE;
+        HP -= _damage;
         if (HP <= 0)
         {
             HP = 0;
@@ -55,6 +82,7 @@ public class Stage1_Fish : Enemy
 
     public new void Die()
     {
+        isDie = true;
 
         if (IsexplosionDie)
         {

@@ -154,9 +154,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5a79edfaf9194a40bdf8cf8ded823b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PoseNum: 1
+  PoseNum: 2
   anim: {fileID: 1209643362242184202}
   GiveItemPos: {fileID: 4301098895657366097}
+  Itmes:
+  - {fileID: 1698998383314956350, guid: 225b5d2e63bc849a4b6b4ad969438742, type: 3}
+  - {fileID: 9015658173272405050, guid: 9c4e5da5d2e684f85bddfcb9cecdb4ee, type: 3}
+  isGood: 0
+  moveSpeed: 2
+  moveRange: 5
 --- !u!61 &2597000788489801021
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -217,7 +223,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2

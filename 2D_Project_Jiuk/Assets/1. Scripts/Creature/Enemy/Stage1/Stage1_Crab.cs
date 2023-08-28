@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,6 +13,7 @@ public class Stage1_Crab : Enemy
     [SerializeField] BoxCollider2D seeLeft;
     [SerializeField] BoxCollider2D seeRight;
 
+    [NonSerialized]
     Vector3 playerPos = Vector3.zero;
     int RandomNum;
     void Start()
@@ -106,18 +108,25 @@ public class Stage1_Crab : Enemy
         if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("PlayerAttack")))
         {
             
-            Hit(Player.instace.weapon);
+            Hit(Player.instace.weapon.DAMAGE);
         }
 
         if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("GrenadeAttack")))
         {
-            Hit(Player.instace.weapon);
+            IsexplosionDie = true;
+            Hit(Player.instace.weapon.DAMAGE);
+        }
+
+        if (collision.gameObject.layer.Equals(LayerMask.NameToLayer("Grenade")))
+        {
+            IsexplosionDie = true;
+            Hit(10f);
         }
     }
 
-    protected void Hit(Weapon _weapon)
+    protected void Hit(float _damage)
     {
-        HP -= _weapon.DAMAGE;
+        HP -= _damage;
         if (HP <= 0)
         {
             HP = 0;
@@ -127,9 +136,10 @@ public class Stage1_Crab : Enemy
     
     public new void Die()
     {
-        //ì£½ì¼ë©´ ë¦¬ì§ëë°ë êº¼ë²ë¦¬ê¸°
+
         rigid.simulated = false;
-        anim.SetTrigger("isDie");
-        anim.SetTrigger("ExplosionDie");
+        if(IsexplosionDie) anim.SetTrigger("ExplosionDie");
+        else anim.SetTrigger("isDie");
+        
     }
 }

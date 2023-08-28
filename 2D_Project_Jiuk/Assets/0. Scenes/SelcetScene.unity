@@ -3471,6 +3471,7 @@ MonoBehaviour:
   - {fileID: 1087114754}
   - {fileID: 716472494}
   - {fileID: 1375509598}
+  Grenade: {fileID: 7140738352163475757, guid: 8eb443abb0eb54634a8cfc993d9592d4, type: 3}
 --- !u!4 &1401394120
 Transform:
   m_ObjectHideFlags: 0

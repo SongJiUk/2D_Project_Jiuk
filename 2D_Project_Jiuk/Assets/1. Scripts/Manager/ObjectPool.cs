@@ -1,14 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static UnityEditorInternal.ReorderableList;
 
 public class ObjectPool : MonoBehaviour
 {
     public static ObjectPool instance = null;
 
-    const int BulletCount = 40;
+    const int BulletCount = 50;
     const int NumberOfWeapon = 10;
+    const int GrenadeCount = 10;
 
     [Header("총알 생성 관련 ")]
     [SerializeField] string[] bullet_name;
@@ -17,6 +17,9 @@ public class ObjectPool : MonoBehaviour
     public Queue<Bullet>[] bullet_que;
     public Dictionary<string, Queue<Bullet>> Bullet_Dic = new Dictionary<string, Queue<Bullet>>();
 
+    [Header("폭탄 관련")]
+    [SerializeField] GameObject Grenade;
+    public Queue<Grenade> Grenades_que = new Queue<Grenade>();
     private void Awake()
     {
         if (null == instance) instance = this;
@@ -29,6 +32,7 @@ public class ObjectPool : MonoBehaviour
     private void Start()
     {
         CreateBullet();
+        CreateGrenade();
     }
 
 
@@ -47,6 +51,16 @@ public class ObjectPool : MonoBehaviour
             }
 
             Bullet_Dic.Add(bullet_name[j], bullet_que[j]);
+        }
+    }
+
+    public void CreateGrenade()
+    {
+        for(int i=0; i< GrenadeCount; i++)
+        {
+            var grenade = Instantiate(Grenade, transform);
+            grenade.SetActive(false);
+            Grenades_que.Enqueue(grenade.GetComponent<Grenade>());
         }
     }
 
@@ -104,6 +118,19 @@ public class ObjectPool : MonoBehaviour
     {
         bullet.gameObject.SetActive(false);
         Bullet_Dic[key].Enqueue(bullet);
+    }
+
+    public Grenade GetGrenade()
+    {
+        Grenade grenade = Grenades_que.Dequeue();
+        grenade.gameObject.SetActive(true);
+        return grenade;
+    }
+
+    public void ReturnGrenade(Grenade grenade)
+    {
+        grenade.gameObject.SetActive(false);
+        Grenades_que.Enqueue(grenade);
     }
 }
 
